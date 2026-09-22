@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Detetive Diário — investigue o caso do dia e faça sua acusação: arma, local e assassino." />
+  <title>Detetive Diário</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#case-panel">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-row">
+        <button id="howto-open" class="howto-open" type="button" aria-label="Abrir como jogar" aria-haspopup="dialog">?</button>
+        <div class="header-titles">
+          <p class="header-kicker">Arquivo confidencial</p>
+          <h1 class="site-title">Detetive Diário</h1>
+        </div>
+        <p class="site-date" id="today-date">—</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <!-- 1. Relatório do caso -->
+    <section id="case-panel" class="card case-panel" aria-labelledby="case-title">
+      <div class="case-stamp">CASO Nº <span id="case-number">—</span></div>
+      <h2 id="case-title" class="case-title">Carregando caso…</h2>
+      <p id="case-desc" class="case-desc">Buscando o relatório do dia…</p>
+    </section>
+
+    <!-- 2. Pistas -->
+    <section id="clues-section" class="card clues-section" aria-labelledby="clues-heading">
+      <h2 id="clues-heading" class="section-heading">Pistas</h2>
+      <ul id="clues-list" class="clues-list">
+        <li class="clue-item">As pistas aparecerão aqui.</li>
+      </ul>
+    </section>
+
+    <!-- 3. Painel de Evidências -->
+    <section id="evidence-panel" class="card evidence-panel" aria-labelledby="evidence-heading">
+      <h2 id="evidence-heading" class="section-heading">Painel de Evidências</h2>
+      <div class="evidence-grid">
+        <div class="evidence-item">
+          <span class="evidence-label">Arma do crime</span>
+          <span class="evidence-value evidence-unknown" id="evidence-weapon">???</span>
+        </div>
+        <div class="evidence-item">
+          <span class="evidence-label">Local do crime</span>
+          <span class="evidence-value evidence-unknown" id="evidence-location">???</span>
+        </div>
+        <div class="evidence-item">
+          <span class="evidence-label">Assassino</span>
+          <span class="evidence-value evidence-unknown" id="evidence-killer">???</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Acusação tripla -->
+    <section id="guess-section" class="card guess-section" aria-labelledby="guess-heading">
+      <h2 id="guess-heading" class="section-heading">Acusação</h2>
+      <form id="guess-form" class="guess-form" autocomplete="off">
+        <div class="guess-field">
+          <label class="guess-label" for="guess-weapon">Arma do crime</label>
+          <select id="guess-weapon" name="weapon" class="guess-input" required>
+            <option value="" disabled selected>Escolha a arma…</option>
+          </select>
+        </div>
+        <div class="guess-field">
+          <label class="guess-label" for="guess-location">Local do crime</label>
+          <select id="guess-location" name="location" class="guess-input" required>
+            <option value="" disabled selected>Escolha o local…</option>
+          </select>
+        </div>
+        <div class="guess-field">
+          <label class="guess-label" for="guess-killer">Assassino</label>
+          <select id="guess-killer" name="killer" class="guess-input" required>
+            <option value="" disabled selected>Escolha o assassino…</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Fechar a acusação</button>
+      </form>
+    </section>
+
+    <!-- 5. Feedback do sistema -->
+    <div id="feedback" class="feedback" role="status" aria-live="polite"></div>
+
+    <!-- 6. Interrogatório / Dicas -->
+    <section id="hint-area" class="card hint-area" aria-labelledby="hint-heading">
+      <h2 id="hint-heading" class="section-heading">Interrogatório — Dicas</h2>
+      <div class="hint-list"></div>
+    </section>
+
+    <!-- 7. Vidas restantes -->
+    <section id="lives-section" class="card lives-section" aria-label="Vidas restantes">
+      <h2 class="section-heading">Vidas</h2>
+      <div id="lives" class="lives" aria-live="polite"></div>
+    </section>
+
+    <!-- 8. Histórico de tentativas -->
+    <section id="history-section" class="card history-section" aria-labelledby="history-heading">
+      <h2 id="history-heading" class="section-heading">Tentativas</h2>
+      <ul id="history-list" class="history-list"></ul>
+    </section>
+
+    <!-- 9. Epílogo (vitória) -->
+    <section id="epilogo" class="card epilogo" aria-labelledby="epilogo-title" hidden>
+      <h2 id="epilogo-title" class="epilogo-title">Arquivo Encerrado</h2>
+      <p id="epilogo-text" class="epilogo-text"></p>
+    </section>
+
+    <!-- 10. Estatísticas -->
+    <section id="stats" class="card stats" aria-label="Estatísticas do jogador">
+      <div class="stat">
+        <span class="stat-value" id="streak">0</span>
+        <span class="stat-label">Sequência</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value" id="solved-count">0</span>
+        <span class="stat-label">Casos resolvidos</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Detetive Diário &mdash; um mistério novo todos os dias.</p>
+  </footer>
+
+  <!-- Modal "Como jogar" (flutuante) -->
+  <div id="howto-backdrop" class="howto-backdrop"></div>
+  <div id="howto-card" class="howto-modal" role="dialog" aria-modal="true" aria-labelledby="howto-heading">
+    <div class="howto-stamp">SIGILOSO</div>
+    <h2 id="howto-heading" class="howto-title">Como jogar</h2>
+    <ol class="howto-list">
+      <li>Você tem <strong>5 vidas</strong> por dia (🔍).</li>
+      <li>Faça <strong>UMA acusação completa</strong>: arma + local + assassino.</li>
+      <li>Cada erro tira <strong>1 vida</strong> — EXCETO se acertar arma e local juntos: aí você não perde vida e ganha uma <strong>dica forte</strong> do assassino.</li>
+      <li>Acertos parciais revelam <strong>dicas</strong> e <strong>evidências</strong> no Painel de Evidências.</li>
+      <li>Acertou tudo? <strong>Caso resolvido!</strong> Volte amanhã para um caso novo e mantenha sua sequência.</li>
+    </ol>
+    <button id="howto-close" class="btn btn-primary" type="button">Entendi, vamos investigar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

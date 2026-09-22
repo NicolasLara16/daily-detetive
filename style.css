@@ -1,0 +1,826 @@
+/* ============================================================
+   Detetive Diário — "arquivo confidencial / redação censurada"
+   Brutalist noir. HTML/CSS puro, zero dependências externas.
+   ============================================================ */
+
+/* ---------- Design Tokens (CSS Variables) ---------- */
+:root {
+  /* Base — grafite quase-preto */
+  --bg: #0c0c0e;
+  --surface: #16161a;
+  --surface-raised: #1e1e24;
+  --surface-paper: #f3f1ea;      /* papel mimeografado claro */
+
+  /* Estrutura */
+  --text: #e8e8ec;
+  --text-muted: #9a9aa6;
+  --border: #2c2c34;
+  --border-strong: #4a4a56;
+
+  /* Acento — vermelho carimbo */
+  --accent: #e23636;
+  --accent-hover: #ff4d4d;
+  --accent-pressed: #b01f1f;
+  --accent-contrast: #ffffff;
+  --accent-soft: rgba(226, 54, 54, 0.12);
+
+  /* Semânticas */
+  --success: #3ecf5a;
+  --success-bg: #0f2016;
+  --danger: #ff5a5a;
+  --danger-bg: #2b1515;
+  --warning: #ffc93c;
+  --info: #5a9bd5;
+
+  /* Tipografia (stacks do sistema — zero fonts externas) */
+  --font-mono: "Courier New", "Consolas", "Lucida Console", monospace;
+  --font-condensed: "Arial Narrow", "Haettenschweiler", "Impact", Arial, sans-serif;
+  --font-sans: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+  /* Espaçamento (8pt grid, mais apertado p/ densidade) */
+  --space-1: 6px;
+  --space-2: 12px;
+  --space-3: 20px;
+  --space-4: 28px;
+  --space-5: 40px;
+  --space-6: 56px;
+
+  /* Elevação */
+  --shadow-raised: 6px 6px 0 0 #000000;
+  --focus-ring: 0 0 0 3px rgba(226, 54, 54, 0.6);
+
+  /* Transições */
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ---------- Reset leve ---------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--text);
+  background-color: var(--bg);
+  background-image: repeating-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.012) 0px,
+    rgba(255, 255, 255, 0.012) 2px,
+    transparent 2px,
+    transparent 6px
+  );
+  overflow-x: hidden;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+body.modal-open {
+  overflow: hidden;
+}
+
+/* ---------- Skip link ---------- */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  padding: var(--space-2) var(--space-3);
+  background: var(--accent);
+  color: var(--accent-contrast);
+  text-decoration: none;
+  font-weight: 700;
+  z-index: 100;
+}
+.skip-link:focus {
+  left: 0;
+}
+
+/* ---------- Header ---------- */
+.site-header {
+  border-bottom: 2px solid var(--accent);
+  background: var(--surface);
+}
+.header-inner {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: var(--space-1) var(--space-2);
+}
+.header-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+.header-titles {
+  flex: 1;
+  min-width: 0;
+  text-align: center;
+}
+.header-kicker {
+  font-family: var(--font-mono);
+  font-size: clamp(0.58rem, 2.4vw, 0.68rem);
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.site-title {
+  font-family: var(--font-condensed);
+  font-size: clamp(1.5rem, 5.5vw, 2.4rem);
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.site-date {
+  font-family: var(--font-mono);
+  font-size: clamp(0.66rem, 2.6vw, 0.78rem);
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.howto-open {
+  flex: 0 0 auto;
+  width: 38px;
+  height: 38px;
+  font-family: var(--font-mono);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--surface-raised);
+  border: 2px solid var(--accent);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 150ms var(--ease), transform 100ms var(--ease);
+}
+.howto-open:hover {
+  background: var(--accent);
+  color: var(--accent-contrast);
+}
+.howto-open:active {
+  transform: scale(0.94);
+}
+.howto-open:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
+/* ---------- Layout principal ---------- */
+.site-main {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: var(--space-2) var(--space-2) var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+/* ---------- Cards ---------- */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-raised);
+  padding: var(--space-2);
+  min-width: 0;
+  transition: transform 150ms var(--ease), box-shadow 150ms var(--ease);
+}
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .card:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 8px 8px 0 0 #000000;
+  }
+}
+
+/* ---------- Carimbos rotacionados ---------- */
+.case-stamp,
+.howto-stamp {
+  display: inline-block;
+  padding: 1px var(--space-2);
+  border: 3px double var(--accent);
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: clamp(0.58rem, 2.2vw, 0.66rem);
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  transform: rotate(-4deg);
+  background: var(--accent-soft);
+  white-space: nowrap;
+}
+.case-stamp {
+  position: absolute;
+  top: var(--space-2);
+  right: var(--space-2);
+  transform: rotate(6deg);
+}
+
+/* ---------- Relatório do caso ---------- */
+.case-panel {
+  position: relative;
+  border-top: 4px solid var(--accent);
+  padding-top: var(--space-4);
+  padding-right: calc(var(--space-2) + 70px);
+}
+.case-title {
+  font-family: var(--font-condensed);
+  font-size: clamp(1.2rem, 4.5vw, 1.7rem);
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text);
+  margin-top: var(--space-1);
+}
+.case-desc {
+  margin-top: var(--space-1);
+  color: var(--text-muted);
+}
+
+/* ---------- Cabeçalhos de seção ---------- */
+.section-heading {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: var(--space-1);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-width: 0;
+}
+.section-heading::after {
+  content: "";
+  flex: 1;
+  height: 2px;
+  background: var(--border);
+}
+
+/* ---------- Painel de Evidências ---------- */
+.evidence-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-2);
+}
+.evidence-item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding: var(--space-2);
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  min-width: 0;
+}
+.evidence-label {
+  font-family: var(--font-mono);
+  font-size: clamp(0.6rem, 2.4vw, 0.66rem);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.evidence-value {
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text);
+  min-height: 1.4em;
+  letter-spacing: 0.05em;
+  overflow-wrap: break-word;
+}
+
+.evidence-value.evidence-unknown {
+  position: relative;
+  color: transparent;
+  user-select: none;
+  letter-spacing: 0;
+  background-image: repeating-linear-gradient(
+    135deg,
+    #1a1a1e 0px,
+    #1a1a1e 10px,
+    #2a2a30 10px,
+    #2a2a30 20px
+  );
+  border: 1px solid var(--border);
+}
+.evidence-value.evidence-unknown::after {
+  content: "CONFIDENCIAL";
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: clamp(0.52rem, 2.2vw, 0.58rem);
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.evidence-value.evidence-known {
+  color: var(--accent);
+  letter-spacing: 0.05em;
+  text-shadow: none;
+  animation: reveal 250ms var(--ease) both;
+}
+@keyframes reveal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* ---------- Vidas ---------- */
+.lives {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+.life {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  font-size: 1.15rem;
+  background: var(--surface-raised);
+  border: 2px solid var(--accent);
+  transition: opacity 200ms var(--ease), filter 200ms var(--ease),
+    border-color 200ms var(--ease), transform 200ms var(--ease);
+}
+.life.is-lost {
+  opacity: 0.25;
+  filter: grayscale(1);
+  border-color: var(--border);
+  position: relative;
+}
+.life.is-lost::after {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 3px;
+  background: var(--accent);
+  transform: rotate(-45deg);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .life.is-lost {
+    animation: life-lost 300ms var(--ease) both;
+  }
+}
+@keyframes life-lost {
+  0% {
+    transform: scale(1);
+    filter: none;
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+    filter: grayscale(1);
+  }
+}
+
+/* ---------- Pistas ---------- */
+.clues-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+.clue-item {
+  position: relative;
+  padding: var(--space-1) var(--space-2) var(--space-1) var(--space-4);
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  font-size: 0.9rem;
+  overflow-wrap: break-word;
+}
+.clue-item::before {
+  content: "🔍";
+  position: absolute;
+  left: var(--space-2);
+  top: var(--space-1);
+  font-size: 0.85rem;
+}
+
+/* ---------- Acusação tripla ---------- */
+.guess-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+.guess-field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  min-width: 0;
+}
+.guess-label {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.guess-input {
+  width: 100%;
+  min-height: 42px;
+  padding: var(--space-1) var(--space-2);
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  color: var(--text);
+  background: var(--surface-raised);
+  border: 1px solid var(--border-strong);
+  transition: border-color 150ms var(--ease), box-shadow 150ms var(--ease),
+    opacity 150ms var(--ease);
+}
+.guess-input:hover {
+  border-color: var(--accent);
+}
+.guess-input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: var(--focus-ring);
+}
+.guess-input:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ---------- Botões ---------- */
+.btn {
+  min-height: 44px;
+  padding: var(--space-1) var(--space-3);
+  font-family: var(--font-condensed);
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 2px solid #000;
+  transition: background-color 150ms var(--ease), transform 80ms var(--ease),
+    box-shadow 150ms var(--ease), opacity 150ms var(--ease);
+}
+.btn-primary {
+  background: var(--accent);
+  color: var(--accent-contrast);
+  box-shadow: 4px 4px 0 0 #000;
+}
+.btn-primary:hover {
+  background: var(--accent-hover);
+}
+.btn-primary:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 0 #000;
+}
+.btn-primary:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+.btn-primary:disabled {
+  background: var(--border);
+  color: var(--text-muted);
+  box-shadow: none;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* ---------- Feedback ---------- */
+.feedback {
+  min-height: 0;
+  padding: 0;
+  font-weight: 600;
+  border-left: 4px solid transparent;
+  transition: all 200ms var(--ease);
+  overflow-wrap: break-word;
+}
+.feedback:empty {
+  display: none;
+}
+.feedback.is-visible {
+  padding: var(--space-2);
+}
+.feedback.is-success {
+  background: var(--success-bg);
+  color: var(--success);
+  border-left-color: var(--success);
+}
+.feedback.is-error {
+  background: var(--danger-bg);
+  color: var(--danger);
+  border-left-color: var(--danger);
+}
+.feedback.is-gameover {
+  background: var(--danger-bg);
+  color: var(--danger);
+  border-left-color: var(--danger);
+  font-family: var(--font-mono);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  animation: gameover 500ms var(--ease) both;
+}
+@keyframes gameover {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* ---------- Interrogatório / Dicas ---------- */
+.hint-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+.hint-list:empty::after {
+  content: "Após cada acusação, as pistas do interrogatório aparecem aqui.";
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+}
+.hint {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  padding: var(--space-1) var(--space-2);
+  border: 1px solid var(--border);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  overflow-wrap: break-word;
+}
+.hint::before {
+  font-weight: 700;
+  flex: 0 0 auto;
+}
+.hint-good {
+  background: var(--success-bg);
+  border-color: var(--success);
+  color: var(--success);
+}
+.hint-good::before {
+  content: "✓";
+}
+.hint-weak {
+  background: #201a08;
+  border-color: var(--warning);
+  color: var(--warning);
+}
+.hint-weak::before {
+  content: "≈";
+}
+
+/* ---------- Histórico de tentativas (compacto) ---------- */
+.history-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+.history-list:empty::after {
+  content: "Nenhuma tentativa ainda.";
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+}
+.history-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-1) var(--space-2);
+  padding: var(--space-1) var(--space-2);
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--border-strong);
+  overflow-wrap: break-word;
+}
+.history-guess {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text);
+}
+.history-guess.is-hit {
+  color: var(--success);
+}
+.history-guess.is-miss {
+  color: var(--danger);
+  text-decoration: line-through;
+}
+.history-hits {
+  margin-left: auto;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- Epílogo (vitória) ---------- */
+.epilogo {
+  border: 2px solid var(--success);
+  box-shadow: 6px 6px 0 0 var(--success);
+  background: var(--success-bg);
+}
+.epilogo-title {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--success);
+  margin-bottom: var(--space-2);
+}
+.epilogo-text {
+  color: var(--text);
+}
+
+/* ---------- Estatísticas ---------- */
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-2);
+  text-align: center;
+}
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding: 0 var(--space-3);
+}
+.stat + .stat {
+  border-left: 2px solid var(--border);
+}
+.stat-value {
+  font-family: var(--font-mono);
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+.stat-label {
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+/* ---------- Modal "Como jogar" (flutuante) ---------- */
+.howto-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 900;
+}
+.howto-backdrop.is-hidden,
+.howto-backdrop[hidden] {
+  display: none;
+}
+.howto-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% - 24px);
+  max-width: 560px;
+  max-height: calc(100vh - 24px);
+  overflow-y: auto;
+  z-index: 901;
+  background: var(--surface-paper);
+  color: #1a1a1e;
+  border: 2px solid #000;
+  box-shadow: 8px 8px 0 0 var(--accent);
+  padding: var(--space-3);
+}
+.howto-modal.is-hidden,
+.howto-modal[hidden] {
+  display: none;
+}
+.howto-stamp {
+  position: absolute;
+  top: var(--space-2);
+  right: var(--space-2);
+  color: var(--accent);
+  border-color: var(--accent);
+}
+.howto-title {
+  font-family: var(--font-condensed);
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-2);
+  padding-right: 80px;
+}
+.howto-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+  counter-reset: rule;
+}
+.howto-list li {
+  position: relative;
+  padding-left: var(--space-4);
+}
+.howto-list li::before {
+  counter-increment: rule;
+  content: counter(rule, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: var(--accent);
+}
+.howto-list strong {
+  font-weight: 700;
+}
+
+/* ---------- Footer ---------- */
+.site-footer {
+  border-top: 2px solid var(--border);
+  padding: var(--space-1) var(--space-2);
+  text-align: center;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+}
+
+/* ---------- Utilidades ---------- */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.is-hidden {
+  display: none !important;
+}
+
+/* ---------- Responsividade ---------- */
+
+/* Telas estreitas: evidências empilham em coluna */
+@media (max-width: 480px) {
+  .evidence-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 768px: formulário com labels laterais legíveis */
+@media (min-width: 768px) {
+  .guess-field {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--space-2);
+  }
+  .guess-label {
+    flex: 0 0 130px;
+  }
+  .guess-input {
+    flex: 1;
+  }
+}
+
+/* 1280px: um pouco mais de respiro no topo */
+@media (min-width: 1280px) {
+  .site-main {
+    padding-top: var(--space-3);
+  }
+}
+
+/* ---------- Acessibilidade: reduz movimento ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

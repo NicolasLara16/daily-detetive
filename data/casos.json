@@ -1,0 +1,207 @@
+{
+  "casos": [
+    {
+      "id": "caso-001",
+      "data": "2026-09-22",
+      "titulo": "O Relógio Parado às 23:47",
+      "relatorio": "O colecionador Álvaro Mendes foi encontrado sem vida em sua biblioteca. Todos os relógios da casa pararam exatamente às 23:47, exceto um. A cena do crime está preservada e quatro pessoas estavam na mansão naquela noite. A polícia precisa descobrir a arma, o local exato e o responsável.",
+      "pistas": [
+        "O relógio de bolso do colecionador foi encontrado no bolso do mordomo, mas este afirma nunca ter entrado na biblioteca.",
+        "A governanta viu uma sombra atravessar o corredor às 23:45, vestindo um sobretudo longo.",
+        "A filha do colecionador brigou com o pai naquela manhã sobre a herança da coleção.",
+        "Havia poeira de cobre nos punhos da camisa do sobrinho, apesar de ele jurar que passou o dia inteiro no jardim.",
+        "Uma marca de impacto profunda foi encontrada na lateral da estante, na altura da cabeça."
+      ],
+      "armaCorreta": "O Relógio de Bolso",
+      "localCorreto": "A Biblioteca",
+      "assassinoCorreto": "O Sobrinho",
+      "opcoesArma": ["O Relógio de Bolso", "Uma Faca de Cozinha", "Uma Corda de Cortina", "Um Castiçal de Bronze", "Um Tinteiro de Bronze"],
+      "opcoesLocal": ["A Biblioteca", "O Jardim", "A Cozinha", "O Corredor", "O Escritório do Colecionador"],
+      "opcoesAssassino": ["O Mordomo", "A Governanta", "A Filha", "O Sobrinho", "O Médico da Família"],
+      "dicaBoaArma": "A marca na estante coincide com um objeto pequeno e denso, do tamanho de uma palma — o único assim ausente da vitrine é justamente o que o colecionador nunca tirava do bolso.",
+      "dicaBoaLocal": "O cheiro de papel velho e o silêncio abafado entregam o aposento: a sala de leitura, sem janelas, explica por que ninguém ouviu o golpe.",
+      "dicaBoaAssassino": "O sobrinho herdaria a coleção caso a filha fosse deserdada — e a poeira de cobre em seus punhos veio do interior da vitrine, a mesma que cobria o objeto desaparecido.",
+      "dicasFracas": [
+        "Todos na mansão dormiram mal naquela noite; o vento batia forte nas venezianas.",
+        "O mordomo serviu o jantar às 20h e recolheu a louça sem pressa.",
+        "Havia um retrato antigo na parede, com o vidro embaçado pela umidade.",
+        "A governanta disse que a casa costumava ser silenciosa depois das 22h."
+      ],
+      "epilogo": "Arquivo encerrado em 22/09. O sobrinho confessou o golpe com o relógio de bolso do tio, atraído pela poeira de cobre da vitrine. A filha herdou a coleção, e a biblioteca voltou a exibir todos os relógios — menos um."
+    },
+    {
+      "id": "caso-002",
+      "data": "2026-09-23",
+      "titulo": "A Carta sem Remetente",
+      "relatorio": "Uma carta anônima chegou à redação do jornal local denunciando o roubo de uma joia rara na mansão dos Oliveira. O texto foi escrito em uma máquina antiga. O cofre foi arrombado durante um jantar e ninguém ouviu nada. A polícia investiga a arma usada, o local do arrombamento e quem enviou a carta.",
+      "pistas": [
+        "A fita da máquina de escrever da mansão estava fresca, com tinta recém-aplicada.",
+        "A empregada encontrou um botão dourado próximo ao cofre arrombado.",
+        "O mordomo sabe datilografar, mas alega que estava de folga no dia do roubo.",
+        "A joia foi vista pela última vez num jantar em que apenas quatro convidados permaneceram até o fim.",
+        "Havia marcas de alavanca na moldura do cofre, feitas por uma ferramenta pesada."
+      ],
+      "armaCorreta": "Um Pé de Cabra",
+      "localCorreto": "A Mansão dos Oliveira",
+      "assassinoCorreto": "A Empregada",
+      "opcoesArma": ["Um Pé de Cabra", "Uma Máquina de Escrever", "Um Punhal", "Um Candelabro", "Uma Chave Inglesa"],
+      "opcoesLocal": ["A Mansão dos Oliveira", "A Redação do Jornal", "O Cofre do Banco", "O Jardim Botânico", "A Sala de Jantar"],
+      "opcoesAssassino": ["O Mordomo", "A Empregada", "O Motorista", "O Jornalista", "O Chef de Cozinha"],
+      "dicaBoaArma": "As marcas na moldura formam um sulco largo e em ângulo — a assinatura de uma barra de ferro com ponta curva, não de uma lâmina ou de uma ferramenta de escrita.",
+      "dicaBoaLocal": "A fita fresca na máquina de escrever e o botão dourado junto ao cofre só têm um lugar em comum: a casa dos Oliveira, onde o jantar aconteceu.",
+      "dicaBoaAssassino": "O botão dourado pertencia ao uniforme da empregada, e foi ela quem 'encontrou' a pista boa demais para ser coincidência.",
+      "dicasFracas": [
+        "O jornalista que recebeu a carta parecia nervoso ao prestar depoimento.",
+        "A mansão dos Oliveira tem fama de receber convidados ilustres há gerações.",
+        "O motorista lavou o carro na manhã seguinte ao jantar.",
+        "A joia era guardada num estojo de veludo, dentro de uma gaveta secreta."
+      ],
+      "epilogo": "Arquivo encerrado em 23/09. A empregada caiu quando o botão dourado do próprio uniforme foi reconhecido pela perícia; a carta anônima era sua, escrita para desviar suspeitas. O pé de cabra foi recuperado no jardim, e a joia voltou ao cofre."
+    },
+    {
+      "id": "caso-003",
+      "data": "2026-09-24",
+      "titulo": "O Enigma do Laboratório",
+      "relatorio": "O cientista Dr. Bastos desapareceu do próprio laboratório na noite do experimento. A porta estava trancada por dentro, mas a janela entreaberta revela algo suspeito. Não há sinal de arrombamento, e o corpo foi removido sem deixar rastros claros. A polícia investiga a arma, o local e o responsável pelo crime.",
+      "pistas": [
+        "Havia marcas de luvas no batente da janela, do lado de dentro.",
+        "O assistente sumiu com o caderno de anotações na mesma noite.",
+        "Uma xícara de chá ainda morna foi encontrada na mesa, com batom na borda.",
+        "A segurança registrou apenas uma pessoa saindo pelo portão após a meia-noite.",
+        "Um frasco de reagente estava aberto e vazio sobre a bancada, com o lacre rompido."
+      ],
+      "armaCorreta": "Um Frasco de Veneno",
+      "localCorreto": "O Laboratório",
+      "assassinoCorreto": "A Assistente de Laboratório",
+      "opcoesArma": ["Um Frasco de Veneno", "Uma Proveta de Vidro", "Um Bisturi", "Um Cabo de Madeira", "Um Maçarico de Bancada"],
+      "opcoesLocal": ["O Laboratório", "O Estacionamento", "A Sala de Segurança", "O Almoxarifado", "A Ala de Pesquisa"],
+      "opcoesAssassino": ["O Assistente", "A Assistente de Laboratório", "O Segurança", "O Cientista Vizinho", "O Estagiário"],
+      "dicaBoaArma": "O lacre rompido e o cheiro adocicado no ar denunciam que a morte veio de dentro de um frasco — algo que se dissolve sem deixar marca no corpo.",
+      "dicaBoaLocal": "A porta trancada por dentro e as marcas de luva no batente interno provam que o crime não saiu daquele aposento: o laboratório foi palco e túmulo.",
+      "dicaBoaAssassino": "A xícara de chá com batom na borda foi servida por quem tinha livre acesso à bancada — e só a assistente usava aquele tom de batom.",
+      "dicasFracas": [
+        "O segurança dormia em serviço com frequência, segundo os colegas.",
+        "O assistente tinha fama de distraído e vivia perdendo o caderno.",
+        "O laboratório recebia verba generosa e tinha equipamentos importados.",
+        "Havia um cheiro persistente de éter no corredor, mesmo dias depois."
+      ],
+      "epilogo": "Arquivo encerrado em 24/09. A assistente confessou ter trocado o chá do cientista pelo reagente do frasco aberto, aproveitando as luvas do laboratório. O batom na xícara a entregou; ela cumpre pena por homicídio qualificado."
+    },
+    {
+      "id": "caso-004",
+      "data": "2026-09-25",
+      "titulo": "O Violino Desafinado",
+      "relatorio": "Durante o ensaio de gala no Teatro Aurora, o maestro Érico Salgado foi encontrado sem vida no fosso da orquestra. As luzes piscaram, a cortina caiu e, quando voltaram, ele já não respirava. O teatro estava lotado, mas ninguém viu o golpe. A polícia precisa determinar a arma, o local exato e o responsável.",
+      "pistas": [
+        "A corda do violino principal estava arrebentada e com marcas de sangue seco.",
+        "O contra-regra jurou ter visto a cortina se mexer sozinha minutos antes do apagão.",
+        "Uma partitura com a dedicatória rasgada foi encontrada sob o assento da primeira fila.",
+        "A soprano discutiu com o maestro na véspera por causa do papel principal.",
+        "Havia pó de breu nas solas dos sapatos de quem desceu ao fosso naquela noite."
+      ],
+      "armaCorreta": "Uma Corda de Violino",
+      "localCorreto": "O Fosso da Orquestra",
+      "assassinoCorreto": "A Soprano",
+      "opcoesArma": ["Uma Corda de Violino", "Uma Batuta de Maestro", "Um Candelabro do Saguão", "Uma Tesoura de Figurino", "Um Arco de Violino"],
+      "opcoesLocal": ["O Fosso da Orquestra", "O Camarim", "O Palco", "O Saguão", "A Plateia"],
+      "opcoesAssassino": ["O Contra-Regra", "A Soprano", "O Violinista Principal", "O Empresário", "O Maestro Assistente"],
+      "dicaBoaArma": "A marca fina e profunda no pescoço veio de um fio tensionado — e o único fio do teatro com sangue seco é o que arrebentou no violino principal.",
+      "dicaBoaLocal": "O pó de breu nas solas conta a história: só quem desceu ao fosso da orquestra o carregaria de volta à superfície.",
+      "dicaBoaAssassino": "A dedicatória rasgada na partitura fora escrita para a soprano — a mesma que, ao perder o papel principal, jurou que o maestro 'não chegaria ao terceiro ato'.",
+      "dicasFracas": [
+        "O Teatro Aurora estava com a bilheteria esgotada naquela noite.",
+        "O contra-regra era conhecido por seu nervosismo antes de cada sessão.",
+        "As cortinas do palco eram trocadas a cada temporada.",
+        "O empresário pressionava o maestro por resultados e patrocínios."
+      ],
+      "epilogo": "Arquivo encerrado em 25/09. A soprano foi condenada ao saber que o fio de violino arrebentado carregava o sangue do maestro; ela mesma cortou a corda e desceu ao fosso pelo pó de breu. O Teatro Aurora reabriu sem ela no elenco."
+    },
+    {
+      "id": "caso-005",
+      "data": "2026-09-26",
+      "titulo": "A Última Transmissão",
+      "relatorio": "Na madrugada de sábado, o locutor Válter Nobre interrompeu o programa ao vivo com um grito e nunca mais foi visto. A estação de rádio foi isolada, e a fita da transmissão desapareceu. A polícia investiga a arma do crime, o local exato e quem apagou a gravação.",
+      "pistas": [
+        "Um cabo de microfone foi encontrado enrolado atrás da mesa de som, ainda úmido.",
+        "O operador de áudio apagou os últimos dez minutos da fita antes de chamar a polícia.",
+        "A porta do Estúdio 3 estava trancada por dentro, mas a janela de ventilação estava aberta.",
+        "A locutora concorrente havia ameaçado processar o apresentador na semana anterior.",
+        "Havia marcas de café derramado sobre o roteiro, cobrindo um nome escrito à mão."
+      ],
+      "armaCorreta": "Um Cabo de Microfone",
+      "localCorreto": "O Estúdio 3",
+      "assassinoCorreto": "O Técnico de Som",
+      "opcoesArma": ["Um Cabo de Microfone", "Uma Fita Magnética", "Um Abajur de Metal", "Um Grampeador", "Um Fone de Ouvido"],
+      "opcoesLocal": ["O Estúdio 3", "A Cabine de Controle", "O Estacionamento", "A Copa", "O Arquivo de Fitas"],
+      "opcoesAssassino": ["A Locutora Concorrente", "O Técnico de Som", "O Diretor da Rádio", "O Vigia Noturno", "A Recepcionista"],
+      "dicaBoaArma": "A marca no pescoço da vítima era um sulco estreito e uniforme — não de um golpe, mas de um cabo flexível tensionado por trás.",
+      "dicaBoaLocal": "O grito captado ao vivo só poderia ter saído de uma cabine com o microfone aberto: o Estúdio 3.",
+      "dicaBoaAssassino": "Quem apagou os últimos dez minutos da fita tinha acesso à mesa de som — e o técnico foi o único que mexeu no equipamento antes de a polícia chegar.",
+      "dicasFracas": [
+        "A rádio vinha perdendo audiência para a concorrente há meses.",
+        "O locutor era famoso por suas entrevistas polêmicas.",
+        "A copa da estação servia café forte a qualquer hora da madrugada.",
+        "Havia um vigia que fazia rondas pelo prédio a cada duas horas."
+      ],
+      "epilogo": "Arquivo encerrado em 26/09. O técnico de som confessou ter apagado a fita para encobrir o crime; o cabo de microfone ainda úmido foi a arma. Ele cumpre pena, e o Estúdio 3 nunca mais transmitiu ao vivo àquela hora."
+    },
+    {
+      "id": "caso-006",
+      "data": "2026-09-27",
+      "titulo": "O Jardim das Estátuas",
+      "relatorio": "Na abertura da exposição ao ar livre do Museu Bandeirante, o curador Heitor Prado foi encontrado caído entre as esculturas. A noite estava sem lua e o jardim, iluminado apenas por tochas. Ninguém admite ter se aproximado dele. A polícia busca a arma, o local e o responsável.",
+      "pistas": [
+        "Uma tocha de bronze foi encontrada apagada junto a uma estátua derrubada.",
+        "As pegadas no canteiro indicavam alguém que conhecia o caminho às escuras.",
+        "O segurança noturno alegou ter feito a ronda de hora em hora, mas o livro de registro tinha uma página arrancada.",
+        "A restauradora havia sido demitida naquela tarde pelo curador.",
+        "Havia lascas de granito na base de uma estátua que deveria estar intacta."
+      ],
+      "armaCorreta": "Uma Tocha de Bronze",
+      "localCorreto": "O Jardim das Estátuas",
+      "assassinoCorreto": "A Restauradora",
+      "opcoesArma": ["Uma Tocha de Bronze", "Um Cinzel", "Uma Estátua de Mármore", "Um Martelo de Pedra", "Um Pedestal de Pedra"],
+      "opcoesLocal": ["O Jardim das Estátuas", "A Galeria Principal", "O Escritório do Curador", "A Entrada do Museu", "O Depósito de Obras"],
+      "opcoesAssassino": ["O Segurança Noturno", "A Restauradora", "O Patrocinador", "O Jornalista de Arte", "O Fotógrafo"],
+      "dicaBoaArma": "A tocha de bronze achada apagada tinha a base amassada e fios de cabelo presos no metal — foi empunhada, não caiu sozinha.",
+      "dicaBoaLocal": "As pegadas no canteiro seguiam sem hesitar entre as esculturas, na escuridão total: o crime ocorreu no jardim das estátuas, onde só quem conhece o lugar anda às cegas.",
+      "dicaBoaAssassino": "A restauradora demitida naquela tarde conhecia cada estátua pelo toque e sabia exatamente qual base cedia sob o peso de uma queda.",
+      "dicasFracas": [
+        "A exposição ao ar livre atraiu um público maior do que o museu esperava.",
+        "O patrocinador do evento discursou longamente antes do jantar.",
+        "Havia tochas acesas por todo o jardim para a abertura.",
+        "O segurança usava uma lanterna fraca que mal iluminava o caminho."
+      ],
+      "epilogo": "Arquivo encerrado em 27/09. A restauradora demitida confessou o golpe com a tocha de bronze; conhecia cada estátua no escuro e apagou a página do livro de ronda. O jardim reabriu, e a estátua lascada foi restaurada por outra mão."
+    },
+    {
+      "id": "caso-007",
+      "data": "2026-09-28",
+      "titulo": "A Ponte Encoberta",
+      "relatorio": "O navio mercante Estrela do Norte atracou com um passageiro a menos. O capitão Raul Vasquez foi visto por último na ponte de comando, numa noite de névoa densa. O diário de bordo tem páginas molhadas e uma anotação ilegível. A polícia portuária investiga a arma, o local e o responsável.",
+      "pistas": [
+        "Um sextante foi encontrado com a lente rachada e resíduos de sangue no aro de latão.",
+        "O imediato assumiu o comando antes da hora marcada, sem que ninguém o tivesse chamado.",
+        "Havia cordas recém-cortadas junto ao mastro de ré.",
+        "Uma carta de demissão assinada pelo capitão estava na gaveta do imediato.",
+        "A bússola da ponte apontava para o norte magnético, mas o navio navegava para oeste."
+      ],
+      "armaCorreta": "Um Sextante de Latão",
+      "localCorreto": "A Ponte de Comando",
+      "assassinoCorreto": "O Imediato",
+      "opcoesArma": ["Um Sextante de Latão", "Um Cabo de Aço", "Uma Âncora", "Um Facão de Convés", "Um Cronômetro de Bolso"],
+      "opcoesLocal": ["A Ponte de Comando", "O Porão de Carga", "O Convés Principal", "A Casa de Máquinas", "O Camarote do Capitão"],
+      "opcoesAssassino": ["O Cozinheiro", "O Imediato", "O Maquinista", "O Prático do Porto", "O Timoneiro"],
+      "dicaBoaArma": "A lente rachada e o aro de latão com resíduos de sangue apontam para o instrumento que o capitão sempre carregava ao peito — um sextante, não um cabo ou uma lâmina.",
+      "dicaBoaLocal": "O diário de bordo encharcado e a bússola desalinhada só fazem sentido num lugar: a ponte de comando, o único aposento com vista para o mar e acesso à navegação.",
+      "dicaBoaAssassino": "O imediato assumiu o comando antes da hora e tinha na gaveta a própria carta de demissão assinada pelo capitão — motivação e oportunidade no mesmo camarote.",
+      "dicasFracas": [
+        "A tripulação do Estrela do Norte era pequena e trabalhara junta por anos.",
+        "A névoa densa daquela noite obrigava o navio a reduzir a velocidade.",
+        "O cozinheiro reclamava do pouco espaço da despensa.",
+        "O prático do porto embarcou apenas nas últimas milhas antes da atracação."
+      ],
+      "epilogo": "Arquivo encerrado em 28/09. O imediato foi preso ao assumir o comando antes da hora; a carta de demissão na gaveta selou o motivo, e o sextante de latão era a arma. O Estrela do Norte navega sob novo capitão, e a bússola voltou ao norte."
+    }
+  ]
+}
