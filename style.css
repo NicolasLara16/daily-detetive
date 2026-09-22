@@ -148,6 +148,55 @@ body.modal-open {
   white-space: nowrap;
 }
 
+/* ---------- Seletor de idioma (header) ---------- */
+.header-right {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+.lang-wrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.lang-label {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.lang-select {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text);
+  background: var(--surface-raised);
+  border: 1px solid var(--border-strong);
+  padding: 2px 4px;
+  cursor: pointer;
+}
+.lang-select:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+@media (max-width: 480px) {
+  .header-row {
+    flex-wrap: wrap;
+  }
+  .header-titles {
+    order: -1;
+    flex: 1 1 100%;
+  }
+  .header-right {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
 .howto-open {
   flex: 0 0 auto;
   width: 38px;

@@ -1,0 +1,207 @@
+{
+  "casos": [
+    {
+      "id": "caso-001",
+      "data": "2026-09-22",
+      "titulo": "The Clock That Stopped at 23:47",
+      "relatorio": "The collector Álvaro Mendes was found lifeless in his library. Every clock in the house stopped at exactly 11:47 p.m., except one. The crime scene has been preserved and four people were in the mansion that night. The police must find the weapon, the exact location, and the person responsible.",
+      "pistas": [
+        "The collector's pocket watch was found in the butler's pocket, yet the butler claims he never entered the library.",
+        "The housekeeper saw a shadow cross the hallway at 11:45 p.m., wearing a long overcoat.",
+        "The collector's daughter argued with her father that morning over the inheritance of the collection.",
+        "There was copper dust on the nephew's shirt cuffs, even though he swore he had spent the whole day in the garden.",
+        "A deep impact mark was found on the side of the bookshelf, at head height."
+      ],
+      "armaCorreta": "The Pocket Watch",
+      "localCorreto": "The Library",
+      "assassinoCorreto": "The Nephew",
+      "opcoesArma": ["The Pocket Watch", "A Kitchen Knife", "A Curtain Cord", "A Bronze Candlestick", "A Bronze Inkwell"],
+      "opcoesLocal": ["The Library", "The Garden", "The Kitchen", "The Hallway", "The Collector's Study"],
+      "opcoesAssassino": ["The Butler", "The Housekeeper", "The Daughter", "The Nephew", "The Family Doctor"],
+      "dicaBoaArma": "The mark on the bookshelf matches a small, dense object, the size of a palm — the only one of its kind missing from the display case is precisely the one the collector never let out of his pocket.",
+      "dicaBoaLocal": "The smell of old paper and the muffled silence give the room away: the windowless reading room explains why no one heard the blow.",
+      "dicaBoaAssassino": "The nephew would inherit the collection if the daughter were disinherited — and the copper dust on his cuffs came from inside the display case, the same one that covered the missing object.",
+      "dicasFracas": [
+        "Everyone in the mansion slept badly that night; the wind rattled the shutters hard.",
+        "The butler served dinner at 8 p.m. and cleared the dishes without hurrying.",
+        "An old portrait hung on the wall, its glass fogged by the humidity.",
+        "The housekeeper said the house was usually quiet after 10 p.m."
+      ],
+      "epilogo": "File closed on 09/22. The nephew confessed to the blow with his uncle's pocket watch, lured by the copper dust of the display case. The daughter inherited the collection, and the library once again displays every clock — except one."
+    },
+    {
+      "id": "caso-002",
+      "data": "2026-09-23",
+      "titulo": "The Letter with No Sender",
+      "relatorio": "An anonymous letter arrived at the local newspaper's newsroom reporting the theft of a rare jewel at the Oliveira mansion. The text was typed on an old typewriter. The safe was broken into during a dinner party and no one heard a thing. The police are investigating the weapon used, the location of the break-in, and who sent the letter.",
+      "pistas": [
+        "The ribbon of the mansion's typewriter was fresh, with newly applied ink.",
+        "The maid found a gold button near the broken-open safe.",
+        "The butler can type, but claims he was off duty on the day of the theft.",
+        "The jewel was last seen at a dinner where only four guests stayed until the end.",
+        "There were crowbar marks on the safe's frame, made by a heavy tool."
+      ],
+      "armaCorreta": "A Crowbar",
+      "localCorreto": "The Oliveira Mansion",
+      "assassinoCorreto": "The Maid",
+      "opcoesArma": ["A Crowbar", "A Typewriter", "A Dagger", "A Candelabrum", "A Wrench"],
+      "opcoesLocal": ["The Oliveira Mansion", "The Newspaper Newsroom", "The Bank Vault", "The Botanical Garden", "The Dining Room"],
+      "opcoesAssassino": ["The Butler", "The Maid", "The Chauffeur", "The Journalist", "The Chef"],
+      "dicaBoaArma": "The marks on the frame form a wide, angled groove — the signature of an iron bar with a curved tip, not a blade or a writing tool.",
+      "dicaBoaLocal": "The fresh typewriter ribbon and the gold button by the safe have only one place in common: the Oliveira house, where the dinner took place.",
+      "dicaBoaAssassino": "The gold button belonged to the maid's uniform, and it was she who \"found\" the clue that was too good to be a coincidence.",
+      "dicasFracas": [
+        "The journalist who received the letter seemed nervous when giving his statement.",
+        "The Oliveira mansion has been famous for hosting illustrious guests for generations.",
+        "The chauffeur washed the car the morning after the dinner.",
+        "The jewel was kept in a velvet case, inside a secret drawer."
+      ],
+      "epilogo": "File closed on 09/23. The maid fell when the gold button from her own uniform was identified by forensics; the anonymous letter was hers, written to divert suspicion. The crowbar was recovered in the garden, and the jewel returned to the safe."
+    },
+    {
+      "id": "caso-003",
+      "data": "2026-09-24",
+      "titulo": "The Laboratory Enigma",
+      "relatorio": "The scientist Dr. Bastos vanished from his own laboratory on the night of the experiment. The door was locked from the inside, but the half-open window reveals something suspicious. There is no sign of forced entry, and the body was removed without leaving clear traces. The police are investigating the weapon, the location, and the person responsible for the crime.",
+      "pistas": [
+        "There were glove marks on the window frame, on the inside.",
+        "The assistant disappeared with the notebook on that very same night.",
+        "A still-warm cup of tea was found on the table, with lipstick on the rim.",
+        "Security recorded only one person leaving through the gate after midnight.",
+        "A flask of reagent lay open and empty on the workbench, its seal broken."
+      ],
+      "armaCorreta": "A Flask of Poison",
+      "localCorreto": "The Laboratory",
+      "assassinoCorreto": "The Lab Assistant",
+      "opcoesArma": ["A Flask of Poison", "A Glass Beaker", "A Scalpel", "A Wooden Club", "A Bench Burner"],
+      "opcoesLocal": ["The Laboratory", "The Parking Lot", "The Security Room", "The Storage Room", "The Research Wing"],
+      "opcoesAssassino": ["The Assistant", "The Lab Assistant", "The Guard", "The Neighboring Scientist", "The Intern"],
+      "dicaBoaArma": "The broken seal and the sweet smell in the air reveal that death came from inside a flask — something that dissolves without leaving a mark on the body.",
+      "dicaBoaLocal": "The door locked from the inside and the glove marks on the inner frame prove the crime never left that room: the laboratory was both stage and tomb.",
+      "dicaBoaAssassino": "The cup of tea with lipstick on the rim was served by someone with free access to the workbench — and only the assistant wore that shade of lipstick.",
+      "dicasFracas": [
+        "The guard often slept on the job, according to his colleagues.",
+        "The assistant was known for being absent-minded and kept losing the notebook.",
+        "The laboratory received generous funding and had imported equipment.",
+        "There was a persistent smell of ether in the corridor, even days later."
+      ],
+      "epilogo": "File closed on 09/24. The assistant confessed to swapping the scientist's tea for the reagent from the open flask, taking advantage of the laboratory gloves. The lipstick on the cup gave her away; she is serving a sentence for premeditated homicide."
+    },
+    {
+      "id": "caso-004",
+      "data": "2026-09-25",
+      "titulo": "The Out-of-Tune Violin",
+      "relatorio": "During the gala rehearsal at the Aurora Theater, the conductor Érico Salgado was found lifeless in the orchestra pit. The lights flickered, the curtain fell and, when they came back up, he was no longer breathing. The theater was full, but no one saw the blow. The police must determine the weapon, the exact location, and the person responsible.",
+      "pistas": [
+        "The lead violin's string was snapped and bore marks of dried blood.",
+        "The stagehand swore he saw the curtain move by itself minutes before the blackout.",
+        "A score with the dedication torn off was found under a front-row seat.",
+        "The soprano argued with the conductor the day before over the lead role.",
+        "There was rosin dust on the soles of the shoes of whoever went down to the pit that night."
+      ],
+      "armaCorreta": "A Violin String",
+      "localCorreto": "The Orchestra Pit",
+      "assassinoCorreto": "The Soprano",
+      "opcoesArma": ["A Violin String", "A Conductor's Baton", "A Lobby Candelabrum", "A Pair of Costume Shears", "A Violin Bow"],
+      "opcoesLocal": ["The Orchestra Pit", "The Dressing Room", "The Stage", "The Lobby", "The Auditorium"],
+      "opcoesAssassino": ["The Stagehand", "The Soprano", "The Lead Violinist", "The Agent", "The Assistant Conductor"],
+      "dicaBoaArma": "The thin, deep mark on the neck came from a tensioned wire — and the only thread in the theater with dried blood on it is the one that snapped on the lead violin.",
+      "dicaBoaLocal": "The rosin dust on the soles tells the story: only someone who went down to the orchestra pit would carry it back up to the surface.",
+      "dicaBoaAssassino": "The torn dedication on the score had been written for the soprano — the same one who, upon losing the lead role, swore the conductor \"would not reach the third act\".",
+      "dicasFracas": [
+        "The Aurora Theater had sold out every ticket that night.",
+        "The stagehand was known for his nervousness before every performance.",
+        "The stage curtains were replaced every season.",
+        "The agent pressured the conductor for results and sponsorships."
+      ],
+      "epilogo": "File closed on 09/25. The soprano was convicted when the snapped violin string was found to carry the conductor's blood; she herself cut the string and went down to the pit, following the rosin dust. The Aurora Theater reopened without her in the cast."
+    },
+    {
+      "id": "caso-005",
+      "data": "2026-09-26",
+      "titulo": "The Last Transmission",
+      "relatorio": "In the early hours of Saturday, the announcer Válter Nobre interrupted the live program with a scream and was never seen again. The radio station was sealed off, and the transmission tape disappeared. The police are investigating the murder weapon, the exact location, and who erased the recording.",
+      "pistas": [
+        "A microphone cable was found coiled behind the mixing console, still damp.",
+        "The audio operator erased the last ten minutes of the tape before calling the police.",
+        "Studio 3's door was locked from the inside, but the ventilation window was open.",
+        "The rival announcer had threatened to sue the host the previous week.",
+        "There were spilled coffee stains on the script, covering a name written by hand."
+      ],
+      "armaCorreta": "A Microphone Cable",
+      "localCorreto": "Studio 3",
+      "assassinoCorreto": "The Sound Technician",
+      "opcoesArma": ["A Microphone Cable", "A Magnetic Tape", "A Metal Lamp", "A Stapler", "A Pair of Headphones"],
+      "opcoesLocal": ["Studio 3", "The Control Booth", "The Parking Lot", "The Break Room", "The Tape Archive"],
+      "opcoesAssassino": ["The Rival Announcer", "The Sound Technician", "The Station Director", "The Night Watchman", "The Receptionist"],
+      "dicaBoaArma": "The mark on the victim's neck was a narrow, uniform groove — not a blow, but a flexible cable pulled taut from behind.",
+      "dicaBoaLocal": "The scream picked up live could only have come from a booth with an open microphone: Studio 3.",
+      "dicaBoaAssassino": "Whoever erased the last ten minutes of the tape had access to the mixing console — and the technician was the only one who touched the equipment before the police arrived.",
+      "dicasFracas": [
+        "The station had been losing audience to its rival for months.",
+        "The announcer was famous for his controversial interviews.",
+        "The station's break room served strong coffee at any hour of the night.",
+        "There was a watchman who patrolled the building every two hours."
+      ],
+      "epilogo": "File closed on 09/26. The sound technician confessed to erasing the tape to cover up the crime; the still-damp microphone cable was the weapon. He is serving his sentence, and Studio 3 never again went live at that hour."
+    },
+    {
+      "id": "caso-006",
+      "data": "2026-09-27",
+      "titulo": "The Garden of Statues",
+      "relatorio": "At the opening of the Bandeirante Museum's open-air exhibition, the curator Heitor Prado was found collapsed among the sculptures. The night was moonless and the garden was lit only by torches. No one admits having approached him. The police are searching for the weapon, the location, and the person responsible.",
+      "pistas": [
+        "A bronze torch was found extinguished next to a toppled statue.",
+        "The footprints in the flowerbed belonged to someone who knew the path in the dark.",
+        "The night guard claimed to have done his rounds every hour, but the logbook had a torn-out page.",
+        "The restorer had been fired by the curator that very afternoon.",
+        "There were granite chips on the base of a statue that should have been intact."
+      ],
+      "armaCorreta": "A Bronze Torch",
+      "localCorreto": "The Garden of Statues",
+      "assassinoCorreto": "The Restorer",
+      "opcoesArma": ["A Bronze Torch", "A Chisel", "A Marble Statue", "A Stone Hammer", "A Stone Pedestal"],
+      "opcoesLocal": ["The Garden of Statues", "The Main Gallery", "The Curator's Office", "The Museum Entrance", "The Works Storage"],
+      "opcoesAssassino": ["The Night Guard", "The Restorer", "The Sponsor", "The Art Journalist", "The Photographer"],
+      "dicaBoaArma": "The bronze torch found extinguished had a dented base and strands of hair caught in the metal — it was wielded; it did not fall on its own.",
+      "dicaBoaLocal": "The footprints in the flowerbed moved without hesitation among the sculptures, in total darkness: the crime happened in the garden of statues, where only those who know the place walk blind.",
+      "dicaBoaAssassino": "The restorer fired that afternoon knew every statue by touch and knew exactly which base would give way under the weight of a fall.",
+      "dicasFracas": [
+        "The open-air exhibition drew a bigger crowd than the museum expected.",
+        "The event's sponsor gave a long speech before dinner.",
+        "Torches were lit throughout the garden for the opening.",
+        "The guard carried a weak flashlight that barely lit the path."
+      ],
+      "epilogo": "File closed on 09/27. The fired restorer confessed to the blow with the bronze torch; she knew every statue in the dark and tore out the logbook page. The garden reopened, and the chipped statue was restored by another hand."
+    },
+    {
+      "id": "caso-007",
+      "data": "2026-09-28",
+      "titulo": "The Shrouded Bridge",
+      "relatorio": "The merchant ship Estrela do Norte docked with one passenger fewer. Captain Raul Vasquez was last seen on the command bridge, on a night of dense fog. The logbook has wet pages and an illegible note. The port police are investigating the weapon, the location, and the person responsible.",
+      "pistas": [
+        "A sextant was found with a cracked lens and blood residue on its brass rim.",
+        "The first mate took command before the appointed hour, without anyone having called for him.",
+        "There were freshly cut ropes by the aft mast.",
+        "A resignation letter signed by the captain was in the first mate's drawer.",
+        "The bridge compass pointed to magnetic north, but the ship was sailing west."
+      ],
+      "armaCorreta": "A Brass Sextant",
+      "localCorreto": "The Command Bridge",
+      "assassinoCorreto": "The First Mate",
+      "opcoesArma": ["A Brass Sextant", "A Steel Cable", "An Anchor", "A Deck Machete", "A Pocket Chronometer"],
+      "opcoesLocal": ["The Command Bridge", "The Cargo Hold", "The Main Deck", "The Engine Room", "The Captain's Cabin"],
+      "opcoesAssassino": ["The Cook", "The First Mate", "The Engineer", "The Harbor Pilot", "The Helmsman"],
+      "dicaBoaArma": "The cracked lens and the brass ring with blood residue point to the instrument the captain always carried against his chest — a sextant, not a cable or a blade.",
+      "dicaBoaLocal": "The soaked logbook and the misaligned compass only make sense in one place: the command bridge, the only room with a view of the sea and access to navigation.",
+      "dicaBoaAssassino": "The first mate took command ahead of schedule and had the captain's own signed resignation letter in his drawer — motive and opportunity in the same cabin.",
+      "dicasFracas": [
+        "The Estrela do Norte's crew was small and had worked together for years.",
+        "The dense fog that night forced the ship to slow down.",
+        "The cook complained about the little space in the pantry.",
+        "The harbor pilot boarded only in the last miles before docking."
+      ],
+      "epilogo": "File closed on 09/28. The first mate was arrested for taking command ahead of schedule; the resignation letter in the drawer sealed the motive, and the brass sextant was the weapon. The Estrela do Norte sails under a new captain, and the compass points north again."
+    }
+  ]
+}

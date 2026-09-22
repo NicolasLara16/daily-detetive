@@ -8,17 +8,27 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <a class="skip-link" href="#case-panel">Pular para o conteúdo</a>
+  <a class="skip-link" href="#case-panel" data-i18n="skip">Pular para o conteúdo</a>
 
   <header class="site-header">
     <div class="header-inner">
       <div class="header-row">
-        <button id="howto-open" class="howto-open" type="button" aria-label="Abrir como jogar" aria-haspopup="dialog">?</button>
+        <button id="howto-open" class="howto-open" type="button" aria-label="Abrir como jogar" aria-haspopup="dialog" data-i18n-aria="howtoOpen">?</button>
         <div class="header-titles">
-          <p class="header-kicker">Arquivo confidencial</p>
-          <h1 class="site-title">Detetive Diário</h1>
+          <p class="header-kicker" data-i18n="kicker">Arquivo confidencial</p>
+          <h1 class="site-title" data-i18n="title">Detetive Diário</h1>
         </div>
-        <p class="site-date" id="today-date">—</p>
+        <div class="header-right">
+          <p class="site-date" id="today-date">—</p>
+          <div class="lang-wrap">
+            <label class="lang-label" for="lang-select" data-i18n="langLabel">Idioma</label>
+            <select id="lang-select" class="lang-select" aria-label="Selecionar idioma">
+              <option value="pt">Português</option>
+              <option value="es">Español</option>
+              <option value="en">English</option>
+            </select>
+          </div>
+        </div>
       </div>
     </div>
   </header>
@@ -26,33 +36,33 @@
   <main class="site-main">
     <!-- 1. Relatório do caso -->
     <section id="case-panel" class="card case-panel" aria-labelledby="case-title">
-      <div class="case-stamp">CASO Nº <span id="case-number">—</span></div>
-      <h2 id="case-title" class="case-title">Carregando caso…</h2>
-      <p id="case-desc" class="case-desc">Buscando o relatório do dia…</p>
+      <div class="case-stamp" data-i18n="caseStamp">CASO Nº <span id="case-number">—</span></div>
+      <h2 id="case-title" class="case-title" data-i18n="loadingTitle">Carregando caso…</h2>
+      <p id="case-desc" class="case-desc" data-i18n="loadingDesc">Buscando o relatório do dia…</p>
     </section>
 
     <!-- 2. Pistas -->
     <section id="clues-section" class="card clues-section" aria-labelledby="clues-heading">
-      <h2 id="clues-heading" class="section-heading">Pistas</h2>
+      <h2 id="clues-heading" class="section-heading" data-i18n="cluesHeading">Pistas</h2>
       <ul id="clues-list" class="clues-list">
-        <li class="clue-item">As pistas aparecerão aqui.</li>
+        <li class="clue-item" data-i18n="cluesPlaceholder">As pistas aparecerão aqui.</li>
       </ul>
     </section>
 
     <!-- 3. Painel de Evidências -->
     <section id="evidence-panel" class="card evidence-panel" aria-labelledby="evidence-heading">
-      <h2 id="evidence-heading" class="section-heading">Painel de Evidências</h2>
+      <h2 id="evidence-heading" class="section-heading" data-i18n="evidenceHeading">Painel de Evidências</h2>
       <div class="evidence-grid">
         <div class="evidence-item">
-          <span class="evidence-label">Arma do crime</span>
+          <span class="evidence-label" data-i18n="evidenceWeapon">Arma do crime</span>
           <span class="evidence-value evidence-unknown" id="evidence-weapon">???</span>
         </div>
         <div class="evidence-item">
-          <span class="evidence-label">Local do crime</span>
+          <span class="evidence-label" data-i18n="evidenceLocation">Local do crime</span>
           <span class="evidence-value evidence-unknown" id="evidence-location">???</span>
         </div>
         <div class="evidence-item">
-          <span class="evidence-label">Assassino</span>
+          <span class="evidence-label" data-i18n="evidenceKiller">Assassino</span>
           <span class="evidence-value evidence-unknown" id="evidence-killer">???</span>
         </div>
       </div>
@@ -60,27 +70,27 @@
 
     <!-- 4. Acusação tripla -->
     <section id="guess-section" class="card guess-section" aria-labelledby="guess-heading">
-      <h2 id="guess-heading" class="section-heading">Acusação</h2>
+      <h2 id="guess-heading" class="section-heading" data-i18n="guessHeading">Acusação</h2>
       <form id="guess-form" class="guess-form" autocomplete="off">
         <div class="guess-field">
-          <label class="guess-label" for="guess-weapon">Arma do crime</label>
+          <label class="guess-label" for="guess-weapon" data-i18n="evidenceWeapon">Arma do crime</label>
           <select id="guess-weapon" name="weapon" class="guess-input" required>
-            <option value="" disabled selected>Escolha a arma…</option>
+            <option value="" disabled selected data-i18n="phWeapon">Escolha a arma…</option>
           </select>
         </div>
         <div class="guess-field">
-          <label class="guess-label" for="guess-location">Local do crime</label>
+          <label class="guess-label" for="guess-location" data-i18n="evidenceLocation">Local do crime</label>
           <select id="guess-location" name="location" class="guess-input" required>
-            <option value="" disabled selected>Escolha o local…</option>
+            <option value="" disabled selected data-i18n="phLocation">Escolha o local…</option>
           </select>
         </div>
         <div class="guess-field">
-          <label class="guess-label" for="guess-killer">Assassino</label>
+          <label class="guess-label" for="guess-killer" data-i18n="evidenceKiller">Assassino</label>
           <select id="guess-killer" name="killer" class="guess-input" required>
-            <option value="" disabled selected>Escolha o assassino…</option>
+            <option value="" disabled selected data-i18n="phKiller">Escolha o assassino…</option>
           </select>
         </div>
-        <button type="submit" class="btn btn-primary">Fechar a acusação</button>
+        <button type="submit" class="btn btn-primary" data-i18n="submitBtn">Fechar a acusação</button>
       </form>
     </section>
 
@@ -89,19 +99,19 @@
 
     <!-- 6. Interrogatório / Dicas -->
     <section id="hint-area" class="card hint-area" aria-labelledby="hint-heading">
-      <h2 id="hint-heading" class="section-heading">Interrogatório — Dicas</h2>
+      <h2 id="hint-heading" class="section-heading" data-i18n="hintHeading">Interrogatório — Dicas</h2>
       <div class="hint-list"></div>
     </section>
 
     <!-- 7. Vidas restantes -->
-    <section id="lives-section" class="card lives-section" aria-label="Vidas restantes">
-      <h2 class="section-heading">Vidas</h2>
+    <section id="lives-section" class="card lives-section" aria-label="Vidas restantes" data-i18n-aria="livesAria">
+      <h2 class="section-heading" data-i18n="livesHeading">Vidas</h2>
       <div id="lives" class="lives" aria-live="polite"></div>
     </section>
 
     <!-- 8. Histórico de tentativas -->
     <section id="history-section" class="card history-section" aria-labelledby="history-heading">
-      <h2 id="history-heading" class="section-heading">Tentativas</h2>
+      <h2 id="history-heading" class="section-heading" data-i18n="historyHeading">Tentativas</h2>
       <ul id="history-list" class="history-list"></ul>
     </section>
 
@@ -112,35 +122,35 @@
     </section>
 
     <!-- 10. Estatísticas -->
-    <section id="stats" class="card stats" aria-label="Estatísticas do jogador">
+    <section id="stats" class="card stats" aria-label="Estatísticas do jogador" data-i18n-aria="statsAria">
       <div class="stat">
         <span class="stat-value" id="streak">0</span>
-        <span class="stat-label">Sequência</span>
+        <span class="stat-label" data-i18n="statsStreak">Sequência</span>
       </div>
       <div class="stat">
         <span class="stat-value" id="solved-count">0</span>
-        <span class="stat-label">Casos resolvidos</span>
+        <span class="stat-label" data-i18n="statsSolved">Casos resolvidos</span>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>Detetive Diário &mdash; um mistério novo todos os dias.</p>
+    <p data-i18n="footer">Detetive Diário &mdash; um mistério novo todos os dias.</p>
   </footer>
 
   <!-- Modal "Como jogar" (flutuante) -->
   <div id="howto-backdrop" class="howto-backdrop"></div>
   <div id="howto-card" class="howto-modal" role="dialog" aria-modal="true" aria-labelledby="howto-heading">
-    <div class="howto-stamp">SIGILOSO</div>
-    <h2 id="howto-heading" class="howto-title">Como jogar</h2>
+<div class="howto-stamp" data-i18n="howtoStamp">SIGILOSO</div>
+    <h2 id="howto-heading" class="howto-title" data-i18n="howtoTitle">Como jogar</h2>
     <ol class="howto-list">
-      <li>Você tem <strong>5 vidas</strong> por dia (🔍).</li>
-      <li>Faça <strong>UMA acusação completa</strong>: arma + local + assassino.</li>
-      <li>Cada erro tira <strong>1 vida</strong> — EXCETO se acertar arma e local juntos: aí você não perde vida e ganha uma <strong>dica forte</strong> do assassino.</li>
-      <li>Acertos parciais revelam <strong>dicas</strong> e <strong>evidências</strong> no Painel de Evidências.</li>
-      <li>Acertou tudo? <strong>Caso resolvido!</strong> Volte amanhã para um caso novo e mantenha sua sequência.</li>
+      <li><span data-i18n="h1a">Você tem</span> <strong data-i18n="h1b">5 vidas</strong><span data-i18n="h1c"> por dia (🔍).</span></li>
+      <li><span data-i18n="h2a">Faça</span> <strong data-i18n="h2b">UMA acusação completa</strong><span data-i18n="h2c">: arma + local + assassino.</span></li>
+      <li><span data-i18n="h3a">Cada erro tira</span> <strong data-i18n="h3b">1 vida</strong><span data-i18n="h3c"> — EXCETO se acertar arma e local juntos: aí você não perde vida e ganha uma</span> <strong data-i18n="h3d">dica forte</strong><span data-i18n="h3e"> do assassino.</span></li>
+      <li><span data-i18n="h4a">Acertar</span> <strong data-i18n="h4b">parcialmente</strong><span data-i18n="h4c"> revela pistas e evidências no Painel de Evidências.</span></li>
+      <li><span data-i18n="h5a">Acertou tudo?</span> <strong data-i18n="h5b">Caso resolvido!</strong><span data-i18n="h5c"> Volte amanhã para um caso novo e mantenha sua sequência.</span></li>
     </ol>
-    <button id="howto-close" class="btn btn-primary" type="button">Entendi, vamos investigar</button>
+    <button id="howto-close" class="btn btn-primary" type="button" data-i18n="howtoClose">Entendi, vamos investigar</button>
   </div>
 
   <script src="script.js"></script>
