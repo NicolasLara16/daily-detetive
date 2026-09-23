@@ -6,11 +6,11 @@
       "titulo": "O Relógio Parado às 23:47",
       "relatorio": "O colecionador Álvaro Mendes foi encontrado sem vida em sua biblioteca. Todos os relógios da casa pararam exatamente às 23:47, exceto um. A cena do crime está preservada e quatro pessoas estavam na mansão naquela noite. A polícia precisa descobrir a arma, o local exato e o responsável.",
       "pistas": [
-        "O relógio de bolso do colecionador foi encontrado no bolso do mordomo, mas este afirma nunca ter entrado na biblioteca.",
-        "A governanta viu uma sombra atravessar o corredor às 23:45, vestindo um sobretudo longo.",
-        "A filha do colecionador brigou com o pai naquela manhã sobre a herança da coleção.",
-        "Havia poeira de cobre nos punhos da camisa do sobrinho, apesar de ele jurar que passou o dia inteiro no jardim.",
-        "Uma marca de impacto profunda foi encontrada na lateral da estante, na altura da cabeça."
+        "A perícia encontrou um ferimento fundo, de bordas lisas e arredondado, e nenhuma lâmina, corda ou cabo na cena — o objeto usado era denso o bastante para caber numa palma.",
+        "Dois moradores soltavam das mãos um pó fino e metálico depois do jantar; a criadagem nega ter tocado em qualquer metal após as 22h.",
+        "O corredor molhado guardava duas direções: alguém atravessou apressado às 23h45 e voltou devagar às 23h52, deixando a maçaneta do aposento fechado mais limpa que o restante.",
+        "Dois suspeitos não têm cobertura para o intervalo entre as 23h42 e a meia-noite; um deles jura que esteve no jardim, mas a terra das solas não combina com o gramado daquela noite.",
+        "A vítima caiu num aposento sem janelas, cujo ar fechado ainda cheira a papel e cera — o tipo de lugar que abafa qualquer barulho."
       ],
       "armaCorreta": "O Relógio de Bolso",
       "localCorreto": "A Biblioteca",
@@ -18,8 +18,8 @@
       "opcoesArma": ["O Relógio de Bolso", "Uma Faca de Cozinha", "Uma Corda de Cortina", "Um Castiçal de Bronze", "Um Tinteiro de Bronze"],
       "opcoesLocal": ["A Biblioteca", "O Jardim", "A Cozinha", "O Corredor", "O Escritório do Colecionador"],
       "opcoesAssassino": ["O Mordomo", "A Governanta", "A Filha", "O Sobrinho", "O Médico da Família"],
-      "dicaBoaArma": "A marca na estante coincide com um objeto pequeno e denso, do tamanho de uma palma — o único assim ausente da vitrine é justamente o que o colecionador nunca tirava do bolso.",
-      "dicaBoaLocal": "O cheiro de papel velho e o silêncio abafado entregam o aposento: a sala de leitura, sem janelas, explica por que ninguém ouviu o golpe.",
+      "dicaBoaArma": "A vitrine de objetos de mesa está intacta; não falta ferramenta de corte, fio ou suporte de chama. O que se usou cabe numa palma e tem o peso de um objeto sólido — restam dois objetos compactos e densos da coleção.",
+      "dicaBoaLocal": "Não havia terra, vapor de cozinha ou calçado corrido: o piso estava seco e o ar, abafado, com cheiro de papel e cera. Ambientes abertos e de trânsito constante ficam descartados; sobram uma sala fechada e sem janelas e um escritório particular.",
       "dicaBoaAssassino": "O sobrinho herdaria a coleção caso a filha fosse deserdada — e a poeira de cobre em seus punhos veio do interior da vitrine, a mesma que cobria o objeto desaparecido.",
       "dicasFracas": [
         "Todos na mansão dormiram mal naquela noite; o vento batia forte nas venezianas.",
@@ -35,11 +35,11 @@
       "titulo": "A Carta sem Remetente",
       "relatorio": "Uma carta anônima chegou à redação do jornal local denunciando o roubo de uma joia rara na mansão dos Oliveira. O texto foi escrito em uma máquina antiga. O cofre foi arrombado durante um jantar e ninguém ouviu nada. A polícia investiga a arma usada, o local do arrombamento e quem enviou a carta.",
       "pistas": [
-        "A fita da máquina de escrever da mansão estava fresca, com tinta recém-aplicada.",
-        "A empregada encontrou um botão dourado próximo ao cofre arrombado.",
-        "O mordomo sabe datilografar, mas alega que estava de folga no dia do roubo.",
-        "A joia foi vista pela última vez num jantar em que apenas quatro convidados permaneceram até o fim.",
-        "Havia marcas de alavanca na moldura do cofre, feitas por uma ferramenta pesada."
+        "O cofre tem marcas longas e paralelas na moldura, com a largura de uma garra — consistentes com uma haste dobrada em forma de gancho.",
+        "A fita da máquina da residência foi trocada naquela semana, mas ninguém se recorda de quem a comprou.",
+        "Um funcionário entregou a joia ao dono minutos antes do jantar e circulou pela casa a noite inteira; outro jurou estar de folga, mas foi reconhecido na rua dos fundos às 21h.",
+        "O alarme permaneceu desligado na janela em que a cozinha era servida — tempo exato para abrir o que estava trancado.",
+        "A denúncia ao jornal saiu com carimbo do dia anterior, como se alguém soubesse do roubo antes de ele acontecer."
       ],
       "armaCorreta": "Um Pé de Cabra",
       "localCorreto": "A Mansão dos Oliveira",
@@ -47,8 +47,8 @@
       "opcoesArma": ["Um Pé de Cabra", "Uma Máquina de Escrever", "Um Punhal", "Um Candelabro", "Uma Chave Inglesa"],
       "opcoesLocal": ["A Mansão dos Oliveira", "A Redação do Jornal", "O Cofre do Banco", "O Jardim Botânico", "A Sala de Jantar"],
       "opcoesAssassino": ["O Mordomo", "A Empregada", "O Motorista", "O Jornalista", "O Chef de Cozinha"],
-      "dicaBoaArma": "As marcas na moldura formam um sulco largo e em ângulo — a assinatura de uma barra de ferro com ponta curva, não de uma lâmina ou de uma ferramenta de escrita.",
-      "dicaBoaLocal": "A fita fresca na máquina de escrever e o botão dourado junto ao cofre só têm um lugar em comum: a casa dos Oliveira, onde o jantar aconteceu.",
+      "dicaBoaArma": "O cofre foi aberto por alavanca de ponta curva, o que dispensa utensílios de escrita, objetos de mesa e qualquer lâmina decorativa. Materiais de folha e aço forjado ficam de fora; restam duas ferramentas manuais de oficina.",
+      "dicaBoaLocal": "A fita trocada, o alarme desarmado e o jantar servido apontam para um único dia e lugar: nenhuma redação, banco ou jardim explica os três. O evento ficou dentro da residência, e o registro de serviço converge para um aposento junto ao corredor.",
       "dicaBoaAssassino": "O botão dourado pertencia ao uniforme da empregada, e foi ela quem 'encontrou' a pista boa demais para ser coincidência.",
       "dicasFracas": [
         "O jornalista que recebeu a carta parecia nervoso ao prestar depoimento.",
@@ -64,11 +64,11 @@
       "titulo": "O Enigma do Laboratório",
       "relatorio": "O cientista Dr. Bastos desapareceu do próprio laboratório na noite do experimento. A porta estava trancada por dentro, mas a janela entreaberta revela algo suspeito. Não há sinal de arrombamento, e o corpo foi removido sem deixar rastros claros. A polícia investiga a arma, o local e o responsável pelo crime.",
       "pistas": [
-        "Havia marcas de luvas no batente da janela, do lado de dentro.",
-        "O assistente sumiu com o caderno de anotações na mesma noite.",
-        "Uma xícara de chá ainda morna foi encontrada na mesa, com batom na borda.",
-        "A segurança registrou apenas uma pessoa saindo pelo portão após a meia-noite.",
-        "Um frasco de reagente estava aberto e vazio sobre a bancada, com o lacre rompido."
+        "O corpo não apresentava cortes, hematomas, queimaduras ou marcas de choque — apenas um rubor na pele e o hálito alterado.",
+        "Os luvões da bancada foram achados no lixo virados pelo avesso, como quem os tirou para não manchar as mãos.",
+        "A catraca registra a saída de uma única pessoa depois da meia-noite, mas o crachá lido estava esquecido na mesa de um colega.",
+        "A xícara do balcão tem batom num só lado; os demais técnicos garantem que ninguém ali come ou bebe na bancada.",
+        "A janela trancada por dentro estava limpa do lado de fora: quem se moveu naquela noite usou o corredor interno, não o ar livre."
       ],
       "armaCorreta": "Um Frasco de Veneno",
       "localCorreto": "O Laboratório",
@@ -76,8 +76,8 @@
       "opcoesArma": ["Um Frasco de Veneno", "Uma Proveta de Vidro", "Um Bisturi", "Um Cabo de Madeira", "Um Maçarico de Bancada"],
       "opcoesLocal": ["O Laboratório", "O Estacionamento", "A Sala de Segurança", "O Almoxarifado", "A Ala de Pesquisa"],
       "opcoesAssassino": ["O Assistente", "A Assistente de Laboratório", "O Segurança", "O Cientista Vizinho", "O Estagiário"],
-      "dicaBoaArma": "O lacre rompido e o cheiro adocicado no ar denunciam que a morte veio de dentro de um frasco — algo que se dissolve sem deixar marca no corpo.",
-      "dicaBoaLocal": "A porta trancada por dentro e as marcas de luva no batente interno provam que o crime não saiu daquele aposento: o laboratório foi palco e túmulo.",
+      "dicaBoaArma": "Sem cortes, queimaduras ou contusões, ficam fora lâminas, fogo e objetos rígidos de impacto. A assinatura é de algo que se despeja ou se inala — restam os dois recipientes de vidro da bancada, e só um teve o lacre rompido.",
+      "dicaBoaLocal": "Rastros de luvas, não de terra ou chuva, descartam pátio, guarita e estoque. O vidro trancado por dentro e o ar pesado de reagentes indicam a área científica — sobra o recinto principal de trabalho e a ala de pesquisa ao lado.",
       "dicaBoaAssassino": "A xícara de chá com batom na borda foi servida por quem tinha livre acesso à bancada — e só a assistente usava aquele tom de batom.",
       "dicasFracas": [
         "O segurança dormia em serviço com frequência, segundo os colegas.",
@@ -93,11 +93,11 @@
       "titulo": "O Violino Desafinado",
       "relatorio": "Durante o ensaio de gala no Teatro Aurora, o maestro Érico Salgado foi encontrado sem vida no fosso da orquestra. As luzes piscaram, a cortina caiu e, quando voltaram, ele já não respirava. O teatro estava lotado, mas ninguém viu o golpe. A polícia precisa determinar a arma, o local exato e o responsável.",
       "pistas": [
-        "A corda do violino principal estava arrebentada e com marcas de sangue seco.",
-        "O contra-regra jurou ter visto a cortina se mexer sozinha minutos antes do apagão.",
-        "Uma partitura com a dedicatória rasgada foi encontrada sob o assento da primeira fila.",
-        "A soprano discutiu com o maestro na véspera por causa do papel principal.",
-        "Havia pó de breu nas solas dos sapatos de quem desceu ao fosso naquela noite."
+        "A marca no pescoço era um sulco fino e ininterrupto, sem nós, como o traço de algo puxado entre dois pontos de tensão.",
+        "Assentos, palco e saguão seguem intocados, mas as solas de quem circulou abaixo do piso da orquestra carregavam um pó escuro e resinoso.",
+        "O instrumento principal da fileira estava com a encordoação mais fina substituída horas antes; o luthier não visitou o teatro, e o estojo foi remexido.",
+        "A solista do papel principal avisou que não cantaria o segundo ato e saiu do camarim antes do apagão.",
+        "A cortina baixou cinco minutos antes do combinado — o mesmo tempo de descer ao nível do piso e voltar antes que as luzes acendessem."
       ],
       "armaCorreta": "Uma Corda de Violino",
       "localCorreto": "O Fosso da Orquestra",
@@ -105,8 +105,8 @@
       "opcoesArma": ["Uma Corda de Violino", "Uma Batuta de Maestro", "Um Candelabro do Saguão", "Uma Tesoura de Figurino", "Um Arco de Violino"],
       "opcoesLocal": ["O Fosso da Orquestra", "O Camarim", "O Palco", "O Saguão", "A Plateia"],
       "opcoesAssassino": ["O Contra-Regra", "A Soprano", "O Violinista Principal", "O Empresário", "O Maestro Assistente"],
-      "dicaBoaArma": "A marca fina e profunda no pescoço veio de um fio tensionado — e o único fio do teatro com sangue seco é o que arrebentou no violino principal.",
-      "dicaBoaLocal": "O pó de breu nas solas conta a história: só quem desceu ao fosso da orquestra o carregaria de volta à superfície.",
+      "dicaBoaArma": "O sulco fino e contínuo não vem de lâmina, haste ou objeto rombudo: batuta, candelabro e tesoura ficam fora. Se o traço saiu de um fio, restam os dois acessórios de corda do instrumento — nenhum dos dois corta, ambos tensionam.",
+      "dicaBoaLocal": "Nada foi deslocado entre assentos, palco e saguão, e nenhum camarim explica o pó resinoso nas solas. Quem agiu estava abaixo do nível do piso da orquestra — o único ponto do teatro mais baixo que a tarima.",
       "dicaBoaAssassino": "A dedicatória rasgada na partitura fora escrita para a soprano — a mesma que, ao perder o papel principal, jurou que o maestro 'não chegaria ao terceiro ato'.",
       "dicasFracas": [
         "O Teatro Aurora estava com a bilheteria esgotada naquela noite.",
@@ -122,11 +122,11 @@
       "titulo": "A Última Transmissão",
       "relatorio": "Na madrugada de sábado, o locutor Válter Nobre interrompeu o programa ao vivo com um grito e nunca mais foi visto. A estação de rádio foi isolada, e a fita da transmissão desapareceu. A polícia investiga a arma do crime, o local exato e quem apagou a gravação.",
       "pistas": [
-        "Um cabo de microfone foi encontrado enrolado atrás da mesa de som, ainda úmido.",
-        "O operador de áudio apagou os últimos dez minutos da fita antes de chamar a polícia.",
-        "A porta do Estúdio 3 estava trancada por dentro, mas a janela de ventilação estava aberta.",
-        "A locutora concorrente havia ameaçado processar o apresentador na semana anterior.",
-        "Havia marcas de café derramado sobre o roteiro, cobrindo um nome escrito à mão."
+        "A marca no pescoço era um sulco contínuo, sem lâmina, deixado por algo flexível e áspero como couro ou borracha.",
+        "O último som registrado antes do grito foi o clique metálico de um conector sendo encaixado na mesa de captação.",
+        "O contador da fita de referência foi zerado e rebobinado quinze minutos, mas o carretel original nunca apareceu no arquivo.",
+        "A catraca do terceiro andar registra saída às 1h05 e retorno às 1h10 em direção ao corredor de cabines; ninguém admite ter entrado na sala vizinha.",
+        "O sistema de gravação tinha senha corporativa, e ela foi usada dez minutos depois do grito — por alguém com perfil de manutenção de áudio."
       ],
       "armaCorreta": "Um Cabo de Microfone",
       "localCorreto": "O Estúdio 3",
@@ -134,8 +134,8 @@
       "opcoesArma": ["Um Cabo de Microfone", "Uma Fita Magnética", "Um Abajur de Metal", "Um Grampeador", "Um Fone de Ouvido"],
       "opcoesLocal": ["O Estúdio 3", "A Cabine de Controle", "O Estacionamento", "A Copa", "O Arquivo de Fitas"],
       "opcoesAssassino": ["A Locutora Concorrente", "O Técnico de Som", "O Diretor da Rádio", "O Vigia Noturno", "A Recepcionista"],
-      "dicaBoaArma": "A marca no pescoço da vítima era um sulco estreito e uniforme — não de um golpe, mas de um cabo flexível tensionado por trás.",
-      "dicaBoaLocal": "O grito captado ao vivo só poderia ter saído de uma cabine com o microfone aberto: o Estúdio 3.",
+      "dicaBoaArma": "A marca contínua e sem lâmina descarta fita, abajur e grampeador. O material é longo, flexível e áspero — restam os dois acessórios de áudio que se enrolam junto ao pescoço de quem os usa.",
+      "dicaBoaLocal": "Nenhuma copa, estacionamento ou arquivo explica o clique do conector sobre a mesa de captação. O evento ocorreu onde o sinal estava no ar — restam a cabine de controle e a sala de gravação, e só uma tem microfone aberto.",
       "dicaBoaAssassino": "Quem apagou os últimos dez minutos da fita tinha acesso à mesa de som — e o técnico foi o único que mexeu no equipamento antes de a polícia chegar.",
       "dicasFracas": [
         "A rádio vinha perdendo audiência para a concorrente há meses.",
@@ -151,11 +151,11 @@
       "titulo": "O Jardim das Estátuas",
       "relatorio": "Na abertura da exposição ao ar livre do Museu Bandeirante, o curador Heitor Prado foi encontrado caído entre as esculturas. A noite estava sem lua e o jardim, iluminado apenas por tochas. Ninguém admite ter se aproximado dele. A polícia busca a arma, o local e o responsável.",
       "pistas": [
-        "Uma tocha de bronze foi encontrada apagada junto a uma estátua derrubada.",
-        "As pegadas no canteiro indicavam alguém que conhecia o caminho às escuras.",
-        "O segurança noturno alegou ter feito a ronda de hora em hora, mas o livro de registro tinha uma página arrancada.",
-        "A restauradora havia sido demitida naquela tarde pelo curador.",
-        "Havia lascas de granito na base de uma estátua que deveria estar intacta."
+        "O golpe subiu de baixo para cima, com uma haste longa e base pesada — algo feito para segurar ou iluminar, não para cortar ou pregar.",
+        "O canteiro guarda um único par de pegadas de ida e volta pelo mesmo caminho; quem atravessa sem hesitar conhece o jardim de cor.",
+        "A escultura tombada sofreu impacto na base, não pressão lateral: caiu empurrada por cima de algo apoiado no chão.",
+        "A página final do livro de ronda foi arrancada, e o guarda jura que 'foi o vento'.",
+        "Alguém foi desligado no fim do expediente pela própria vítima e deixou o depósito de obras minutos depois, com uma chave de reserva."
       ],
       "armaCorreta": "Uma Tocha de Bronze",
       "localCorreto": "O Jardim das Estátuas",
@@ -163,8 +163,8 @@
       "opcoesArma": ["Uma Tocha de Bronze", "Um Cinzel", "Uma Estátua de Mármore", "Um Martelo de Pedra", "Um Pedestal de Pedra"],
       "opcoesLocal": ["O Jardim das Estátuas", "A Galeria Principal", "O Escritório do Curador", "A Entrada do Museu", "O Depósito de Obras"],
       "opcoesAssassino": ["O Segurança Noturno", "A Restauradora", "O Patrocinador", "O Jornalista de Arte", "O Fotógrafo"],
-      "dicaBoaArma": "A tocha de bronze achada apagada tinha a base amassada e fios de cabelo presos no metal — foi empunhada, não caiu sozinha.",
-      "dicaBoaLocal": "As pegadas no canteiro seguiam sem hesitar entre as esculturas, na escuridão total: o crime ocorreu no jardim das estátuas, onde só quem conhece o lugar anda às cegas.",
+      "dicaBoaArma": "O impacto subido de baixo para cima com haste longa e base pesada dispensa cinzel, estátua inteira e pedestal fixo. Sobra o que se segura pela base e ilumina o caminho — duas peças de acervo, uma de bronze e uma de pedra, ainda restam na trilha.",
+      "dicaBoaLocal": "Não é galeria, escritório, entrada nem depósito: o chão de canteiro e as pegadas únicas só existem ao ar livre. O local é cercado de obras expostas, onde a ronda tinha registro — e ali alguém andou às cegas sem tropeçar.",
       "dicaBoaAssassino": "A restauradora demitida naquela tarde conhecia cada estátua pelo toque e sabia exatamente qual base cedia sob o peso de uma queda.",
       "dicasFracas": [
         "A exposição ao ar livre atraiu um público maior do que o museu esperava.",
@@ -180,11 +180,11 @@
       "titulo": "A Ponte Encoberta",
       "relatorio": "O navio mercante Estrela do Norte atracou com um passageiro a menos. O capitão Raul Vasquez foi visto por último na ponte de comando, numa noite de névoa densa. O diário de bordo tem páginas molhadas e uma anotação ilegível. A polícia portuária investiga a arma, o local e o responsável.",
       "pistas": [
-        "Um sextante foi encontrado com a lente rachada e resíduos de sangue no aro de latão.",
-        "O imediato assumiu o comando antes da hora marcada, sem que ninguém o tivesse chamado.",
-        "Havia cordas recém-cortadas junto ao mastro de ré.",
-        "Uma carta de demissão assinada pelo capitão estava na gaveta do imediato.",
-        "A bússola da ponte apontava para o norte magnético, mas o navio navegava para oeste."
+        "O impacto na cabeça foi angular e de bordas duras, mas sem ferrugem no ponto do golpe — metal polido, não aço exposto à maresia.",
+        "O instrumento de navegação que o capitão mais usava estava molhado por fora e seco por dentro: foi limpo às pressas.",
+        "A bússola do leme apontava para oeste enquanto o diário de bordo registrava rumo norte.",
+        "O oficial que assumiria às três horas assumiu às duas e mandou silenciar os telégrafos.",
+        "Uma carta datada do mesmo dia, assinada pela vítima, foi achada na cabine do segundo no comando."
       ],
       "armaCorreta": "Um Sextante de Latão",
       "localCorreto": "A Ponte de Comando",
@@ -192,8 +192,8 @@
       "opcoesArma": ["Um Sextante de Latão", "Um Cabo de Aço", "Uma Âncora", "Um Facão de Convés", "Um Cronômetro de Bolso"],
       "opcoesLocal": ["A Ponte de Comando", "O Porão de Carga", "O Convés Principal", "A Casa de Máquinas", "O Camarote do Capitão"],
       "opcoesAssassino": ["O Cozinheiro", "O Imediato", "O Maquinista", "O Prático do Porto", "O Timoneiro"],
-      "dicaBoaArma": "A lente rachada e o aro de latão com resíduos de sangue apontam para o instrumento que o capitão sempre carregava ao peito — um sextante, não um cabo ou uma lâmina.",
-      "dicaBoaLocal": "O diário de bordo encharcado e a bússola desalinhada só fazem sentido num lugar: a ponte de comando, o único aposento com vista para o mar e acesso à navegação.",
+      "dicaBoaArma": "A borda do ferimento era angular e sem ferrugem, descartando âncora, facão e cabo de aço — metais rústicos ou cortantes. Restam dois instrumentos de precisão que o capitão guardava perto do leme.",
+      "dicaBoaLocal": "Máquina, porão e convés não abrigam o leme nem a bússola do diário; o camarote era lugar de descanso. O erro de rumo só se vê a partir do alto, onde se governa o navio — e o oficial que assumiu cedo tomou exatamente esse posto.",
       "dicaBoaAssassino": "O imediato assumiu o comando antes da hora e tinha na gaveta a própria carta de demissão assinada pelo capitão — motivação e oportunidade no mesmo camarote.",
       "dicasFracas": [
         "A tripulação do Estrela do Norte era pequena e trabalhara junta por anos.",
