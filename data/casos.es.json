@@ -6,20 +6,38 @@
       "titulo": "El Reloj Detenido a las 23:47",
       "relatorio": "El coleccionista Álvaro Mendes fue encontrado sin vida en su biblioteca. Todos los relojes de la casa se detuvieron exactamente a las 23:47, excepto uno. La escena del crimen está preservada y cuatro personas estaban en la mansión aquella noche. La policía necesita descubrir el arma, el lugar exacto y el responsable.",
       "pistas": [
-        "El reloj de bolsillo del coleccionista fue encontrado en el bolsillo del mayordomo, pero este afirma que nunca entró en la biblioteca.",
-        "La gobernanta vio una sombra cruzar el pasillo a las 23:45, vistiendo un abrigo largo.",
-        "La hija del coleccionista discutió con su padre esa mañana por la herencia de la colección.",
-        "Había polvo de cobre en los puños de la camisa del sobrino, aunque juró haber pasado el día entero en el jardín.",
-        "Una marca de impacto profunda fue encontrada en el lateral de la estantería, a la altura de la cabeza."
+        "La policía científica halló una herida profunda, de bordes lisos y redondeados, y ninguna hoja, cuerda ni cable en la escena — el objeto usado era lo bastante denso para caber en una palma.",
+        "Dos residentes soltaban de las manos un polvo fino y metálico después de la cena; el servicio doméstico niega haber tocado cualquier metal después de las 22h.",
+        "El pasillo mojado guardaba dos direcciones: alguien cruzó apresurado a las 23h45 y volvió despacio a las 23h52, dejando la manija de la estancia cerrada más limpia que el resto.",
+        "Dos sospechosos no tienen coartada para el intervalo entre las 23h42 y la medianoche; uno de ellos jura haber estado en el jardín, pero la tierra de las suelas no coincide con el césped de aquella noche.",
+        "La víctima cayó en una estancia sin ventanas, cuyo aire cerrado todavía huele a papel y cera — el tipo de lugar que ahoga cualquier ruido."
       ],
       "armaCorreta": "El Reloj de Bolsillo",
       "localCorreto": "La Biblioteca",
       "assassinoCorreto": "El Sobrino",
-      "opcoesArma": ["El Reloj de Bolsillo", "Un Cuchillo de Cocina", "Una Cuerda de Cortina", "Un Candelero de Bronce", "Un Tintero de Bronce"],
-      "opcoesLocal": ["La Biblioteca", "El Jardín", "La Cocina", "El Pasillo", "El Despacho del Coleccionista"],
-      "opcoesAssassino": ["El Mayordomo", "La Gobernanta", "La Hija", "El Sobrino", "El Médico de la Familia"],
-      "dicaBoaArma": "La marca en la estantería coincide con un objeto pequeño y denso, del tamaño de una palma — el único así ausente de la vitrina es justamente el que el coleccionista nunca se quitaba del bolsillo.",
-      "dicaBoaLocal": "El olor a papel viejo y el silencio apagado delatan la estancia: la sala de lectura, sin ventanas, explica por qué nadie oyó el golpe.",
+      "opcoesArma": [
+        "El Reloj de Bolsillo",
+        "Un Cuchillo de Cocina",
+        "Una Cuerda de Cortina",
+        "Un Candelero de Bronce",
+        "Un Tintero de Bronce"
+      ],
+      "opcoesLocal": [
+        "La Biblioteca",
+        "El Jardín",
+        "La Cocina",
+        "El Pasillo",
+        "El Despacho del Coleccionista"
+      ],
+      "opcoesAssassino": [
+        "El Mayordomo",
+        "La Gobernanta",
+        "La Hija",
+        "El Sobrino",
+        "El Médico de la Familia"
+      ],
+      "dicaBoaArma": "La vitrina de objetos de mesa está intacta; no falta herramienta de corte, hilo ni soporte de llama. Lo que se usó cabe en una palma y tiene el peso de un objeto sólido — quedan dos objetos compactos y densos de la colección.",
+      "dicaBoaLocal": "No había tierra, vapor de cocina ni calzado de carrera: el suelo estaba seco y el aire, apagado, con olor a papel y cera. Los ambientes abiertos y de tránsito constante quedan descartados; quedan una sala cerrada y sin ventanas y un despacho particular.",
       "dicaBoaAssassino": "El sobrino heredaría la colección si la hija fuera desheredada — y el polvo de cobre en sus puños vino del interior de la vitrina, la misma que cubría el objeto desaparecido.",
       "dicasFracas": [
         "Todos en la mansión durmieron mal aquella noche; el viento golpeaba fuerte contra las persianas.",
@@ -35,20 +53,38 @@
       "titulo": "La Carta sin Remitente",
       "relatorio": "Una carta anónima llegó a la redacción del periódico local denunciando el robo de una joya rara en la mansión de los Oliveira. El texto fue escrito en una máquina antigua. La caja fuerte fue forzada durante una cena y nadie escuchó nada. La policía investiga el arma usada, el lugar del asalto y quién envió la carta.",
       "pistas": [
-        "La cinta de la máquina de escribir de la mansión estaba fresca, con tinta recién aplicada.",
-        "La empleada encontró un botón dorado cerca de la caja fuerte forzada.",
-        "El mayordomo sabe escribir a máquina, pero afirma que estaba libre el día del robo.",
-        "La joya fue vista por última vez en una cena en la que solo cuatro invitados permanecieron hasta el final.",
-        "Había marcas de palanca en el marco de la caja fuerte, hechas por una herramienta pesada."
+        "La caja fuerte tiene marcas largas y paralelas en el marco, del ancho de una garra — consistentes con una vara doblada en forma de gancho.",
+        "La cinta de la máquina de la residencia fue cambiada esa semana, pero nadie recuerda quién la compró.",
+        "Un empleado entregó la joya al dueño minutos antes de la cena y recorrió la casa toda la noche; otro juró estar libre, pero fue reconocido en la calle de atrás a las 21h.",
+        "La alarma permaneció desactivada en la ventana por donde se servía la cocina — tiempo justo para abrir lo que estaba trancado.",
+        "La denuncia al periódico salió con matasellos del día anterior, como si alguien supiera del robo antes de que ocurriera."
       ],
       "armaCorreta": "Un Pie de Cabra",
       "localCorreto": "La Mansión de los Oliveira",
       "assassinoCorreto": "La Empleada",
-      "opcoesArma": ["Un Pie de Cabra", "Una Máquina de Escribir", "Una Daga", "Un Candelabro", "Una Llave Inglesa"],
-      "opcoesLocal": ["La Mansión de los Oliveira", "La Redacción del Periódico", "La Caja Fuerte del Banco", "El Jardín Botánico", "El Comedor"],
-      "opcoesAssassino": ["El Mayordomo", "La Empleada", "El Chofer", "El Periodista", "El Chef de Cocina"],
-      "dicaBoaArma": "Las marcas en el marco forman un surco ancho y en ángulo — la firma de una barra de hierro con punta curva, no de una hoja ni de una herramienta de escritura.",
-      "dicaBoaLocal": "La cinta fresca de la máquina de escribir y el botón dorado junto a la caja fuerte tienen un solo punto en común: la casa de los Oliveira, donde ocurrió la cena.",
+      "opcoesArma": [
+        "Un Pie de Cabra",
+        "Una Máquina de Escribir",
+        "Una Daga",
+        "Un Candelabro",
+        "Una Llave Inglesa"
+      ],
+      "opcoesLocal": [
+        "La Mansión de los Oliveira",
+        "La Redacción del Periódico",
+        "La Caja Fuerte del Banco",
+        "El Jardín Botánico",
+        "El Comedor"
+      ],
+      "opcoesAssassino": [
+        "El Mayordomo",
+        "La Empleada",
+        "El Chofer",
+        "El Periodista",
+        "El Chef de Cocina"
+      ],
+      "dicaBoaArma": "La caja fuerte fue abierta con una palanca de punta curva, lo que descarta utensilios de escritura, objetos de mesa y cualquier hoja decorativa. Los materiales de hoja y el acero forjado quedan fuera; quedan dos herramientas manuales de taller.",
+      "dicaBoaLocal": "La cinta cambiada, la alarma desarmada y la cena servida apuntan a un único día y lugar: ninguna redacción, banco ni jardín explica los tres. El evento quedó dentro de la residencia, y el registro de servicio converge en una estancia junto al pasillo.",
       "dicaBoaAssassino": "El botón dorado pertenecía al uniforme de la empleada, y fue ella quien «encontró» la pista demasiado buena para ser coincidencia.",
       "dicasFracas": [
         "El periodista que recibió la carta parecía nervioso al prestar declaración.",
@@ -64,20 +100,38 @@
       "titulo": "El Enigma del Laboratorio",
       "relatorio": "El científico Dr. Bastos desapareció de su propio laboratorio la noche del experimento. La puerta estaba trancada por dentro, pero la ventana entreabierta revela algo sospechoso. No hay señales de allanamiento y el cuerpo fue retirado sin dejar rastros claros. La policía investiga el arma, el lugar y el responsable del crimen.",
       "pistas": [
-        "Había marcas de guantes en el marco de la ventana, del lado de dentro.",
-        "El asistente desapareció con el cuaderno de anotaciones la misma noche.",
-        "Una taza de té todavía tibia fue encontrada en la mesa, con lápiz labial en el borde.",
-        "La seguridad registró solo una persona saliendo por el portón después de la medianoche.",
-        "Un frasco de reactivo estaba abierto y vacío sobre la mesa de trabajo, con el lacre roto."
+        "El cuerpo no presentaba cortes, hematomas, quemaduras ni marcas de descarga — solo un rubor en la piel y el aliento alterado.",
+        "Los guantes gruesos de la mesa de trabajo fueron hallados en la basura del revés, como quien se los quitó para no mancharse las manos.",
+        "El torniquete registra la salida de una sola persona después de la medianoche, pero la tarjeta leída estaba olvidada en la mesa de un colega.",
+        "La taza del mostrador tiene lápiz labial en un solo lado; los demás técnicos aseguran que nadie allí come ni bebe en la mesa de trabajo.",
+        "La ventana trancada por dentro estaba limpia por fuera: quien se movió aquella noche usó el pasillo interno, no el aire libre."
       ],
       "armaCorreta": "Un Frasco de Veneno",
       "localCorreto": "El Laboratorio",
       "assassinoCorreto": "La Asistente de Laboratorio",
-      "opcoesArma": ["Un Frasco de Veneno", "Una Probeta de Vidrio", "Un Bisturí", "Un Palo de Madera", "Un Soplete de Mesa"],
-      "opcoesLocal": ["El Laboratorio", "El Estacionamiento", "La Sala de Seguridad", "El Almacén", "El Ala de Investigación"],
-      "opcoesAssassino": ["El Asistente", "La Asistente de Laboratorio", "El Guardia", "El Científico Vecino", "El Pasante"],
-      "dicaBoaArma": "El lacre roto y el olor dulzón en el aire delatan que la muerte salió de dentro de un frasco — algo que se disuelve sin dejar marca en el cuerpo.",
-      "dicaBoaLocal": "La puerta trancada por dentro y las marcas de guante en el batiente interno prueban que el crimen no salió de esa estancia: el laboratorio fue escenario y tumba.",
+      "opcoesArma": [
+        "Un Frasco de Veneno",
+        "Una Probeta de Vidrio",
+        "Un Bisturí",
+        "Un Palo de Madera",
+        "Un Soplete de Mesa"
+      ],
+      "opcoesLocal": [
+        "El Laboratorio",
+        "El Estacionamiento",
+        "La Sala de Seguridad",
+        "El Almacén",
+        "El Ala de Investigación"
+      ],
+      "opcoesAssassino": [
+        "El Asistente",
+        "La Asistente de Laboratorio",
+        "El Guardia",
+        "El Científico Vecino",
+        "El Pasante"
+      ],
+      "dicaBoaArma": "Sin cortes, quemaduras ni contusiones, quedan fuera hojas, fuego y objetos rígidos de impacto. La firma es de algo que se vierte o se inhala — quedan los dos recipientes de vidrio de la mesa de trabajo, y solo uno tuvo el lacre roto.",
+      "dicaBoaLocal": "Rastros de guantes, no de tierra ni lluvia, descartan patio, garita y almacén. El vidrio trancado por dentro y el aire pesado de reactivos apuntan al área científica — quedan el recinto principal de trabajo y el ala de investigación al lado.",
       "dicaBoaAssassino": "La taza de té con lápiz labial en el borde fue servida por quien tenía libre acceso a la mesa de trabajo — y solo la asistente usaba ese tono de labial.",
       "dicasFracas": [
         "El guardia dormía en el servicio con frecuencia, según los colegas.",
@@ -93,20 +147,38 @@
       "titulo": "El Violín Desafinado",
       "relatorio": "Durante el ensayo de gala en el Teatro Aurora, el maestro Érico Salgado fue encontrado sin vida en el foso de la orquesta. Las luces parpadearon, el telón cayó y, cuando volvieron, ya no respiraba. El teatro estaba lleno, pero nadie vio el golpe. La policía debe determinar el arma, el lugar exacto y el responsable.",
       "pistas": [
-        "La cuerda del violín principal estaba rota y con marcas de sangre seca.",
-        "El utilero juró haber visto el telón moverse solo minutos antes del apagón.",
-        "Una partitura con la dedicatoria rasgada fue encontrada bajo el asiento de la primera fila.",
-        "La soprano discutió con el maestro la víspera por el papel principal.",
-        "Había polvo de resina en las suelas de los zapatos de quien bajó al foso aquella noche."
+        "La marca en el cuello era un surco fino e ininterrumpido, sin nudos, como el trazo de algo tirado entre dos puntos de tensión.",
+        "Asientos, escenario y vestíbulo siguen intactos, pero las suelas de quien circuló bajo el piso de la orquesta llevaban un polvo oscuro y resinoso.",
+        "El instrumento principal de la fila tenía las cuerdas más finas cambiadas horas antes; el lutier no visitó el teatro, y el estuche fue removido.",
+        "La solista del papel principal avisó que no cantaría el segundo acto y salió del camarín antes del apagón.",
+        "El telón bajó cinco minutos antes de lo previsto — el mismo tiempo de bajar al nivel del piso y volver antes de que se encendieran las luces."
       ],
       "armaCorreta": "Una Cuerda de Violín",
       "localCorreto": "El Foso de la Orquesta",
       "assassinoCorreto": "La Soprano",
-      "opcoesArma": ["Una Cuerda de Violín", "Una Batuta de Maestro", "Un Candelabro del Vestíbulo", "Unas Tijeras de Vestuario", "Un Arco de Violín"],
-      "opcoesLocal": ["El Foso de la Orquesta", "El Camarín", "El Escenario", "El Vestíbulo", "La Platea"],
-      "opcoesAssassino": ["El Utilero", "La Soprano", "El Violinista Principal", "El Empresario", "El Maestro Asistente"],
-      "dicaBoaArma": "La marca fina y profunda en el cuello vino de un hilo tensado — y el único hilo del teatro con sangre seca es el que se rompió en el violín principal.",
-      "dicaBoaLocal": "El polvo de resina en las suelas cuenta la historia: solo quien bajó al foso de la orquesta lo llevaría de vuelta a la superficie.",
+      "opcoesArma": [
+        "Una Cuerda de Violín",
+        "Una Batuta de Maestro",
+        "Un Candelabro del Vestíbulo",
+        "Unas Tijeras de Vestuario",
+        "Un Arco de Violín"
+      ],
+      "opcoesLocal": [
+        "El Foso de la Orquesta",
+        "El Camarín",
+        "El Escenario",
+        "El Vestíbulo",
+        "La Platea"
+      ],
+      "opcoesAssassino": [
+        "El Utilero",
+        "La Soprano",
+        "El Violinista Principal",
+        "El Empresario",
+        "El Maestro Asistente"
+      ],
+      "dicaBoaArma": "El surco fino y continuo no viene de hoja, vara ni objeto romo: batuta, candelabro y tijeras quedan fuera. Si el trazo salió de un hilo, quedan los dos accesorios de cuerda del instrumento — ninguno corta, ambos tensan.",
+      "dicaBoaLocal": "Nada fue movido entre asientos, escenario y vestíbulo, y ningún camarín explica el polvo resinoso en las suelas. Quien actuó estaba bajo el nivel del piso de la orquesta — el único punto del teatro más bajo que la tarima.",
       "dicaBoaAssassino": "La dedicatoria rasgada de la partitura había sido escrita para la soprano — la misma que, al perder el papel principal, juró que el maestro «no llegaría al tercer acto».",
       "dicasFracas": [
         "El Teatro Aurora agotó las entradas aquella noche.",
@@ -122,20 +194,38 @@
       "titulo": "La Última Transmisión",
       "relatorio": "En la madrugada del sábado, el locutor Válter Nobre interrumpió el programa en vivo con un grito y nunca más fue visto. La emisora de radio fue aislada, y la cinta de la transmisión desapareció. La policía investiga el arma del crimen, el lugar exacto y quién borró la grabación.",
       "pistas": [
-        "Un cable de micrófono fue encontrado enrollado detrás de la mesa de sonido, todavía húmedo.",
-        "El operador de audio borró los últimos diez minutos de la cinta antes de llamar a la policía.",
-        "La puerta del Estudio 3 estaba trancada por dentro, pero la ventana de ventilación estaba abierta.",
-        "La locutora rival había amenazado con demandar al presentador la semana anterior.",
-        "Había marcas de café derramado sobre el guion, cubriendo un nombre escrito a mano."
+        "La marca en el cuello era un surco continuo, sin hoja, dejado por algo flexible y áspero como cuero o goma.",
+        "El último sonido registrado antes del grito fue el chasquido metálico de un conector encajado en la mesa de captación.",
+        "El contador de la cinta de referencia fue puesto a cero y rebobinado quince minutos, pero el carrete original nunca apareció en el archivo.",
+        "El torno del tercer piso registra salida a la 1h05 y regreso a la 1h10 hacia el pasillo de cabinas; nadie admite haber entrado en la sala vecina.",
+        "El sistema de grabación tenía contraseña corporativa, y fue usada diez minutos después del grito — por alguien con perfil de mantenimiento de audio."
       ],
       "armaCorreta": "Un Cable de Micrófono",
       "localCorreto": "El Estudio 3",
       "assassinoCorreto": "El Técnico de Sonido",
-      "opcoesArma": ["Un Cable de Micrófono", "Una Cinta Magnética", "Una Lámpara de Metal", "Una Grapadora", "Unos Auriculares"],
-      "opcoesLocal": ["El Estudio 3", "La Cabina de Control", "El Estacionamiento", "La Cafetería", "El Archivo de Cintas"],
-      "opcoesAssassino": ["La Locutora Rival", "El Técnico de Sonido", "El Director de la Radio", "El Vigilante Nocturno", "La Recepcionista"],
-      "dicaBoaArma": "La marca en el cuello de la víctima era un surco estrecho y uniforme — no un golpe, sino un cable flexible tensado por detrás.",
-      "dicaBoaLocal": "El grito captado en vivo solo pudo salir de una cabina con el micrófono abierto: el Estudio 3.",
+      "opcoesArma": [
+        "Un Cable de Micrófono",
+        "Una Cinta Magnética",
+        "Una Lámpara de Metal",
+        "Una Grapadora",
+        "Unos Auriculares"
+      ],
+      "opcoesLocal": [
+        "El Estudio 3",
+        "La Cabina de Control",
+        "El Estacionamiento",
+        "La Cafetería",
+        "El Archivo de Cintas"
+      ],
+      "opcoesAssassino": [
+        "La Locutora Rival",
+        "El Técnico de Sonido",
+        "El Director de la Radio",
+        "El Vigilante Nocturno",
+        "La Recepcionista"
+      ],
+      "dicaBoaArma": "La marca continua y sin hoja descarta cinta, lámpara y grapadora. El material es largo, flexible y áspero — quedan los dos accesorios de audio que se enrollan junto al cuello de quien los usa.",
+      "dicaBoaLocal": "Ninguna cafetería, estacionamiento ni archivo explica el chasquido del conector sobre la mesa de captación. El evento ocurrió donde la señal estaba al aire — quedan la cabina de control y la sala de grabación, y solo una tiene micrófono abierto.",
       "dicaBoaAssassino": "Quien borró los últimos diez minutos de la cinta tenía acceso a la mesa de sonido — y el técnico fue el único que tocó el equipo antes de que llegara la policía.",
       "dicasFracas": [
         "La radio venía perdiendo audiencia frente a la competencia desde hacía meses.",
@@ -151,20 +241,38 @@
       "titulo": "El Jardín de las Estatuas",
       "relatorio": "En la inauguración de la exposición al aire libre del Museo Bandeirante, el curador Heitor Prado fue encontrado caído entre las esculturas. La noche no tenía luna y el jardín estaba iluminado solo por antorchas. Nadie admite haberse acercado a él. La policía busca el arma, el lugar y el responsable.",
       "pistas": [
-        "Una antorcha de bronce fue encontrada apagada junto a una estatua derribada.",
-        "Las huellas en el jardín indicaban a alguien que conocía el camino a oscuras.",
-        "El guardia nocturno afirmó haber hecho la ronda hora a hora, pero el libro de registro tenía una página arrancada.",
-        "La restauradora había sido despedida esa tarde por el curador.",
-        "Había esquirlas de granito en la base de una estatua que debería estar intacta."
+        "El golpe subió de abajo hacia arriba, con una vara larga y base pesada — algo hecho para sostener o iluminar, no para cortar ni clavar.",
+        "El jardín guarda un único par de huellas de ida y vuelta por el mismo camino; quien atraviesa sin titubear conoce el jardín de memoria.",
+        "La escultura caída sufrió el impacto en la base, no presión lateral: fue empujada por encima de algo apoyado en el suelo.",
+        "La última página del libro de rondas fue arrancada, y el guardia jura que «fue el viento».",
+        "Alguien fue despedido a fin de jornada por la propia víctima y salió del depósito de obras minutos después, con una llave de reserva."
       ],
       "armaCorreta": "Una Antorcha de Bronce",
       "localCorreto": "El Jardín de las Estatuas",
       "assassinoCorreto": "La Restauradora",
-      "opcoesArma": ["Una Antorcha de Bronce", "Un Cincel", "Una Estatua de Mármol", "Un Martillo de Piedra", "Un Pedestal de Piedra"],
-      "opcoesLocal": ["El Jardín de las Estatuas", "La Galería Principal", "El Despacho del Curador", "La Entrada del Museo", "El Depósito de Obras"],
-      "opcoesAssassino": ["El Guardia Nocturno", "La Restauradora", "El Patrocinador", "El Periodista de Arte", "El Fotógrafo"],
-      "dicaBoaArma": "La antorcha de bronce hallada apagada tenía la base abollada y cabellos prendidos en el metal — fue empuñada, no cayó sola.",
-      "dicaBoaLocal": "Las huellas en el jardín avanzaban sin titubear entre las esculturas, en oscuridad total: el crimen ocurrió en el jardín de las estatuas, donde solo quien conoce el lugar anda a ciegas.",
+      "opcoesArma": [
+        "Una Antorcha de Bronce",
+        "Un Cincel",
+        "Una Estatua de Mármol",
+        "Un Martillo de Piedra",
+        "Un Pedestal de Piedra"
+      ],
+      "opcoesLocal": [
+        "El Jardín de las Estatuas",
+        "La Galería Principal",
+        "El Despacho del Curador",
+        "La Entrada del Museo",
+        "El Depósito de Obras"
+      ],
+      "opcoesAssassino": [
+        "El Guardia Nocturno",
+        "La Restauradora",
+        "El Patrocinador",
+        "El Periodista de Arte",
+        "El Fotógrafo"
+      ],
+      "dicaBoaArma": "El impacto subido de abajo hacia arriba con vara larga y base pesada descarta cincel, estatua entera y pedestal fijo. Queda lo que se sostiene por la base e ilumina el camino — dos piezas de la colección, una de bronce y una de piedra, siguen en la estela.",
+      "dicaBoaLocal": "No es galería, despacho, entrada ni depósito: el suelo de jardín y las huellas únicas solo existen al aire libre. El lugar está rodeado de obras expuestas, donde la ronda tenía registro — y allí alguien anduvo a ciegas sin tropezar.",
       "dicaBoaAssassino": "La restauradora despedida esa tarde conocía cada estatua al tacto y sabía exactamente qué base cedía bajo el peso de una caída.",
       "dicasFracas": [
         "La exposición al aire libre atrajo a más público del que el museo esperaba.",
@@ -180,20 +288,38 @@
       "titulo": "El Puente Cubierto",
       "relatorio": "El mercante Estrela do Norte atracó con un pasajero menos. El capitán Raul Vasquez fue visto por última vez en el puente de mando, en una noche de niebla densa. El cuaderno de bitácora tiene páginas mojadas y una anotación ilegible. La policía portuaria investiga el arma, el lugar y el responsable.",
       "pistas": [
-        "Un sextante fue encontrado con la lente agrietada y residuos de sangre en el aro de latón.",
-        "El primer oficial asumió el mando antes de la hora marcada, sin que nadie lo hubiera llamado.",
-        "Había cuerdas recién cortadas junto al mástil de popa.",
-        "Una carta de dimisión firmada por el capitán estaba en el cajón del primer oficial.",
-        "La brújula del puente apuntaba al norte magnético, pero el navío navegaba hacia el oeste."
+        "El impacto en la cabeza fue angular y de bordes duros, pero sin óxido en el punto del golpe — metal pulido, no acero expuesto a la marejada.",
+        "El instrumento de navegación que más usaba el capitán estaba mojado por fuera y seco por dentro: fue limpiado a las prisas.",
+        "La brújula del timón apuntaba al oeste mientras el cuaderno de bitácora registraba rumbo norte.",
+        "El oficial que asumiría a las tres asumió a las dos y mandó silenciar los telégrafos.",
+        "Una carta datada el mismo día, firmada por la víctima, fue hallada en el camarote del segundo al mando."
       ],
       "armaCorreta": "Un Sextante de Latón",
       "localCorreto": "El Puente de Mando",
       "assassinoCorreto": "El Primer Oficial",
-      "opcoesArma": ["Un Sextante de Latón", "Un Cable de Acero", "Un Ancla", "Un Machete de Cubierta", "Un Cronómetro de Bolsillo"],
-      "opcoesLocal": ["El Puente de Mando", "La Bodega de Carga", "La Cubierta Principal", "La Sala de Máquinas", "El Camarote del Capitán"],
-      "opcoesAssassino": ["El Cocinero", "El Primer Oficial", "El Maquinista", "El Práctico del Puerto", "El Timonel"],
-      "dicaBoaArma": "La lente agrietada y el aro de latón con residuos de sangre apuntan al instrumento que el capitán siempre llevaba al pecho — un sextante, no un cable ni una hoja.",
-      "dicaBoaLocal": "El cuaderno de bitácora empapado y la brújula desalineada solo tienen sentido en un lugar: el puente de mando, la única estancia con vista al mar y acceso a la navegación.",
+      "opcoesArma": [
+        "Un Sextante de Latón",
+        "Un Cable de Acero",
+        "Un Ancla",
+        "Un Machete de Cubierta",
+        "Un Cronómetro de Bolsillo"
+      ],
+      "opcoesLocal": [
+        "El Puente de Mando",
+        "La Bodega de Carga",
+        "La Cubierta Principal",
+        "La Sala de Máquinas",
+        "El Camarote del Capitán"
+      ],
+      "opcoesAssassino": [
+        "El Cocinero",
+        "El Primer Oficial",
+        "El Maquinista",
+        "El Práctico del Puerto",
+        "El Timonel"
+      ],
+      "dicaBoaArma": "El borde de la herida era angular y sin óxido, descartando ancla, machete y cable de acero — metales rústicos o cortantes. Quedan dos instrumentos de precisión que el capitán guardaba cerca del timón.",
+      "dicaBoaLocal": "Máquinas, bodega y cubierta no albergan el timón ni la brújula del cuaderno; el camarote era lugar de descanso. El error de rumbo solo se ve desde arriba, donde se gobierna el navío — y el oficial que asumió temprano tomó exactamente ese puesto.",
       "dicaBoaAssassino": "El primer oficial asumió el mando antes de tiempo y tenía en el cajón la propia carta de dimisión firmada por el capitán — móvil y oportunidad en el mismo camarote.",
       "dicasFracas": [
         "La tripulación del Estrela do Norte era pequeña y había trabajado junta por años.",
