@@ -6,11 +6,11 @@
       "titulo": "El Reloj Detenido a las 23:47",
       "relatorio": "El coleccionista Álvaro Mendes fue encontrado sin vida en su biblioteca. Todos los relojes de la casa se detuvieron exactamente a las 23:47, excepto uno. La escena del crimen está preservada y cuatro personas estaban en la mansión aquella noche. La policía necesita descubrir el arma, el lugar exacto y el responsable.",
       "pistas": [
-        "La policía científica halló una herida profunda, de bordes lisos y redondeados, y ninguna hoja, cuerda ni cable en la escena — el objeto usado era lo bastante denso para caber en una palma.",
-        "Dos residentes soltaban de las manos un polvo fino y metálico después de la cena; el servicio doméstico niega haber tocado cualquier metal después de las 22h.",
-        "El pasillo mojado guardaba dos direcciones: alguien cruzó apresurado a las 23h45 y volvió despacio a las 23h52, dejando la manija de la estancia cerrada más limpia que el resto.",
-        "Dos sospechosos no tienen coartada para el intervalo entre las 23h42 y la medianoche; uno de ellos jura haber estado en el jardín, pero la tierra de las suelas no coincide con el césped de aquella noche.",
-        "La víctima cayó en una estancia sin ventanas, cuyo aire cerrado todavía huele a papel y cera — el tipo de lugar que ahoga cualquier ruido."
+        "La herida era profunda, de bordes redondeados, y ni hoja, ni hilo, ni cable aparecieron en la escena.",
+        "La vitrina guarda el polvo por igual, salvo en un rectángulo limpio del tamaño de un puño.",
+        "La criada nocturna vio a alguien salir de la estancia de los libros a las 23h45 y volver siete minutos después, con el paso apresurado.",
+        "Dos residentes no tienen coartada para las 23h47; uno de ellos tenía las manos sucias de algo que solo existe en una estancia de la casa.",
+        "La estancia de la caída no tiene ventanas y ahoga cualquier sonido; el vidrio de la puerta se empañó desde dentro aquella noche."
       ],
       "armaCorreta": "El Reloj de Bolsillo",
       "localCorreto": "La Biblioteca",
@@ -36,14 +36,14 @@
         "El Sobrino",
         "El Médico de la Familia"
       ],
-      "dicaBoaArma": "La vitrina de objetos de mesa está intacta; no falta herramienta de corte, hilo ni soporte de llama. Lo que se usó cabe en una palma y tiene el peso de un objeto sólido — quedan dos objetos compactos y densos de la colección.",
-      "dicaBoaLocal": "No había tierra, vapor de cocina ni calzado de carrera: el suelo estaba seco y el aire, apagado, con olor a papel y cera. Los ambientes abiertos y de tránsito constante quedan descartados; quedan una sala cerrada y sin ventanas y un despacho particular.",
+      "dicaBoaArma": "Nada de corte, hilo ni llama: el cuchillo sigue en su soporte, la cuerda en el gancho de la ventana y el candelero en la mesa. El objeto usado es compacto, denso y vino de la colección — quedan dos piezas de metal que caben en una palma.",
+      "dicaBoaLocal": "La tierra del jardín no pisó la casa aquella noche, la cocina cerró a las 22h y el pasillo fue solo atravesado. El crimen ocurrió en una estancia cerrada — y hay dos en el piso de arriba.",
       "dicaBoaAssassino": "El sobrino heredaría la colección si la hija fuera desheredada — y el polvo de cobre en sus puños vino del interior de la vitrina, la misma que cubría el objeto desaparecido.",
       "dicasFracas": [
-        "Todos en la mansión durmieron mal aquella noche; el viento golpeaba fuerte contra las persianas.",
-        "El mayordomo sirvió la cena a las 20h y recogió la vajilla sin prisa.",
-        "Había un retrato antiguo en la pared, con el vidrio empañado por la humedad.",
-        "La gobernanta dijo que la casa solía ser silenciosa después de las 22h."
+        "La cena fue servida a las 20h y la vajilla recogida sin prisa, como en todas las noches de la mansión.",
+        "El retrato del fundador, en la pared de la sala, se empaña con la humedad de septiembre.",
+        "La gobernanta suele trancar las puertas de servicio a las 22h y guardar la llave en el gancho de la cocina.",
+        "El médico de la familia solo es llamado a la casa en urgencias; era la segunda visita del mes."
       ],
       "epilogo": "Archivo cerrado el 22/09. El sobrino confesó el golpe con el reloj de bolsillo del tío, atraído por el polvo de cobre de la vitrina. La hija heredó la colección, y la biblioteca volvió a exhibir todos los relojes — menos uno."
     },
@@ -53,11 +53,11 @@
       "titulo": "La Carta sin Remitente",
       "relatorio": "Una carta anónima llegó a la redacción del periódico local denunciando el robo de una joya rara en la mansión de los Oliveira. El texto fue escrito en una máquina antigua. La caja fuerte fue forzada durante una cena y nadie escuchó nada. La policía investiga el arma usada, el lugar del asalto y quién envió la carta.",
       "pistas": [
-        "La caja fuerte tiene marcas largas y paralelas en el marco, del ancho de una garra — consistentes con una vara doblada en forma de gancho.",
-        "La cinta de la máquina de la residencia fue cambiada esa semana, pero nadie recuerda quién la compró.",
-        "Un empleado entregó la joya al dueño minutos antes de la cena y recorrió la casa toda la noche; otro juró estar libre, pero fue reconocido en la calle de atrás a las 21h.",
-        "La alarma permaneció desactivada en la ventana por donde se servía la cocina — tiempo justo para abrir lo que estaba trancado.",
-        "La denuncia al periódico salió con matasellos del día anterior, como si alguien supiera del robo antes de que ocurriera."
+        "Dos surcos paralelos, separados como los brazos de una garra, marcan el marco de la caja fuerte.",
+        "La cinta de la máquina de la residencia fue cambiada esa semana, y nadie recuerda quién la compró.",
+        "Un empleado recorrió la casa toda la noche sin tarea definida; otro, que alegaba estar libre, fue reconocido en la calle de atrás a las 21h.",
+        "La alarma de la residencia quedó desarmada por el tiempo exacto en que el postre era servido.",
+        "La denuncia llegó al periódico con matasellos del día anterior al robo — escrita por quien sabía del crimen antes de que ocurriera."
       ],
       "armaCorreta": "Un Pie de Cabra",
       "localCorreto": "La Mansión de los Oliveira",
@@ -83,14 +83,14 @@
         "El Periodista",
         "El Chef de Cocina"
       ],
-      "dicaBoaArma": "La caja fuerte fue abierta con una palanca de punta curva, lo que descarta utensilios de escritura, objetos de mesa y cualquier hoja decorativa. Los materiales de hoja y el acero forjado quedan fuera; quedan dos herramientas manuales de taller.",
-      "dicaBoaLocal": "La cinta cambiada, la alarma desarmada y la cena servida apuntan a un único día y lugar: ninguna redacción, banco ni jardín explica los tres. El evento quedó dentro de la residencia, y el registro de servicio converge en una estancia junto al pasillo.",
-      "dicaBoaAssassino": "El botón dorado pertenecía al uniforme de la empleada, y fue ella quien «encontró» la pista demasiado buena para ser coincidencia.",
+      "dicaBoaArma": "La caja fuerte cedió a una palanca, no a una hoja ni a un peso de mesa: los utensilios de escritura y los ornamentos quedan fuera. Quedan dos herramientas de acero del taller — y la forma de la garra en el marco separa una de la otra.",
+      "dicaBoaLocal": "La cinta cambiada, la alarma desarmada y la cena servida pertenecen a la misma dirección; la redacción, el banco y el jardín no reúnen los tres. El crimen quedó dentro de la residencia, en una estancia usada de noche para recibir.",
+      "dicaBoaAssassino": "El botón dorado hallado junto a la caja fuerte pertenecía al uniforme de la empleada — y fue la propia empleada quien lo «encontró», pista demasiado buena para ser coincidencia.",
       "dicasFracas": [
-        "El periodista que recibió la carta parecía nervioso al prestar declaración.",
-        "La mansión de los Oliveira tiene fama de recibir invitados ilustres desde hace generaciones.",
-        "El chofer lavó el coche a la mañana siguiente a la cena.",
-        "La joya estaba guardada en un estuche de terciopelo, dentro de un cajón secreto."
+        "La joya dormía en un estuche de terciopelo, dentro de un cajón con fondo falso.",
+        "El chef sirvió la cena en tres tiempos y salió antes del café, como manda la casa.",
+        "El chofer lava el coche toda mañana; aquella mañana, además, lo enceró.",
+        "La mansión recibe invitados ilustres desde los tiempos del abuelo de los Oliveira."
       ],
       "epilogo": "Archivo cerrado el 23/09. La empleada cayó cuando el botón dorado de su propio uniforme fue reconocido por la policía científica; la carta anónima era suya, escrita para desviar sospechas. El pie de cabra fue recuperado en el jardín, y la joya volvió a la caja fuerte."
     },
@@ -100,11 +100,11 @@
       "titulo": "El Enigma del Laboratorio",
       "relatorio": "El científico Dr. Bastos desapareció de su propio laboratorio la noche del experimento. La puerta estaba trancada por dentro, pero la ventana entreabierta revela algo sospechoso. No hay señales de allanamiento y el cuerpo fue retirado sin dejar rastros claros. La policía investiga el arma, el lugar y el responsable del crimen.",
       "pistas": [
-        "El cuerpo no presentaba cortes, hematomas, quemaduras ni marcas de descarga — solo un rubor en la piel y el aliento alterado.",
-        "Los guantes gruesos de la mesa de trabajo fueron hallados en la basura del revés, como quien se los quitó para no mancharse las manos.",
-        "El torniquete registra la salida de una sola persona después de la medianoche, pero la tarjeta leída estaba olvidada en la mesa de un colega.",
-        "La taza del mostrador tiene lápiz labial en un solo lado; los demás técnicos aseguran que nadie allí come ni bebe en la mesa de trabajo.",
-        "La ventana trancada por dentro estaba limpia por fuera: quien se movió aquella noche usó el pasillo interno, no el aire libre."
+        "El cuerpo no tiene cortes, contusiones, quemaduras ni señales de descarga — solo un rubor extraño en la piel y el aliento alterado.",
+        "Un recipiente de vidrio de la mesa de trabajo amaneció vacío, con el lacre roto y sin registro de descarte.",
+        "La tarjeta que abrió el torno después de la medianoche estaba olvidada, desde el fin del turno, en la mesa de un colega.",
+        "La taza del mostrador guarda lápiz labial en un solo lado — y la rutina del sector prohíbe bebidas junto a la mesa de trabajo.",
+        "La ventana se trancó por dentro, y las marcas de guantes quedaron en el batiente interno."
       ],
       "armaCorreta": "Un Frasco de Veneno",
       "localCorreto": "El Laboratorio",
@@ -130,14 +130,14 @@
         "El Científico Vecino",
         "El Pasante"
       ],
-      "dicaBoaArma": "Sin cortes, quemaduras ni contusiones, quedan fuera hojas, fuego y objetos rígidos de impacto. La firma es de algo que se vierte o se inhala — quedan los dos recipientes de vidrio de la mesa de trabajo, y solo uno tuvo el lacre roto.",
-      "dicaBoaLocal": "Rastros de guantes, no de tierra ni lluvia, descartan patio, garita y almacén. El vidrio trancado por dentro y el aire pesado de reactivos apuntan al área científica — quedan el recinto principal de trabajo y el ala de investigación al lado.",
+      "dicaBoaArma": "Sin cortes, llamas ni impacto, el arsenal de la mesa de trabajo pierde bisturí, soplete y palo de madera. Quedan los dos recipientes de vidrio que guardan contenido.",
+      "dicaBoaLocal": "Tierra, lluvia y cajas no combinan con la escena; patio, garita y almacén quedan fuera. El aire pesa a química y el vidrio se trancó por dentro — queda el área científica, entre el recinto principal y el ala vecina.",
       "dicaBoaAssassino": "La taza de té con lápiz labial en el borde fue servida por quien tenía libre acceso a la mesa de trabajo — y solo la asistente usaba ese tono de labial.",
       "dicasFracas": [
-        "El guardia dormía en el servicio con frecuencia, según los colegas.",
-        "El asistente tenía fama de distraído y vivía perdiendo el cuaderno.",
-        "El laboratorio recibía una subvención generosa y tenía equipos importados.",
-        "Había un olor persistente a éter en el pasillo, incluso días después."
+        "El laboratorio funciona con subvención de proyecto y recibe equipo importado cada trimestre.",
+        "El asistente de investigación es distraído; ya perdió tres cuadernos este semestre.",
+        "El olor a éter del pasillo permanece en el aire hasta tarde los días de destilación.",
+        "El guardia hacía las rondas dormitando, según su propia hoja de registro."
       ],
       "epilogo": "Archivo cerrado el 24/09. La asistente confesó haber cambiado el té del científico por el reactivo del frasco abierto, aprovechando los guantes del laboratorio. El lápiz labial en la taza la delató; cumple condena por homicidio calificado."
     },
@@ -147,11 +147,11 @@
       "titulo": "El Violín Desafinado",
       "relatorio": "Durante el ensayo de gala en el Teatro Aurora, el maestro Érico Salgado fue encontrado sin vida en el foso de la orquesta. Las luces parpadearon, el telón cayó y, cuando volvieron, ya no respiraba. El teatro estaba lleno, pero nadie vio el golpe. La policía debe determinar el arma, el lugar exacto y el responsable.",
       "pistas": [
-        "La marca en el cuello era un surco fino e ininterrumpido, sin nudos, como el trazo de algo tirado entre dos puntos de tensión.",
-        "Asientos, escenario y vestíbulo siguen intactos, pero las suelas de quien circuló bajo el piso de la orquesta llevaban un polvo oscuro y resinoso.",
-        "El instrumento principal de la fila tenía las cuerdas más finas cambiadas horas antes; el lutier no visitó el teatro, y el estuche fue removido.",
-        "La solista del papel principal avisó que no cantaría el segundo acto y salió del camarín antes del apagón.",
-        "El telón bajó cinco minutos antes de lo previsto — el mismo tiempo de bajar al nivel del piso y volver antes de que se encendieran las luces."
+        "La marca en el cuello es un surco fino y sin nudos, trazo de algo tirado entre dos puntos de tensión.",
+        "La cuerda más fina del instrumento principal fue cambiada horas antes; el lutier no vino al teatro.",
+        "Las suelas de quien circuló bajo el piso de la orquesta guardaban polvo oscuro y resinoso.",
+        "La solista del papel principal anunció que no cantaría el segundo acto y dejó el camarín antes del apagón.",
+        "El telón bajó cinco minutos antes de lo previsto — tiempo justo para bajar al nivel más bajo y volver."
       ],
       "armaCorreta": "Una Cuerda de Violín",
       "localCorreto": "El Foso de la Orquesta",
@@ -177,14 +177,14 @@
         "El Empresario",
         "El Maestro Asistente"
       ],
-      "dicaBoaArma": "El surco fino y continuo no viene de hoja, vara ni objeto romo: batuta, candelabro y tijeras quedan fuera. Si el trazo salió de un hilo, quedan los dos accesorios de cuerda del instrumento — ninguno corta, ambos tensan.",
-      "dicaBoaLocal": "Nada fue movido entre asientos, escenario y vestíbulo, y ningún camarín explica el polvo resinoso en las suelas. Quien actuó estaba bajo el nivel del piso de la orquesta — el único punto del teatro más bajo que la tarima.",
-      "dicaBoaAssassino": "La dedicatoria rasgada de la partitura había sido escrita para la soprano — la misma que, al perder el papel principal, juró que el maestro «no llegaría al tercer acto».",
+      "dicaBoaArma": "El surco fino e ininterrumpido no nace de rombo ni de vara: batuta, candelabro y tijeras quedan fuera. Quedan los dos hilos del escenario que se tensan entre las manos.",
+      "dicaBoaLocal": "Escenario, vestíbulo y platea vivieron llenos de ojos aquella noche; quedan el nivel bajo el piso y los bastidores cerrados — y el polvo resinoso decide entre los dos.",
+      "dicaBoaAssassino": "La soprano perdió el papel principal la víspera y juró que el maestro «no llegaría al tercer acto»; la partitura con la dedicatoria rasgada, hallada bajo la primera fila, era suya.",
       "dicasFracas": [
-        "El Teatro Aurora agotó las entradas aquella noche.",
-        "El utilero era conocido por su nerviosismo antes de cada función.",
-        "Los telones del escenario se cambiaban cada temporada.",
-        "El empresario presionaba al maestro por resultados y patrocinios."
+        "La taquilla agotó la víspera; los pasillos quedaron apretados en el intermedio.",
+        "El utilero revisa los telones tres veces por función, siempre temblando.",
+        "Los telones del escenario se cambian cada temporada, por costumbre de la casa.",
+        "El empresario exige resultados en cada ensayo; el maestro responde con silencio."
       ],
       "epilogo": "Archivo cerrado el 25/09. La soprano fue condenada al descubrirse que la cuerda de violín rota llevaba la sangre del maestro; ella misma cortó la cuerda y bajó al foso siguiendo el polvo de resina. El Teatro Aurora reabrió sin ella en el elenco."
     },
@@ -194,11 +194,11 @@
       "titulo": "La Última Transmisión",
       "relatorio": "En la madrugada del sábado, el locutor Válter Nobre interrumpió el programa en vivo con un grito y nunca más fue visto. La emisora de radio fue aislada, y la cinta de la transmisión desapareció. La policía investiga el arma del crimen, el lugar exacto y quién borró la grabación.",
       "pistas": [
-        "La marca en el cuello era un surco continuo, sin hoja, dejado por algo flexible y áspero como cuero o goma.",
-        "El último sonido registrado antes del grito fue el chasquido metálico de un conector encajado en la mesa de captación.",
-        "El contador de la cinta de referencia fue puesto a cero y rebobinado quince minutos, pero el carrete original nunca apareció en el archivo.",
-        "El torno del tercer piso registra salida a la 1h05 y regreso a la 1h10 hacia el pasillo de cabinas; nadie admite haber entrado en la sala vecina.",
-        "El sistema de grabación tenía contraseña corporativa, y fue usada diez minutos después del grito — por alguien con perfil de mantenimiento de audio."
+        "El surco en el cuello es continuo, sin hoja, dejado por un material flexible y áspero.",
+        "El último sonido antes del grito fue el chasquido de un conector encajado en la mesa de captación.",
+        "El contador de la cinta fue puesto a cero y rebobinado quince minutos; el carrete original nunca apareció en el archivo.",
+        "El torno del tercer piso registra salida a la 1h05 y regreso a la 1h10, en el pasillo de las cabinas.",
+        "La contraseña de grabación fue usada diez minutos después del grito, por un perfil de mantenimiento de audio."
       ],
       "armaCorreta": "Un Cable de Micrófono",
       "localCorreto": "El Estudio 3",
@@ -224,14 +224,14 @@
         "El Vigilante Nocturno",
         "La Recepcionista"
       ],
-      "dicaBoaArma": "La marca continua y sin hoja descarta cinta, lámpara y grapadora. El material es largo, flexible y áspero — quedan los dos accesorios de audio que se enrollan junto al cuello de quien los usa.",
-      "dicaBoaLocal": "Ninguna cafetería, estacionamiento ni archivo explica el chasquido del conector sobre la mesa de captación. El evento ocurrió donde la señal estaba al aire — quedan la cabina de control y la sala de grabación, y solo una tiene micrófono abierto.",
-      "dicaBoaAssassino": "Quien borró los últimos diez minutos de la cinta tenía acceso a la mesa de sonido — y el técnico fue el único que tocó el equipo antes de que llegara la policía.",
+      "dicaBoaArma": "La marca pide algo largo, flexible y áspero: la cinta frágil, el peso de mesa y el metal de gaveta quedan fuera. Quedan los dos accesorios que los operadores cuelgan del hombro.",
+      "dicaBoaLocal": "Ni cafetería, ni patio y ni archivo tienen señal al aire: el grito fue captado en vivo, con el chasquido de un conector en la mesa. Quedan dos salas de sonido.",
+      "dicaBoaAssassino": "Quien borró los últimos minutos de la cinta tenía acceso a la mesa de sonido — y el técnico fue el único en tocar el equipo antes de que llegara la policía.",
       "dicasFracas": [
-        "La radio venía perdiendo audiencia frente a la competencia desde hacía meses.",
-        "El locutor era famoso por sus entrevistas polémicas.",
-        "La cafetería de la emisora servía café fuerte a cualquier hora de la madrugada.",
-        "Había un vigilante que hacía rondas por el edificio cada dos horas."
+        "La emisora pierde audiencia frente a la competencia desde el carnaval.",
+        "El locutor gustaba de entrevistas polémicas y nunca quiso seguridad al aire.",
+        "La cafetería sirve café fuerte a cualquier hora; la jarra casi nunca se enfría.",
+        "El vigilante hace ronda cada dos horas y nunca sube al tercer piso."
       ],
       "epilogo": "Archivo cerrado el 26/09. El técnico de sonido confesó haber borrado la cinta para encubrir el crimen; el cable de micrófono todavía húmedo fue el arma. Cumple condena, y el Estudio 3 nunca más transmitió en vivo a esa hora."
     },
@@ -241,11 +241,11 @@
       "titulo": "El Jardín de las Estatuas",
       "relatorio": "En la inauguración de la exposición al aire libre del Museo Bandeirante, el curador Heitor Prado fue encontrado caído entre las esculturas. La noche no tenía luna y el jardín estaba iluminado solo por antorchas. Nadie admite haberse acercado a él. La policía busca el arma, el lugar y el responsable.",
       "pistas": [
-        "El golpe subió de abajo hacia arriba, con una vara larga y base pesada — algo hecho para sostener o iluminar, no para cortar ni clavar.",
-        "El jardín guarda un único par de huellas de ida y vuelta por el mismo camino; quien atraviesa sin titubear conoce el jardín de memoria.",
-        "La escultura caída sufrió el impacto en la base, no presión lateral: fue empujada por encima de algo apoyado en el suelo.",
-        "La última página del libro de rondas fue arrancada, y el guardia jura que «fue el viento».",
-        "Alguien fue despedido a fin de jornada por la propia víctima y salió del depósito de obras minutos después, con una llave de reserva."
+        "El golpe subió de abajo hacia arriba, desde una vara larga y base pesada — algo hecho para sostener o iluminar, no para cortar ni clavar.",
+        "La escultura caída sufrió el impacto en la base, no presión lateral.",
+        "Un único par de huellas va y vuelve por el mismo camino del jardín, sin titubear en las curvas.",
+        "La última página del libro de rondas fue arrancada; el guardia culpa al viento.",
+        "La propia víctima despidió a alguien al fin del turno; esa persona salió del depósito minutos después, con una llave de reserva."
       ],
       "armaCorreta": "Una Antorcha de Bronce",
       "localCorreto": "El Jardín de las Estatuas",
@@ -271,14 +271,14 @@
         "El Periodista de Arte",
         "El Fotógrafo"
       ],
-      "dicaBoaArma": "El impacto subido de abajo hacia arriba con vara larga y base pesada descarta cincel, estatua entera y pedestal fijo. Queda lo que se sostiene por la base e ilumina el camino — dos piezas de la colección, una de bronce y una de piedra, siguen en la estela.",
-      "dicaBoaLocal": "No es galería, despacho, entrada ni depósito: el suelo de jardín y las huellas únicas solo existen al aire libre. El lugar está rodeado de obras expuestas, donde la ronda tenía registro — y allí alguien anduvo a ciegas sin tropezar.",
+      "dicaBoaArma": "Vara larga y base pesada, empuñada de abajo hacia arriba: cincel, estatua entera y pedestal fijo quedan fuera. Quedan dos piezas del acervo que se sostienen por la base — una de bronce, otra de piedra.",
+      "dicaBoaLocal": "Galería vigilada, despacho cerrado y entrada con conserjería no explican huellas en el jardín; queda el aire libre — el espacio de las obras expuestas o el anexo de las piezas guardadas.",
       "dicaBoaAssassino": "La restauradora despedida esa tarde conocía cada estatua al tacto y sabía exactamente qué base cedía bajo el peso de una caída.",
       "dicasFracas": [
-        "La exposición al aire libre atrajo a más público del que el museo esperaba.",
-        "El patrocinador del evento dio un largo discurso antes de la cena.",
-        "Había antorchas encendidas por todo el jardín para la inauguración.",
-        "El guardia usaba una linterna débil que apenas iluminaba el camino."
+        "La apertura al aire libre atrajo más público del previsto; las luces del jardín se encendieron al anochecer.",
+        "El patrocinador dio un largo discurso antes de la cena, como hace en cada estreno.",
+        "La linterna del guardia nocturno tiene pilas débiles desde la última inspección.",
+        "Las obras del anexo esperan restauración desde hace dos veranos."
       ],
       "epilogo": "Archivo cerrado el 27/09. La restauradora despedida confesó el golpe con la antorcha de bronce; conocía cada estatua a oscuras y arrancó la página del libro de rondas. El jardín reabrió, y la estatua esquirlada fue restaurada por otras manos."
     },
@@ -288,11 +288,11 @@
       "titulo": "El Puente Cubierto",
       "relatorio": "El mercante Estrela do Norte atracó con un pasajero menos. El capitán Raul Vasquez fue visto por última vez en el puente de mando, en una noche de niebla densa. El cuaderno de bitácora tiene páginas mojadas y una anotación ilegible. La policía portuaria investiga el arma, el lugar y el responsable.",
       "pistas": [
-        "El impacto en la cabeza fue angular y de bordes duros, pero sin óxido en el punto del golpe — metal pulido, no acero expuesto a la marejada.",
-        "El instrumento de navegación que más usaba el capitán estaba mojado por fuera y seco por dentro: fue limpiado a las prisas.",
+        "El impacto en la cabeza es angular, de bordes duros, y sin óxido en el punto del golpe — metal pulido, no acero de marejada.",
+        "El instrumento que el capitán usaba al amanecer estaba mojado por fuera y seco por dentro, como quien lo limpia a las prisas.",
         "La brújula del timón apuntaba al oeste mientras el cuaderno de bitácora registraba rumbo norte.",
-        "El oficial que asumiría a las tres asumió a las dos y mandó silenciar los telégrafos.",
-        "Una carta datada el mismo día, firmada por la víctima, fue hallada en el camarote del segundo al mando."
+        "El oficial que asumiría a las tres asumió a las dos y mandó callar los telégrafos.",
+        "Una carta datada aquel día, firmada por la víctima, fue encontrada en el cajón del segundo al mando."
       ],
       "armaCorreta": "Un Sextante de Latón",
       "localCorreto": "El Puente de Mando",
@@ -318,14 +318,14 @@
         "El Práctico del Puerto",
         "El Timonel"
       ],
-      "dicaBoaArma": "El borde de la herida era angular y sin óxido, descartando ancla, machete y cable de acero — metales rústicos o cortantes. Quedan dos instrumentos de precisión que el capitán guardaba cerca del timón.",
-      "dicaBoaLocal": "Máquinas, bodega y cubierta no albergan el timón ni la brújula del cuaderno; el camarote era lugar de descanso. El error de rumbo solo se ve desde arriba, donde se gobierna el navío — y el oficial que asumió temprano tomó exactamente ese puesto.",
+      "dicaBoaArma": "Borde angular y pulido, sin óxido: cable de acero, ancla y machete quedan fuera. Quedan dos instrumentos de precisión, de metal claro, que el capitán mantenía junto al timón.",
+      "dicaBoaLocal": "El rumbo errado solo se corrige desde donde se ve el horizonte: bodega, cubierta y sala de máquinas quedan bajo la línea de mando. Quedan el puesto del timón y el camarote del capitán — y la brújula decide entre ellos.",
       "dicaBoaAssassino": "El primer oficial asumió el mando antes de tiempo y tenía en el cajón la propia carta de dimisión firmada por el capitán — móvil y oportunidad en el mismo camarote.",
       "dicasFracas": [
-        "La tripulación del Estrela do Norte era pequeña y había trabajado junta por años.",
-        "La niebla densa de aquella noche obligaba al navío a reducir la velocidad.",
-        "El cocinero se quejaba del poco espacio de la despensa.",
-        "El práctico del puerto embarcó solo en las últimas millas antes del atraque."
+        "La tripulación es pequeña y trabaja junta desde la ruta del Pacífico.",
+        "La niebla densa de aquella noche impuso velocidad reducida durante casi tres horas.",
+        "El cocinero se queja de la despensa apretada en cada travesía.",
+        "El práctico del puerto embarca solo en las últimas millas, como manda el reglamento."
       ],
       "epilogo": "Archivo cerrado el 28/09. El primer oficial fue preso por asumir el mando antes de la hora; la carta de dimisión en el cajón selló el móvil, y el sextante de latón era el arma. El Estrela do Norte navega bajo un nuevo capitán, y la brújula volvió al norte."
     }

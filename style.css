@@ -45,6 +45,13 @@
   --space-5: 40px;
   --space-6: 56px;
 
+  /* Ritmo estrutural do dossiê (proporções consistentes) */
+  --gap: 12px;        /* respiro vertical único entre os blocos */
+  --gap-inner: 8px;   /* respiro entre itens de lista / heading e conteúdo */
+  --pad: 16px;        /* respiro interno padrão dos cards */
+  --measure: 62ch;    /* largura de leitura confortável p/ parágrafos */
+  --container: 680px; /* largura única do dossiê */
+
   /* Elevação */
   --shadow-raised: 6px 6px 0 0 #000000;
   --focus-ring: 0 0 0 3px rgba(226, 54, 54, 0.6);
@@ -108,7 +115,7 @@ body.modal-open {
   background: var(--surface);
 }
 .header-inner {
-  max-width: 680px;
+  max-width: var(--container);
   margin: 0 auto;
   padding: var(--space-1) var(--space-2);
 }
@@ -225,12 +232,19 @@ body.modal-open {
 
 /* ---------- Layout principal ---------- */
 .site-main {
-  max-width: 680px;
+  max-width: var(--container);
   margin: 0 auto;
-  padding: var(--space-2) var(--space-2) var(--space-4);
+  padding: var(--gap) var(--space-2) var(--space-4);
   display: flex;
   flex-direction: column;
-  gap: var(--space-2);
+  gap: var(--gap);
+}
+
+/* Bloco de ação: acusação + feedback agrupados visualmente */
+.action-block {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
 }
 
 /* ---------- Cards ---------- */
@@ -238,7 +252,7 @@ body.modal-open {
   background: var(--surface);
   border: 1px solid var(--border);
   box-shadow: var(--shadow-raised);
-  padding: var(--space-2);
+  padding: var(--pad);
   min-width: 0;
   transition: transform 150ms var(--ease), box-shadow 150ms var(--ease);
 }
@@ -276,12 +290,12 @@ body.modal-open {
 .case-panel {
   position: relative;
   border-top: 4px solid var(--accent);
-  padding-top: var(--space-4);
-  padding-right: calc(var(--space-2) + 70px);
+  padding-top: calc(var(--pad) + var(--space-2));
+  padding-right: calc(var(--pad) + 64px);
 }
 .case-title {
   font-family: var(--font-condensed);
-  font-size: clamp(1.2rem, 4.5vw, 1.7rem);
+  font-size: clamp(1.3rem, 5vw, 1.9rem);
   font-weight: 800;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -289,8 +303,10 @@ body.modal-open {
   margin-top: var(--space-1);
 }
 .case-desc {
-  margin-top: var(--space-1);
+  margin-top: var(--gap-inner);
   color: var(--text-muted);
+  max-width: var(--measure);
+  line-height: 1.6;
 }
 
 /* ---------- Cabeçalhos de seção ---------- */
@@ -301,7 +317,7 @@ body.modal-open {
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--accent);
-  margin-bottom: var(--space-1);
+  margin-bottom: var(--gap-inner);
   display: flex;
   align-items: center;
   gap: var(--space-2);
@@ -447,11 +463,11 @@ body.modal-open {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: var(--space-2);
+  gap: var(--gap-inner);
 }
 .clue-item {
   position: relative;
-  padding: var(--space-1) var(--space-2) var(--space-1) var(--space-4);
+  padding: var(--gap-inner) var(--space-2) var(--gap-inner) var(--space-4);
   background: var(--surface-raised);
   border: 1px solid var(--border);
   border-left: 4px solid var(--accent);
@@ -462,7 +478,7 @@ body.modal-open {
   content: "🔍";
   position: absolute;
   left: var(--space-2);
-  top: var(--space-1);
+  top: var(--gap-inner);
   font-size: 0.85rem;
 }
 
@@ -597,19 +613,20 @@ body.modal-open {
 .hint-list {
   display: flex;
   flex-direction: column;
-  gap: var(--space-1);
+  gap: var(--gap-inner);
 }
 .hint-list:empty::after {
   content: "Após cada acusação, as pistas do interrogatório aparecem aqui.";
   color: var(--text-muted);
   font-family: var(--font-mono);
   font-size: 0.8rem;
+  max-width: var(--measure);
 }
 .hint {
   display: flex;
   align-items: baseline;
   gap: var(--space-2);
-  padding: var(--space-1) var(--space-2);
+  padding: var(--gap-inner) var(--space-2);
   border: 1px solid var(--border);
   font-family: var(--font-mono);
   font-size: 0.85rem;
@@ -641,7 +658,7 @@ body.modal-open {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: var(--space-1);
+  gap: var(--gap-inner);
 }
 .history-list:empty::after {
   content: "Nenhuma tentativa ainda.";
@@ -654,7 +671,7 @@ body.modal-open {
   flex-wrap: wrap;
   align-items: baseline;
   gap: var(--space-1) var(--space-2);
-  padding: var(--space-1) var(--space-2);
+  padding: var(--gap-inner) var(--space-2);
   background: var(--surface-raised);
   border: 1px solid var(--border);
   border-left: 4px solid var(--border-strong);
@@ -699,14 +716,17 @@ body.modal-open {
 }
 .epilogo-text {
   color: var(--text);
+  max-width: var(--measure);
+  line-height: 1.6;
 }
 
-/* ---------- Estatísticas ---------- */
+/* ---------- Estatísticas (rodapé do dossiê) ---------- */
 .stats {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: var(--space-2);
+  gap: var(--space-3);
+  padding: var(--space-2) var(--pad);
   text-align: center;
 }
 .stat {
@@ -720,7 +740,7 @@ body.modal-open {
 }
 .stat-value {
   font-family: var(--font-mono);
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 700;
   color: var(--accent);
   font-variant-numeric: tabular-nums;
@@ -809,11 +829,15 @@ body.modal-open {
 /* ---------- Footer ---------- */
 .site-footer {
   border-top: 2px solid var(--border);
-  padding: var(--space-1) var(--space-2);
+  padding: var(--space-2) var(--space-2) var(--space-3);
   text-align: center;
   color: var(--text-muted);
   font-family: var(--font-mono);
   font-size: 0.78rem;
+}
+.site-footer p {
+  max-width: var(--container);
+  margin: 0 auto;
 }
 
 /* ---------- Utilidades ---------- */

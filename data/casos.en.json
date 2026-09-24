@@ -6,11 +6,11 @@
       "titulo": "The Clock That Stopped at 23:47",
       "relatorio": "The collector Álvaro Mendes was found lifeless in his library. Every clock in the house stopped at exactly 11:47 p.m., except one. The crime scene has been preserved and four people were in the mansion that night. The police must find the weapon, the exact location, and the person responsible.",
       "pistas": [
-        "Forensics found a deep wound with smooth, rounded edges — and no blade, cord or cable at the scene; the object used was dense enough to fit in a palm.",
-        "Two residents had a fine metallic powder coming off their hands after dinner; the household staff denies touching any metal after 10 p.m.",
-        "The wet hallway held two directions: someone hurried through at 11:45 p.m. and returned slowly at 11:52 p.m., leaving the handle of the closed room cleaner than the rest.",
-        "Two suspects have no alibi for the window between 11:42 p.m. and midnight; one swears he was in the garden, but the soil on his soles does not match that night's lawn.",
-        "The victim fell in a windowless room whose stale air still smells of paper and wax — the kind of place that muffles any noise."
+        "The wound was deep with rounded edges, and no blade, no cord, no handle appeared at the scene.",
+        "The display case holds its dust evenly, except for one clean rectangle the size of a fist.",
+        "The night maid saw someone leave the room of books at 11:45 p.m. and return seven minutes later, hurrying.",
+        "Two residents have no alibi for 11:47 p.m.; one of them had hands stained with something that only exists in one room of the house.",
+        "The room where the victim fell has no windows and muffles any sound; the glass of the door fogged up from the inside that night."
       ],
       "armaCorreta": "The Pocket Watch",
       "localCorreto": "The Library",
@@ -36,14 +36,14 @@
         "The Nephew",
         "The Family Doctor"
       ],
-      "dicaBoaArma": "The tabletop display case is intact; no cutting tool, thread or flame holder is missing. Whatever was used fits in a palm and has the weight of a solid object — two compact, dense pieces of the collection remain.",
-      "dicaBoaLocal": "There was no soil, no kitchen steam and no running footwear: the floor was dry and the air stale, smelling of paper and wax. Open, constantly-trafficked spaces are ruled out; a closed windowless room and a private study remain.",
+      "dicaBoaArma": "Nothing that cuts, ties or burns: the knife is still on its stand, the cord on the window hook and the candlestick on the table. The object used is compact, dense and came from the collection — two metal pieces that fit in a palm remain.",
+      "dicaBoaLocal": "The garden's soil never crossed into the house that night, the kitchen closed at 10 p.m. and the hallway was merely crossed. The crime happened in a closed room — and there are two on the upper floor.",
       "dicaBoaAssassino": "The nephew would inherit the collection if the daughter were disinherited — and the copper dust on his cuffs came from inside the display case, the same one that covered the missing object.",
       "dicasFracas": [
-        "Everyone in the mansion slept badly that night; the wind rattled the shutters hard.",
-        "The butler served dinner at 8 p.m. and cleared the dishes without hurrying.",
-        "An old portrait hung on the wall, its glass fogged by the humidity.",
-        "The housekeeper said the house was usually quiet after 10 p.m."
+        "Dinner was served at 8 p.m. and the dishes cleared without hurry, as on every night at the mansion.",
+        "The founder's portrait, on the living room wall, fogs up with September's humidity.",
+        "The housekeeper usually locks the service doors at 10 p.m. and keeps the key on the kitchen hook.",
+        "The family doctor is only called to the house in emergencies; it was his second visit that month."
       ],
       "epilogo": "File closed on 09/22. The nephew confessed to the blow with his uncle's pocket watch, lured by the copper dust of the display case. The daughter inherited the collection, and the library once again displays every clock — except one."
     },
@@ -53,11 +53,11 @@
       "titulo": "The Letter with No Sender",
       "relatorio": "An anonymous letter arrived at the local newspaper's newsroom reporting the theft of a rare jewel at the Oliveira mansion. The text was typed on an old typewriter. The safe was broken into during a dinner party and no one heard a thing. The police are investigating the weapon used, the location of the break-in, and who sent the letter.",
       "pistas": [
-        "The safe bears long, parallel marks on its frame, the width of a claw — consistent with a rod bent into a hook.",
-        "The residence's typewriter ribbon was replaced that week, but no one remembers who bought it.",
-        "One employee handed the jewel to the owner minutes before dinner and roamed the house all night; another swore he was off duty, but was seen in the back alley at 9 p.m.",
-        "The alarm stayed switched off on the window the kitchen was served through — just enough time to open what was locked.",
-        "The tip-off to the newspaper carried the previous day's postmark, as if someone knew about the theft before it happened."
+        "Two parallel grooves, spaced like the arms of a claw, mark the safe's frame.",
+        "The residence's typewriter ribbon was replaced that week, and no one remembers who bought it.",
+        "One employee roamed the house all night with no set task; another, who claimed to be off duty, was recognized in the back alley at 9 p.m.",
+        "The residence's alarm stayed disarmed for exactly as long as it took to serve dessert.",
+        "The tip-off reached the newspaper with a postmark from the day before the theft — written by someone who knew of the crime beforehand."
       ],
       "armaCorreta": "A Crowbar",
       "localCorreto": "The Oliveira Mansion",
@@ -83,14 +83,14 @@
         "The Journalist",
         "The Chef"
       ],
-      "dicaBoaArma": "The safe was opened with a curved-tip lever, which rules out writing tools, tabletop objects and any decorative blade. Sheet metal and forged steel are out; two workshop hand tools remain.",
-      "dicaBoaLocal": "The changed ribbon, the disarmed alarm and the dinner being served point to a single day and place: no newsroom, bank or garden explains all three. The event stayed inside the residence, and the service log converges on a room off the hallway.",
-      "dicaBoaAssassino": "The gold button belonged to the maid's uniform, and it was she who \"found\" the clue that was too good to be a coincidence.",
+      "dicaBoaArma": "The safe gave way to a lever, not to a blade nor a tabletop weight: writing tools and ornaments are out. Two steel tools from the workshop remain — and the claw's shape on the frame separates one from the other.",
+      "dicaBoaLocal": "The changed ribbon, the disarmed alarm and the served dinner belong to the same address; newsroom, bank and garden do not gather all three. The crime stayed inside the residence, in a room used at night for entertaining.",
+      "dicaBoaAssassino": "The gold button found by the safe belonged to the maid's uniform — and it was the maid herself who \"found\" it, a clue too good to be a coincidence.",
       "dicasFracas": [
-        "The journalist who received the letter seemed nervous when giving his statement.",
-        "The Oliveira mansion has been famous for hosting illustrious guests for generations.",
-        "The chauffeur washed the car the morning after the dinner.",
-        "The jewel was kept in a velvet case, inside a secret drawer."
+        "The jewel slept in a velvet case, inside a drawer with a false bottom.",
+        "The chef served dinner in three courses and left before the coffee, as the house requires.",
+        "The chauffeur washes the car every morning; that morning, he also waxed it.",
+        "The mansion has received illustrious guests since the days of the Oliverras' grandfather."
       ],
       "epilogo": "File closed on 09/23. The maid fell when the gold button from her own uniform was identified by forensics; the anonymous letter was hers, written to divert suspicion. The crowbar was recovered in the garden, and the jewel returned to the safe."
     },
@@ -100,11 +100,11 @@
       "titulo": "The Laboratory Enigma",
       "relatorio": "The scientist Dr. Bastos vanished from his own laboratory on the night of the experiment. The door was locked from the inside, but the half-open window reveals something suspicious. There is no sign of forced entry, and the body was removed without leaving clear traces. The police are investigating the weapon, the location, and the person responsible for the crime.",
       "pistas": [
-        "The body showed no cuts, bruises, burns or shock marks — only a flush on the skin and altered breath.",
-        "The heavy bench gloves were found in the trash turned inside out, as if someone had removed them to keep their hands clean.",
-        "The turnstile logs a single person leaving after midnight, but the badge that was read had been left behind on a colleague's desk.",
-        "The counter cup has lipstick on one side only; the other technicians insist no one there eats or drinks at the workbench.",
-        "The window locked from the inside was clean on the outside: whoever moved that night used the inner corridor, not the open air."
+        "The body has no cuts, bruises, burns or shock marks — only a strange flush on the skin and altered breath.",
+        "One glass container on the workbench was found empty at dawn, its seal broken and no disposal record.",
+        "The badge that opened the turnstile after midnight had been left behind since the end of the shift, on a colleague's desk.",
+        "The counter cup holds lipstick on one side only — and the lab's routine forbids drinks at the workbench.",
+        "The window locked itself from the inside, and the glove marks stayed on the inner frame."
       ],
       "armaCorreta": "A Flask of Poison",
       "localCorreto": "The Laboratory",
@@ -130,14 +130,14 @@
         "The Neighboring Scientist",
         "The Intern"
       ],
-      "dicaBoaArma": "With no cuts, burns or bruises, blades, fire and rigid impact objects are out. The signature is of something poured or inhaled — the two glass containers on the workbench remain, and only one had its seal broken.",
-      "dicaBoaLocal": "Glove marks, not soil or rain, rule out the yard, the guard post and storage. The glass locked from the inside and the heavy, reagent-laden air point to the scientific wing — the main working room and the adjacent research wing remain.",
+      "dicaBoaArma": "With no cuts, flames or impact, the workbench arsenal loses the scalpel, the burner and the wooden club. The two glass containers that hold contents remain.",
+      "dicaBoaLocal": "Soil, rain and crates do not match the scene; yard, guard post and storage are out. The air is heavy with chemistry and the glass locked from the inside — the scientific area remains, between the main room and the neighboring wing.",
       "dicaBoaAssassino": "The cup of tea with lipstick on the rim was served by someone with free access to the workbench — and only the assistant wore that shade of lipstick.",
       "dicasFracas": [
-        "The guard often slept on the job, according to his colleagues.",
-        "The assistant was known for being absent-minded and kept losing the notebook.",
-        "The laboratory received generous funding and had imported equipment.",
-        "There was a persistent smell of ether in the corridor, even days later."
+        "The lab runs on project funding and receives imported equipment every quarter.",
+        "The research assistant is absent-minded; he has lost three notebooks this semester.",
+        "The ether smell in the corridor lingers until late on distillation days.",
+        "The guard did his rounds dozing off, according to his own time sheet."
       ],
       "epilogo": "File closed on 09/24. The assistant confessed to swapping the scientist's tea for the reagent from the open flask, taking advantage of the laboratory gloves. The lipstick on the cup gave her away; she is serving a sentence for premeditated homicide."
     },
@@ -147,11 +147,11 @@
       "titulo": "The Out-of-Tune Violin",
       "relatorio": "During the gala rehearsal at the Aurora Theater, the conductor Érico Salgado was found lifeless in the orchestra pit. The lights flickered, the curtain fell and, when they came back up, he was no longer breathing. The theater was full, but no one saw the blow. The police must determine the weapon, the exact location, and the person responsible.",
       "pistas": [
-        "The mark on the neck was a thin, unbroken groove with no knots, like the line of something pulled between two points of tension.",
-        "Seats, stage and lobby remain untouched, but the soles of whoever moved below the orchestra floor carried a dark, resinous dust.",
-        "The lead instrument of the row had its thinner strings replaced hours earlier; the luthier never visited the theater, and the case had been rummaged through.",
-        "The soloist of the lead role announced she would not sing the second act and left her dressing room before the blackout.",
-        "The curtain fell five minutes early — exactly the time it takes to go down to floor level and return before the lights come up."
+        "The mark on the neck is a thin, knotless groove, the line of something pulled between two points of tension.",
+        "The lead instrument's thinner string set was replaced hours before; the luthier never came to the theater.",
+        "The soles of whoever moved below the orchestra floor carried dark, resinous dust.",
+        "The lead soloist announced she would not sing the second act and left her dressing room before the blackout.",
+        "The curtain came down five minutes early — just enough time to reach the lowest level and return."
       ],
       "armaCorreta": "A Violin String",
       "localCorreto": "The Orchestra Pit",
@@ -177,14 +177,14 @@
         "The Agent",
         "The Assistant Conductor"
       ],
-      "dicaBoaArma": "The thin, continuous groove does not come from a blade, rod or blunt object: baton, candelabrum and shears are out. If the line came from a wire, the instrument's two string accessories remain — neither cuts, both pull taut.",
-      "dicaBoaLocal": "Nothing was displaced among seats, stage or lobby, and no dressing room explains the resinous dust on the soles. Whoever acted was below the orchestra floor — the only spot in the theater lower than the stage boards.",
-      "dicaBoaAssassino": "The torn dedication on the score had been written for the soprano — the same one who, upon losing the lead role, swore the conductor \"would not reach the third act\".",
+      "dicaBoaArma": "The thin, unbroken groove is not born of a blunt blow or a shaft: baton, candelabrum and shears are out. The two stage wires that are tensioned between the hands remain.",
+      "dicaBoaLocal": "Stage, lobby and auditorium were full of eyes that night; what remains is the level below the floor and the closed backstage — and the resinous dust decides between the two.",
+      "dicaBoaAssassino": "The soprano lost the lead role the night before and swore the conductor \"would not reach the third act\"; the score with the torn dedication, found under the front row, was hers.",
       "dicasFracas": [
-        "The Aurora Theater had sold out every ticket that night.",
-        "The stagehand was known for his nervousness before every performance.",
-        "The stage curtains were replaced every season.",
-        "The agent pressured the conductor for results and sponsorships."
+        "The box office sold out the night before; the corridors got crowded at intermission.",
+        "The stagehand checks the curtains three times per performance, always trembling.",
+        "The stage curtains are replaced every season, by custom of the house.",
+        "The agent demands results at every rehearsal; the conductor answers with silence."
       ],
       "epilogo": "File closed on 09/25. The soprano was convicted when the snapped violin string was found to carry the conductor's blood; she herself cut the string and went down to the pit, following the rosin dust. The Aurora Theater reopened without her in the cast."
     },
@@ -194,11 +194,11 @@
       "titulo": "The Last Transmission",
       "relatorio": "In the early hours of Saturday, the announcer Válter Nobre interrupted the live program with a scream and was never seen again. The radio station was sealed off, and the transmission tape disappeared. The police are investigating the murder weapon, the exact location, and who erased the recording.",
       "pistas": [
-        "The mark on the neck was a continuous groove, no blade, left by something flexible and rough like leather or rubber.",
-        "The last sound recorded before the scream was the metallic click of a connector seating into the capture console.",
-        "The reference tape's counter was zeroed and rewound fifteen minutes, but the original reel never turned up in the archive.",
-        "The third-floor turnstile logs an exit at 1:05 a.m. and a return at 1:10 a.m. toward the booth corridor; no one admits entering the neighboring room.",
-        "The recording system required a corporate password, and it was used ten minutes after the scream — by someone with an audio-maintenance profile."
+        "The groove on the neck is continuous, blade-less, left by a flexible and rough material.",
+        "The last sound before the scream was the click of a connector seating into the capture console.",
+        "The tape counter was zeroed and rewound fifteen minutes; the original reel never turned up in the archive.",
+        "The third-floor turnstile logs an exit at 1:05 a.m. and a return at 1:10 a.m., in the booth corridor.",
+        "The recording password was used ten minutes after the scream, by an audio-maintenance profile."
       ],
       "armaCorreta": "A Microphone Cable",
       "localCorreto": "Studio 3",
@@ -224,14 +224,14 @@
         "The Night Watchman",
         "The Receptionist"
       ],
-      "dicaBoaArma": "The continuous, blade-less mark rules out tape, lamp and stapler. The material is long, flexible and rough — the two audio accessories that coil around the neck of whoever wears them remain.",
-      "dicaBoaLocal": "No break room, parking lot or archive explains the connector's click on the capture console. The event happened where the signal was live — the control booth and the recording room remain, and only one has an open microphone.",
-      "dicaBoaAssassino": "Whoever erased the last ten minutes of the tape had access to the mixing console — and the technician was the only one who touched the equipment before the police arrived.",
+      "dicaBoaArma": "The mark calls for something long, flexible and rough: fragile tape, tabletop weight and drawer metal are out. The two accessories operators sling over their shoulder remain.",
+      "dicaBoaLocal": "Neither break room, nor yard and nor archive have a live signal: the scream was picked up live, with the click of a connector on the console. Two sound rooms remain.",
+      "dicaBoaAssassino": "Whoever erased the last minutes of the tape had access to the mixing console — and the technician was the only one to touch the equipment before the police arrived.",
       "dicasFracas": [
-        "The station had been losing audience to its rival for months.",
-        "The announcer was famous for his controversial interviews.",
-        "The station's break room served strong coffee at any hour of the night.",
-        "There was a watchman who patrolled the building every two hours."
+        "The station has been losing audience to its rival since Carnival.",
+        "The announcer liked controversial interviews and never wanted security on air.",
+        "The break room serves strong coffee at any hour; the pot rarely goes cold.",
+        "The watchman makes his round every two hours and never goes up to the third floor."
       ],
       "epilogo": "File closed on 09/26. The sound technician confessed to erasing the tape to cover up the crime; the still-damp microphone cable was the weapon. He is serving his sentence, and Studio 3 never again went live at that hour."
     },
@@ -241,11 +241,11 @@
       "titulo": "The Garden of Statues",
       "relatorio": "At the opening of the Bandeirante Museum's open-air exhibition, the curator Heitor Prado was found collapsed among the sculptures. The night was moonless and the garden was lit only by torches. No one admits having approached him. The police are searching for the weapon, the location, and the person responsible.",
       "pistas": [
-        "The blow traveled upward, from a long shaft with a heavy base — something made to hold or to light, not to cut or to nail.",
-        "The flowerbed holds a single pair of footprints out and back along the same path; whoever crosses without hesitating knows the garden by heart.",
-        "The fallen sculpture took the impact on its base, not lateral pressure: it was pushed over something resting on the ground.",
-        "The final page of the logbook was torn out, and the guard swears \"it was the wind\".",
-        "Someone was dismissed at the end of the day by the victim herself and left the works storage minutes later, with a spare key."
+        "The blow rose from below, from a long shaft with a heavy base — something made to hold or to light, not to cut or to nail.",
+        "The fallen sculpture took the impact on its base, not lateral pressure.",
+        "A single pair of footprints goes out and back along the same path through the flowerbed, without hesitating at the curves.",
+        "The last page of the logbook was torn out; the guard blames the wind.",
+        "The victim herself dismissed someone at the end of the day; that person left the works storage minutes later, with a spare key."
       ],
       "armaCorreta": "A Bronze Torch",
       "localCorreto": "The Garden of Statues",
@@ -271,14 +271,14 @@
         "The Art Journalist",
         "The Photographer"
       ],
-      "dicaBoaArma": "An upward blow from a long shaft with a heavy base rules out the chisel, the whole statue and the fixed pedestal. What remains is what is held by its base and lights the way — two collection pieces, one bronze and one stone, are still in the trail.",
-      "dicaBoaLocal": "Not the gallery, office, entrance or storage: flowerbed ground and single footprints exist only outdoors. The place is ringed by displayed works, where the rounds were logged — and there someone walked blind without stumbling.",
+      "dicaBoaArma": "Long shaft and heavy base, gripped from below: chisel, whole statue and fixed pedestal are out. Two collection pieces that are held by their base remain — one bronze, one stone.",
+      "dicaBoaLocal": "Watched gallery, locked office and staffed entrance do not explain footprints in a flowerbed; the outdoors remains — the space of the displayed works or the annex of the stored pieces.",
       "dicaBoaAssassino": "The restorer fired that afternoon knew every statue by touch and knew exactly which base would give way under the weight of a fall.",
       "dicasFracas": [
-        "The open-air exhibition drew a bigger crowd than the museum expected.",
-        "The event's sponsor gave a long speech before dinner.",
-        "Torches were lit throughout the garden for the opening.",
-        "The guard carried a weak flashlight that barely lit the path."
+        "The open-air opening drew more visitors than expected; the garden lights were switched on at dusk.",
+        "The sponsor gave a long speech before dinner, as he does at every premiere.",
+        "The night guard's flashlight has had weak batteries since the last inspection.",
+        "The annex works have been waiting for restoration for two summers."
       ],
       "epilogo": "File closed on 09/27. The fired restorer confessed to the blow with the bronze torch; she knew every statue in the dark and tore out the logbook page. The garden reopened, and the chipped statue was restored by another hand."
     },
@@ -288,11 +288,11 @@
       "titulo": "The Shrouded Bridge",
       "relatorio": "The merchant ship Estrela do Norte docked with one passenger fewer. Captain Raul Vasquez was last seen on the command bridge, on a night of dense fog. The logbook has wet pages and an illegible note. The port police are investigating the weapon, the location, and the person responsible.",
       "pistas": [
-        "The head wound was angular with hard edges, but no rust at the point of impact — polished metal, not steel exposed to sea spray.",
-        "The navigation instrument the captain used most was wet on the outside and dry inside: it had been cleaned in a hurry.",
+        "The head wound is angular with hard edges, and rust-free at the point of impact — polished metal, not sea-spray steel.",
+        "The instrument the captain used at dawn was wet outside and dry inside, as if hastily cleaned.",
         "The helm compass pointed west while the logbook recorded a northern heading.",
         "The officer due to take command at three took it at two and ordered the telegraphs silenced.",
-        "A letter dated that same day, signed by the victim, was found in the cabin of the second in command."
+        "A letter dated that day, signed by the victim, was found in the drawer of the second in command."
       ],
       "armaCorreta": "A Brass Sextant",
       "localCorreto": "The Command Bridge",
@@ -318,14 +318,14 @@
         "The Harbor Pilot",
         "The Helmsman"
       ],
-      "dicaBoaArma": "The wound's edge was angular and rust-free, ruling out anchor, machete and steel cable — crude or cutting metals. Two precision instruments the captain kept near the helm remain.",
-      "dicaBoaLocal": "Engine room, hold and deck shelter neither the helm nor the logbook's compass; the cabin was a place of rest. The heading error is only visible from above, where the ship is steered — and the officer who took command early took exactly that post.",
+      "dicaBoaArma": "Angular, polished edge, no rust: steel cable, anchor and machete are out. Two precision instruments of bright metal remain, which the captain kept by the helm.",
+      "dicaBoaLocal": "The wrong heading can only be corrected from where the horizon is visible: hold, deck and engine room lie below the command line. The helm post and the captain's cabin remain — and the compass decides between them.",
       "dicaBoaAssassino": "The first mate took command ahead of schedule and had the captain's own signed resignation letter in his drawer — motive and opportunity in the same cabin.",
       "dicasFracas": [
-        "The Estrela do Norte's crew was small and had worked together for years.",
-        "The dense fog that night forced the ship to slow down.",
-        "The cook complained about the little space in the pantry.",
-        "The harbor pilot boarded only in the last miles before docking."
+        "The crew is small and has worked together since the Pacific route.",
+        "The dense fog that night forced reduced speed for almost three hours.",
+        "The cook complains about the cramped pantry on every crossing.",
+        "The harbor pilot boards only in the last miles, as regulations require."
       ],
       "epilogo": "File closed on 09/28. The first mate was arrested for taking command ahead of schedule; the resignation letter in the drawer sealed the motive, and the brass sextant was the weapon. The Estrela do Norte sails under a new captain, and the compass points north again."
     }

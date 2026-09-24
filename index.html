@@ -68,34 +68,36 @@
       </div>
     </section>
 
-    <!-- 4. Acusação tripla -->
-    <section id="guess-section" class="card guess-section" aria-labelledby="guess-heading">
-      <h2 id="guess-heading" class="section-heading" data-i18n="guessHeading">Acusação</h2>
-      <form id="guess-form" class="guess-form" autocomplete="off">
-        <div class="guess-field">
-          <label class="guess-label" for="guess-weapon" data-i18n="evidenceWeapon">Arma do crime</label>
-          <select id="guess-weapon" name="weapon" class="guess-input" required>
-            <option value="" disabled selected data-i18n="phWeapon">Escolha a arma…</option>
-          </select>
-        </div>
-        <div class="guess-field">
-          <label class="guess-label" for="guess-location" data-i18n="evidenceLocation">Local do crime</label>
-          <select id="guess-location" name="location" class="guess-input" required>
-            <option value="" disabled selected data-i18n="phLocation">Escolha o local…</option>
-          </select>
-        </div>
-        <div class="guess-field">
-          <label class="guess-label" for="guess-killer" data-i18n="evidenceKiller">Assassino</label>
-          <select id="guess-killer" name="killer" class="guess-input" required>
-            <option value="" disabled selected data-i18n="phKiller">Escolha o assassino…</option>
-          </select>
-        </div>
-        <button type="submit" class="btn btn-primary" data-i18n="submitBtn">Fechar a acusação</button>
-      </form>
-    </section>
+    <!-- 4. Bloco de ação: Acusação + Feedback -->
+    <div class="action-block">
+      <section id="guess-section" class="card guess-section" aria-labelledby="guess-heading">
+        <h2 id="guess-heading" class="section-heading" data-i18n="guessHeading">Acusação</h2>
+        <form id="guess-form" class="guess-form" autocomplete="off">
+          <div class="guess-field">
+            <label class="guess-label" for="guess-weapon" data-i18n="evidenceWeapon">Arma do crime</label>
+            <select id="guess-weapon" name="weapon" class="guess-input" required>
+              <option value="" disabled selected data-i18n="phWeapon">Escolha a arma…</option>
+            </select>
+          </div>
+          <div class="guess-field">
+            <label class="guess-label" for="guess-location" data-i18n="evidenceLocation">Local do crime</label>
+            <select id="guess-location" name="location" class="guess-input" required>
+              <option value="" disabled selected data-i18n="phLocation">Escolha o local…</option>
+            </select>
+          </div>
+          <div class="guess-field">
+            <label class="guess-label" for="guess-killer" data-i18n="evidenceKiller">Assassino</label>
+            <select id="guess-killer" name="killer" class="guess-input" required>
+              <option value="" disabled selected data-i18n="phKiller">Escolha o assassino…</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary" data-i18n="submitBtn">Fechar a acusação</button>
+        </form>
+      </section>
 
-    <!-- 5. Feedback do sistema -->
-    <div id="feedback" class="feedback" role="status" aria-live="polite"></div>
+      <!-- 5. Feedback do sistema (resultado do bloco de ação) -->
+      <div id="feedback" class="feedback" role="status" aria-live="polite"></div>
+    </div>
 
     <!-- 6. Interrogatório / Dicas -->
     <section id="hint-area" class="card hint-area" aria-labelledby="hint-heading">
