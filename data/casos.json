@@ -12,22 +12,40 @@
         "Dois moradores não têm álibi para as 23h47; um deles estava com as mãos sujas de algo que só existe num aposento da casa.",
         "O aposento da queda não tem janelas e abafa qualquer som; o vidro da porta embaçou de dentro naquela noite."
       ],
-      "armaCorreta": "O Relógio de Bolso",
-      "localCorreto": "A Biblioteca",
-      "assassinoCorreto": "O Sobrinho",
-      "opcoesArma": ["O Relógio de Bolso", "Uma Faca de Cozinha", "Uma Corda de Cortina", "Um Castiçal de Bronze", "Um Tinteiro de Bronze"],
-      "opcoesLocal": ["A Biblioteca", "O Jardim", "A Cozinha", "O Corredor", "O Escritório do Colecionador"],
-      "opcoesAssassino": ["O Mordomo", "A Governanta", "A Filha", "O Sobrinho", "O Médico da Família"],
-      "dicaBoaArma": "Nada de corte, fio ou chama: a faca segue no suporte, a corda no gancho da janela e o castiçal na mesa. O objeto usado é compacto, denso e veio da coleção — sobram duas peças de metal que cabem numa palma.",
-      "dicaBoaLocal": "A terra do jardim não pisou na casa naquela noite, a cozinha encerrou às 22h e o corredor foi apenas atravessado. O crime aconteceu num aposento fechado — e há dois no andar de cima.",
-      "dicaBoaAssassino": "O sobrinho herdaria a coleção caso a filha fosse deserdada — e a poeira de cobre em seus punhos veio do interior da vitrine, a mesma que cobria o objeto desaparecido.",
+      "hashArma": "4510354646250476",
+      "hashLocal": "7593442777482029",
+      "hashAssassino": "3736918178454769",
+      "opcoesArma": [
+        "O Relógio de Bolso",
+        "Uma Faca de Cozinha",
+        "Uma Corda de Cortina",
+        "Um Castiçal de Bronze",
+        "Um Tinteiro de Bronze"
+      ],
+      "opcoesLocal": [
+        "A Biblioteca",
+        "O Jardim",
+        "A Cozinha",
+        "O Corredor",
+        "O Escritório do Colecionador"
+      ],
+      "opcoesAssassino": [
+        "O Mordomo",
+        "A Governanta",
+        "A Filha",
+        "O Sobrinho",
+        "O Médico da Família"
+      ],
+      "dicaBoaArma": "LQAXDg1UVREADgEbSBwQVwoOUwBYEFNZAgwSVQ1REFcCAhJPXlVXRAZBHQANQ0VBDBMHCgEQUREADgELTBBeXkMGEgFOWF8RBwBTBUxeVV0CQRZPQhBTUBAVGqyKUVwRDQBTAkhDUR9DLlMAT1pVRQxBBhxMVF8RoMhTDEJdQFAAFRxDDVRVXxAOUwoNRlVYDEEXDg1TX10GotSsjl8Q0+P1UxxCUkJQDkEXGkxDEEEGotQOXhBUVEMMFhtMXBBAFgRTDExSVVxDDwYCTBBAUA8MEkE=",
+      "dicaBoaLocal": "IkEHCl9CUREHDlMFTEJUWA5BHayOXxBBChIcGg1eUREAAAAODV5RQBYEHw4NXl9YFwRfT0wQU14ZCB0HTBBVXwAEAR1CRRDywxJTXR9YEFRDDlMMQkJCVAcOAU9LX1kRAhEWAUxDEFAXExIZSENDUAcOXU9iEFNDCgwWT0xTX18XBBAKWBBeRA5BEh9CQ1VfFw5TCUhTWFAHDlONraQQVEMJsM4NVF9YEEEdAA1RXlUCE1MLSBBTWA4AXQ==",
+      "dicaBoaAssassino": "LEEAAE9CWV8LDlMHSEJUUBEIEk9MEFNeDwSwyO6TXxEAAAAADVEQVwoNGw4NVl9CEARTC0hDVUMHABcODdKwpUMEUw4NQF9UChMST0lVEFIMAwEKDVVdERAEBhwNQEVfCw4AT1tVWV5DBRxPRF5EVBEIHB0NVFERFQgHHUReVR1DAFMCSENdUEMQBgoNU19TEQgST0IQX1MJBAcADVRVQgIREh1IU1lVDE8=",
       "dicasFracas": [
         "O jantar foi servido às 20h e a louça recolhida sem pressa, como em todas as noites da mansão.",
         "O retrato do fundador, na parede da sala, embaça com a umidade de setembro.",
         "A governanta costuma trancar as portas de serviço às 22h e guardar a chave no gancho da cozinha.",
         "O médico da família só é chamado à casa em urgências; era a segunda visita no mês."
       ],
-      "epilogo": "Arquivo encerrado em 22/09. O sobrinho confessou o golpe com o relógio de bolso do tio, atraído pela poeira de cobre da vitrine. A filha herdou a coleção, e a biblioteca voltou a exibir todos os relógios — menos um."
+      "epilogo": "IhMCGkRGXxEGDxAKX0JRVQxBFgINAgIeU1hdT2IQQ14BExoBRV8QUgwPFQpeQ19EQw5TCEJcQFRDAhwCDV8QQwYNsNxKWV8RBwRTDUJcQ15DBRxPWVlfHUMABx1M851VDEEDCkFREEEMBBodTBBUVEMCHA1fVRBVAkEFBllCWV8GT1MuDVZZXQsAUwdIQlReFkEST05fXFSgxrDMQhwQVEMAUw1EUlxYDBUWDEwQRl4PFRwaDVEQVBsIEQZfEEReBw4AT0JDEEMGDbDcSllfQkOD8/sNXVVfDBJTGkAe"
     },
     {
       "id": "caso-002",
@@ -41,22 +59,40 @@
         "O alarme da residência ficou desarmado pelo tempo exato em que a sobremesa era servida.",
         "A denúncia chegou ao jornal com carimbo do dia anterior ao roubo — escrita por quem sabia do crime antes dele."
       ],
-      "armaCorreta": "Um Pé de Cabra",
-      "localCorreto": "A Mansão dos Oliveira",
-      "assassinoCorreto": "A Empregada",
-      "opcoesArma": ["Um Pé de Cabra", "Uma Máquina de Escrever", "Um Punhal", "Um Candelabro", "Uma Chave Inglesa"],
-      "opcoesLocal": ["A Mansão dos Oliveira", "A Redação do Jornal", "O Cofre do Banco", "O Jardim Botânico", "A Sala de Jantar"],
-      "opcoesAssassino": ["O Mordomo", "A Empregada", "O Motorista", "O Jornalista", "O Chef de Cozinha"],
-      "dicaBoaArma": "O cofre cedeu a uma alavanca, não a uma lâmina nem a um peso de mesa: utensílios de escrita e ornamentos ficam fora. Restam duas ferramentas de aço da oficina — e a forma da garra na moldura separa uma da outra.",
-      "dicaBoaLocal": "A fita trocada, o alarme desarmado e o jantar servido pertencem ao mesmo endereço; redação, banco e jardim não reúnem os três. O crime ficou dentro da residência, num aposento usado à noite para receber.",
-      "dicaBoaAssassino": "O botão dourado achado junto ao cofre pertencia ao uniforme da empregada — e foi a própria empregada quem o 'encontrou', pista boa demais para ser coincidência.",
+      "hashArma": "1460768263715884",
+      "hashLocal": "4996989984018944",
+      "hashAssassino": "4336910438941071",
+      "opcoesArma": [
+        "Um Pé de Cabra",
+        "Uma Máquina de Escrever",
+        "Um Punhal",
+        "Um Candelabro",
+        "Uma Chave Inglesa"
+      ],
+      "opcoesLocal": [
+        "A Mansão dos Oliveira",
+        "A Redação do Jornal",
+        "O Cofre do Banco",
+        "O Jardim Botânico",
+        "A Sala de Jantar"
+      ],
+      "opcoesAssassino": [
+        "O Mordomo",
+        "A Empregada",
+        "O Motorista",
+        "O Jornalista",
+        "O Chef de Cozinha"
+      ],
+      "dicaBoaArma": "LEEQAEtCVRIABBcKWBBREhYMEk9MXFFEAg8QDgEQXvHADlMODUVdU0MNsM1AWV5TQw8WAg1REEcOQQMKXl8QVgZBHgpeUQoSFhUWAV7znV4KDgBPSVUQVxACAQZZURBXQw4BAUxdVVwXDgBPS1lTUw5BFQBfUR4SMQQAG0xdEFYWAABPS1VCQAIMFgFZUUMSBwRTDu6XXxIHAFMAS1lTWw0AU42tpBBXQwBTCUJCXVNDBRJPSlFCQAJBHQ4NXV9eBxQBDg1DVUICExJPWF1REgcAUwBYREJTTQ==",
+      "dicaBoaLocal": "IkEVBllREEYRDhAOSVEcEgxBEgNMQl1XQwUWHExCXVMHDlMKDV8QWAIPBw5fEENXERcaC0IQQFcRFRYBTlVdEgIOUwJIQ11dQwQdC0hCVfHEDkhPX1VUU6DGsMxCHBBQAg8QAA1VEFgCExcGQBBe8cAOUx1I84pcBgxTAF4QRECgywBBDX8QUREIHgoNVllRDBRTC0heREAMQRcODUJVQQoFsMVDU1lTT0EdGkAQUUIMEhYBWV8QRxAAFwAN85ASDQ4aG0gQQFMRAFMdSFNVUAYTXQ==",
+      "dicaBoaAssassino": "LEERAFnzk11DBRwaX1FUXUMAEAdMVF8SCRQdG0IQUV1DAhwJX1UQQgYTBwpDU1lTQwAcT1heWVQMEx4KDVRREgYMAx1IV1FWAkGR77kQVRIFDhpPTBBAQKDSAx1EURBXDhEBCkpRVFNDEAYKQBBfEkQEHQxCXkRADBRUQw1AWUEXAFMNQlEQVgYMEgZeEEBTEQBTHEhCEFEMCB0MRFTzmA0CGg4D",
       "dicasFracas": [
         "A joia dormia num estojo de veludo, dentro de uma gaveta com fundo falso.",
         "O chef serviu o jantar em três tempos e saiu antes do café, como manda a casa.",
         "O motorista lava o carro toda manhã; naquela manhã, também o encerrou.",
         "A mansão recebe convidados ilustres desde os tempos do avô dos Oliveira."
       ],
-      "epilogo": "Arquivo encerrado em 23/09. A empregada caiu quando o botão dourado do próprio uniforme foi reconhecido pela perícia; a carta anônima era sua, escrita para desviar suspeitas. O pé de cabra foi recuperado no jardim, e a joia voltou ao cofre."
+      "epilogo": "IhMCGkRGXxIGDxAKX0JRVgxBFgINAgMdU1hdT2wQVV8TExYITFRREgAAGhoNQUVTDQUcT0IQUl0XotAADVRfRxEAFwANVF8SExOw3F1CWV1DFB0GS19CXwZBFQBEEEJXAA4dB0hTWVYMQQMKQVEQQgYTsMJOWVEJQwBTDExCRFNDAB2smV5ZXwJBFh1MEENHAk1TCl5TQlsXAFMfTEJREgcEABlEUUISEBQAH0hZRFMQT1MgDUDzm0MFFk9OUVJAAkEVAEQQQlcAFAMKX1FUXUMPHE9HUUJWCgxfT0gQURIJDhoODUZfXhcOBk9MXxBRDAcBCgM="
     },
     {
       "id": "caso-003",
@@ -70,22 +106,40 @@
         "A xícara no balcão guarda batom num só lado — e a rotina do setor proíbe bebidas junto à bancada.",
         "A janela trancou-se por dentro, e as marcas de luvas ficaram no batente interno."
       ],
-      "armaCorreta": "Um Frasco de Veneno",
-      "localCorreto": "O Laboratório",
-      "assassinoCorreto": "A Assistente de Laboratório",
-      "opcoesArma": ["Um Frasco de Veneno", "Uma Proveta de Vidro", "Um Bisturi", "Um Cabo de Madeira", "Um Maçarico de Bancada"],
-      "opcoesLocal": ["O Laboratório", "O Estacionamento", "A Sala de Segurança", "O Almoxarifado", "A Ala de Pesquisa"],
-      "opcoesAssassino": ["O Assistente", "A Assistente de Laboratório", "O Segurança", "O Cientista Vizinho", "O Estagiário"],
-      "dicaBoaArma": "Sem cortes, chamas ou impacto, o arsenal da bancada perde bisturi, maçarico e cabo de madeira. Restam os dois recipientes de vidro que guardam conteúdo.",
-      "dicaBoaLocal": "Terra, chuva e caixas não combinam com o cenário; pátio, guarita e estoque ficam fora. O ar pesa química e o vidro trancou por dentro — sobra a área científica, entre o recinto principal e a ala vizinha.",
-      "dicaBoaAssassino": "A xícara de chá com batom na borda foi servida por quem tinha livre acesso à bancada — e só a assistente usava aquele tom de batom.",
+      "hashArma": "3508179295000953",
+      "hashLocal": "4680699923684809",
+      "hashAssassino": "2695668770334240",
+      "opcoesArma": [
+        "Um Frasco de Veneno",
+        "Uma Proveta de Vidro",
+        "Um Bisturi",
+        "Um Cabo de Madeira",
+        "Um Maçarico de Bancada"
+      ],
+      "opcoesLocal": [
+        "O Laboratório",
+        "O Estacionamento",
+        "A Sala de Segurança",
+        "O Almoxarifado",
+        "A Ala de Pesquisa"
+      ],
+      "opcoesAssassino": [
+        "O Assistente",
+        "A Assistente de Laboratório",
+        "O Segurança",
+        "O Cientista Vizinho",
+        "O Estagiário"
+      ],
+      "dicaBoaArma": "MAQeT05fQkcGEl9PTlhRXgISUwBYEFleEwAQG0IcEFxDAAEcSF5RX0MFEk9PUV5QAgUST11VQlcGQREGXkRFQQpNUwJM85dSEQgQAA1VEFACAxxPSVUQXgIFFgZfUR4TMQQAG0xdEFwQQRcAREMQQQYCGh9EVV5HBhJTC0gQRloHExxPXEVVEwQUEh1JUV0TAA4dG0jzilcMTw==",
+      "dicaBoaLocal": "NwQBHUwcEFALFAUODVUQUAIICw5eEF7wwA5TDEJdUloNAB5PTl9dEwxBEApD85FBCg5IT13zkUcKDl9PSkVRQQoVEk9IEFVAFw4CGkgQVloAAB5PS19CUk1BPE9MQhBDBhIST1xF854OCBAODVUQXEMXGgtfXxBHEQAdDEJFEEMME1MLSF5EQQxBke+5EENcARMST0wQ85IRBBJPTllVXRei3glEU1EfQwQdG19VEFxDExYMRF5EXEMRAQZDU1lDAg1TCg1REFIPAFMZREpZXQsAXQ==",
+      "dicaBoaAssassino": "IkELrIBTUUECQRcKDVNY8MJBEABAEFJSFw4eT0NREFEMExcODVZfWkMSFh1bWVRSQxEcHQ1BRVYOQQcGQ1hREw8IBR1IEFFQBhIAAA3zkBMBAB0MTFRRE4Hh509IEEPw0EEST0xDQ1oQFRYBWVUQRhAABQ4NUUFGBg0WT1lfXRMHBFMNTERfXk0=",
       "dicasFracas": [
         "O laboratório funciona com verba de projeto e recebe equipamento importado todo trimestre.",
         "O assistente de pesquisa é distraído; já perdeu três cadernos neste semestre.",
         "O éter do corredor fica no ar até tarde nos dias de destilação.",
         "O segurança fazia as rodadas dormitando, segundo a própria folha de ponto."
       ],
-      "epilogo": "Arquivo encerrado em 24/09. A assistente confessou ter trocado o chá do cientista pelo reagente do frasco aberto, aproveitando as luvas do laboratório. O batom na xícara a entregou; ela cumpre pena por homicídio qualificado."
+      "epilogo": "IhMCGkRGXxMGDxAKX0JRVwxBFgINAgQcU1hdT2wQUUAQCAAbSF5EVkMCHAFLVUNADBRTG0hCEEcRDhAOSV8QXEMCG6yMEFRcQwIaCkNEWUAXAFMfSFxfExEEEghIXkRWQwUcT0tCUUAADlMOT1VCRwxNUw5dQl9FBggHDkNUXxMCElMDWEZRQEMFHE9BUVJcEQAHrJ5CWVxNQTxPT1FEXA5BHQ4NSPOeAAABDg1REFYNFQEKSl9FCEMEHw4NU0VeExMWT11VXlJDERwdDVhfXgoCsMJJWV8TEhQSA0RWWVACBRxB"
     },
     {
       "id": "caso-004",
@@ -99,22 +153,40 @@
         "A solista do papel principal anunciou que não cantaria o segundo ato e deixou o camarim antes do apagão.",
         "A cortina desceu cinco minutos antes do combinado — tempo justo para descer ao nível mais baixo e voltar."
       ],
-      "armaCorreta": "Uma Corda de Violino",
-      "localCorreto": "O Fosso da Orquestra",
-      "assassinoCorreto": "A Soprano",
-      "opcoesArma": ["Uma Corda de Violino", "Uma Batuta de Maestro", "Um Candelabro do Saguão", "Uma Tesoura de Figurino", "Um Arco de Violino"],
-      "opcoesLocal": ["O Fosso da Orquestra", "O Camarim", "O Palco", "O Saguão", "A Plateia"],
-      "opcoesAssassino": ["O Contra-Regra", "A Soprano", "O Violinista Principal", "O Empresário", "O Maestro Assistente"],
-      "dicaBoaArma": "O sulco fino e ininterrupto não nasce de rombo nem de haste: batuta, candelabro e tesoura ficam fora. Restam os dois fios do palco que se tensionam entre as mãos.",
-      "dicaBoaLocal": "Palco, saguão e plateia viveram cheios de olhos naquela noite; sobram o nível abaixo do piso e os bastidores fechados — e o pó resinoso decide entre os dois.",
-      "dicaBoaAssassino": "A soprano perdeu o papel principal na véspera e jurou que o maestro 'não chegaria ao terceiro ato'; a partitura com a dedicatória rasgada, achada sob a primeira fila, era dela.",
+      "hashArma": "1887931185340030",
+      "hashLocal": "3162446556675620",
+      "hashAssassino": "836196369544970",
+      "opcoesArma": [
+        "Uma Corda de Violino",
+        "Uma Batuta de Maestro",
+        "Um Candelabro do Saguão",
+        "Uma Tesoura de Figurino",
+        "Um Arco de Violino"
+      ],
+      "opcoesLocal": [
+        "O Fosso da Orquestra",
+        "O Camarim",
+        "O Palco",
+        "O Saguão",
+        "A Plateia"
+      ],
+      "opcoesAssassino": [
+        "O Contra-Regra",
+        "A Soprano",
+        "O Violinista Principal",
+        "O Empresário",
+        "O Maestro Assistente"
+      ],
+      "dicaBoaArma": "LEEAGkFTXxQFCB0ADVUQXQ0IHRtIQkJBExUcT0Pzk1tDDxIcTlUQUAZBAQBAUl8UDQQeT0lVEFwCEgcKFxBSVRcUBw4BEFNVDQUWA0xSQltDBFMbSENfQREAUwlEU1FZQwccHUweEGYGEgcOQBBfR0MFHAZeEFZdDBJTC0IQQFUPAhxPXEVVFBAEUxtIXkNdDA8SAg1VXkARBFMOXhBd98AOAEE=",
+      "dicaBoaLocal": "MwAfDEIcEEcCBgasjl8QUUMRHw5ZVVlVQxcaGUhCUVlDAhsKRF9DFAcEUwBBWF9HQw8SHlhVXFVDDxwGWVULFBAOER1MXRBbQw+wwltVXBQCAxIGVV8QUAxBAwZeXxBRQw4AT09RQ0AKBRwdSEMQUgYCGw5JX0MUgeHnT0gQXxQTosBPX1VDXQ0OAAANVFVXCgUWT0heREYGQRwcDVRfXRBP",
+      "dicaBoaAssassino": "IkEAAF1CUVoMQQMKX1RVQUMOUx9MQFVYQxEBBkNTWUQCDVMBTBBG98oSAwpfURBRQwsGHUJFEEUWBFMADV1RURAVAQANF173wA5TDEVVV1URCBJPTF8QQAYTEApEQl8UAhUcSBYQURQTAAEbRERFRgJBEABAEFEUBwQXBk5RRPfQExoODUJRRwQAFw4BEFFXCwAXDg1DX1ZDAFMfX1ldUQoTEk9LWVxVT0EWHUwQVFEPAF0=",
       "dicasFracas": [
         "A bilheteria esgotou na véspera; os corredores ficaram apertados no intervalo.",
         "O contra-regra confere as cortinas três vezes por sessão, sempre tremendo.",
         "As cortinas do palco são trocadas a cada temporada, por costume da casa.",
         "O empresário cobra resultados em cada ensaio; o maestro responde com silêncio."
       ],
-      "epilogo": "Arquivo encerrado em 25/09. A soprano foi condenada ao saber que o fio de violino arrebentado carregava o sangue do maestro; ela mesma cortou a corda e desceu ao fosso pelo pó de breu. O Teatro Aurora reabriu sem ela no elenco."
+      "epilogo": "IhMCGkRGXxQGDxAKX0JRUAxBFgINAgUbU1hdT2wQQ1sTExIBQhBWWwpBEABDVFVaAgUST0xfEEcCAxYdDUFFUUMOUwlEXxBQBkEFBkJcWVoMQRIdX1VSUQ0VEgtCEFNVERMWCExGURQMQQAOQ1dFUUMFHE9AUVVHFxMcVA1VXFVDDBYcQFEQVwwTBwBYEFEUAA4BC0wQVRQHBAAMSEUQVQxBFQBeQ18UEwQfAA1A84dDBRZPT0JVQU1BPE95VVFAEQ5TLlhCX0YCQQEKTFJCXRZBAApAEFVYAkEdAA1VXFENAhxB"
     },
     {
       "id": "caso-005",
@@ -128,22 +200,40 @@
         "A catraca do terceiro andar registra saída às 1h05 e retorno às 1h10, no corredor das cabines.",
         "A senha de gravação foi usada dez minutos após o grito, por um perfil de manutenção de áudio."
       ],
-      "armaCorreta": "Um Cabo de Microfone",
-      "localCorreto": "O Estúdio 3",
-      "assassinoCorreto": "O Técnico de Som",
-      "opcoesArma": ["Um Cabo de Microfone", "Uma Fita Magnética", "Um Abajur de Metal", "Um Grampeador", "Um Fone de Ouvido"],
-      "opcoesLocal": ["O Estúdio 3", "A Cabine de Controle", "O Estacionamento", "A Copa", "O Arquivo de Fitas"],
-      "opcoesAssassino": ["A Locutora Concorrente", "O Técnico de Som", "O Diretor da Rádio", "O Vigia Noturno", "A Recepcionista"],
-      "dicaBoaArma": "A marca pede algo longo, flexível e áspero: fita frágil, peso de mesa e metal de gaveta ficam fora. Restam os dois acessórios que os operadores penduram no ombro.",
-      "dicaBoaLocal": "Nem copa, nem pátio e nem arquivo têm sinal no ar: o grito foi captado ao vivo, com o clique de um conector na mesa. Sobram duas salas de som.",
-      "dicaBoaAssassino": "Quem apagou os últimos minutos da fita tinha acesso à mesa de som — e o técnico foi o único a mexer no equipamento antes de a polícia chegar.",
+      "hashArma": "7757134305025783",
+      "hashLocal": "5578138777301004",
+      "hashAssassino": "7638819082423505",
+      "opcoesArma": [
+        "Um Cabo de Microfone",
+        "Uma Fita Magnética",
+        "Um Abajur de Metal",
+        "Um Grampeador",
+        "Um Fone de Ouvido"
+      ],
+      "opcoesLocal": [
+        "O Estúdio 3",
+        "A Cabine de Controle",
+        "O Estacionamento",
+        "A Copa",
+        "O Arquivo de Fitas"
+      ],
+      "opcoesAssassino": [
+        "A Locutora Concorrente",
+        "O Técnico de Som",
+        "O Diretor da Rádio",
+        "O Vigia Noturno",
+        "A Recepcionista"
+      ],
+      "dicaBoaArma": "IkEeDl9TURUTBBcKDVFcUgxBHwBDV18ZQwcfClXznUMGDVMKDfORRhMEAQAXEFZcFwBTCV/zkVIKDV9PXVVDWkMFFk9AVUNUQwRTAkhEUVlDBRZPSlFGUBcAUwlEU1FYQwccHUweEGcGEgcOQBBfRkMFHAZeEFFWBhIArJ5CWVoQQQIaSBBfRkMOAwpfUVRaEQQAT11VXlEWExICDV5fFQwMER1CHg==",
+      "dicaBoaLocal": "LQQeT05fQFRPQR0KQBBA9sIVGgANVRBbBgxTDl9BRVwVDlMb7ppdFRAIHQ5BEF5aQwABVQ1fEFIRCAcADVZfXEMCEh9ZUVRaQwAcT1tZRlpPQRAAQBBfFQANGh5YVRBRBkEGAg1TX1sGAgcAXxBeVEMMFhxMHhBmDAMBDkAQVEACElMcTFxRRkMFFk9eX10b",
+      "dicaBoaAssassino": "MhQWAg1RQFQEDgZPQkMQ9tkNBwZAX0MVDggdGllfQxUHAFMJRERRFRcIHQdMEFFWBhIAAA3zkBUOBAAODVRVFRAOHk/PsKQVBkEcT1nzmVYNCBAADVZfXEMOU6yXXllWDEEST0BVSFARQR0ADVVBQAoREgJIXkRaQwAdG0hDEFEGQRJPXV9c9s4CGg4NU1hQBAABQQ==",
       "dicasFracas": [
         "A estação perde audiência para a concorrente desde o carnaval.",
         "O locutor gostava de entrevistas polêmicas e nunca quis segurança no ar.",
         "A copa serve café forte a qualquer hora; a jarra raramente esfria.",
         "O vigia faz ronda a cada duas horas e nunca sobe ao terceiro andar."
       ],
-      "epilogo": "Arquivo encerrado em 26/09. O técnico de som confessou ter apagado a fita para encobrir o crime; o cabo de microfone ainda úmido foi a arma. Ele cumpre pena, e o Estúdio 3 nunca mais transmitiu ao vivo àquela hora."
+      "epilogo": "IhMCGkRGXxUGDxAKX0JRUQxBFgINAgYaU1hdT2IQRPbKAh0GTl8QUQZBAABAEFNaDQcWHF5fRRUXBAFPTEBRUgIFHE9MEFZcFwBTH0xCURUGDxAAT0JZR0MOUwxfWV1QWEEcT05RUlpDBRZPQFlTRwwHHAFIEFFcDQUST+6KXVwHDlMJQlkQVEMAAQJMHhBwDwRTDFhdQEcGQQMKQ1EcFQZBHE9oQ0T22QUaAA0DEFsWDxAODV1RXBBBBx1MXkNYChUaGg1RXxUVCAUADfOQRBYEHw4NWF9HAk8="
     },
     {
       "id": "caso-006",
@@ -157,22 +247,40 @@
         "A última página do livro de ronda foi arrancada; o guarda culpa o vento.",
         "A própria vítima demitiu alguém no fim do expediente; essa pessoa saiu do depósito minutos depois, com uma chave de reserva."
       ],
-      "armaCorreta": "Uma Tocha de Bronze",
-      "localCorreto": "O Jardim das Estátuas",
-      "assassinoCorreto": "A Restauradora",
-      "opcoesArma": ["Uma Tocha de Bronze", "Um Cinzel", "Uma Estátua de Mármore", "Um Martelo de Pedra", "Um Pedestal de Pedra"],
-      "opcoesLocal": ["O Jardim das Estátuas", "A Galeria Principal", "O Escritório do Curador", "A Entrada do Museu", "O Depósito de Obras"],
-      "opcoesAssassino": ["O Segurança Noturno", "A Restauradora", "O Patrocinador", "O Jornalista de Arte", "O Fotógrafo"],
-      "dicaBoaArma": "Haste longa e base pesada, empunhada de baixo para cima: cinzel, estátua inteira e pedestal fixo ficam fora. Restam duas peças do acervo que se seguram pela base — uma de bronze, outra de pedra.",
-      "dicaBoaLocal": "Galeria vigiada, escritório fechado e entrada com portaria não explicam pegadas em canteiro; sobra o ar livre — o espaço das obras expostas ou o anexo das peças guardadas.",
-      "dicaBoaAssassino": "A restauradora demitida naquela tarde conhecia cada estátua pelo toque e sabia exatamente qual base cedia sob o peso de uma queda.",
+      "hashArma": "1146216368883471",
+      "hashLocal": "6903991676673804",
+      "hashAssassino": "109324960751634",
+      "opcoesArma": [
+        "Uma Tocha de Bronze",
+        "Um Cinzel",
+        "Uma Estátua de Mármore",
+        "Um Martelo de Pedra",
+        "Um Pedestal de Pedra"
+      ],
+      "opcoesLocal": [
+        "O Jardim das Estátuas",
+        "A Galeria Principal",
+        "O Escritório do Curador",
+        "A Entrada do Museu",
+        "O Depósito de Obras"
+      ],
+      "opcoesAssassino": [
+        "O Segurança Noturno",
+        "A Restauradora",
+        "O Patrocinador",
+        "O Jornalista de Arte",
+        "O Fotógrafo"
+      ],
+      "dicaBoaArma": "KwAAG0gQXFkNBhJPSBBSVxAEUx9IQ1FSAk1TCkBARVgLABcODVRVFgEAGhdCEEBXEQBTDERdUQxDAhoBV1VcGkMEABvukURDAkEaAVlVWUQCQRZPXVVUUxAVEgMNVllODEEVBk5RXRYFDgEOAxBiUxAVEgINVEVXEEEDCu6XUUVDBRxPTFNVRBUOUx5YVRBFBkEACkpFQlcOQQMKQVEQVAISFk/PsKQWFgwST0lVEFQRDh0VSBwQWRYVAQ4NVFUWEwQXHUwe",
+      "dicaBoaLocal": "JAAfCl9ZURYVCBQGTFRRGkMEAAxfWUT10BMaAA1WVVULABcADVUQUw0VAQ5JURBVDAxTH0JCRFcRCBJPQ/OTWUMECx9BWVNXDkEDCkpRVFcQQRYCDVNRWBcEGh1CCxBFDAMBDg1fEFcRQR8GW0JVFoHh509CEFVFEwCwyEIQVFcQQRwNX1FDFgYZAwBeRFFFQw4GT0IQUVgGGRxPSVFDFhMEsMhMQxBRFgABC0xUUUVN",
+      "dicaBoaAssassino": "IkEBCl5EUUMRABcAX1EQUgYMGhtEVFEWDQACGkhcURYXAAELSBBTWQ0JFgxEURBVAgUST0hDRPXCFQYODUBVWgxBBwBcRVUWBkEADk9ZURYGGRIbTF1VWBcEUx5YUVwWAQAACg1TVVIKAFMcQlIQWUMRFhxCEFRTQxQeDg1BRVMHAF0=",
       "dicasFracas": [
         "A abertura ao ar livre atraiu mais público que o previsto; as luzes do jardim foram acesas ao anoitecer.",
         "O patrocinador discursou longamente antes do jantar, como faz em toda estreia.",
         "A lanterna do guarda noturno tem pilha fraca desde a última inspeção.",
         "As obras do anexo aguardam restauração há dois verões."
       ],
-      "epilogo": "Arquivo encerrado em 27/09. A restauradora demitida confessou o golpe com a tocha de bronze; conhecia cada estátua no escuro e apagou a página do livro de ronda. O jardim reabriu, e a estátua lascada foi restaurada por outra mão."
+      "epilogo": "IhMCGkRGXxYGDxAKX0JRUgxBFgINAgcZU1hdT2wQQlMQFRIaX1FUWREAUwtIXVlCCgUST05fXlAGEgAAWBBfFgQOHx9IEFNZDkEST1lfU14CQRcKDVJCWQ0bFlQNU19YCwQQBkwQU1cHAFMKXkTzlxcUEk9DXxBTEAIGHUIQVRYCERIIQkUQV0MRsM5KWV5XQwUcT0FZRkQMQRcKDUJfWAcAXU9iEFpXEQUaAg1CVVcBExoaARBVFgJBFhxZ85FCFgBTA0xDU1cHAFMJQlkQRAYSBw5YQlFSAkEDAF8QX0MXExJPQPOTWU0="
     },
     {
       "id": "caso-007",
@@ -186,22 +294,369 @@
         "O oficial que assumiria às três horas assumiu às duas e mandou calar os telégrafos.",
         "Uma carta datada daquele dia, assinada pela vítima, foi encontrada na gaveta do segundo no comando."
       ],
-      "armaCorreta": "Um Sextante de Latão",
-      "localCorreto": "A Ponte de Comando",
-      "assassinoCorreto": "O Imediato",
-      "opcoesArma": ["Um Sextante de Latão", "Um Cabo de Aço", "Uma Âncora", "Um Facão de Convés", "Um Cronômetro de Bolso"],
-      "opcoesLocal": ["A Ponte de Comando", "O Porão de Carga", "O Convés Principal", "A Casa de Máquinas", "O Camarote do Capitão"],
-      "opcoesAssassino": ["O Cozinheiro", "O Imediato", "O Maquinista", "O Prático do Porto", "O Timoneiro"],
-      "dicaBoaArma": "Borda angular e polida, sem ferrugem: cabo de aço, âncora e facão ficam fora. Restam dois instrumentos de precisão, de metal claro, que o capitão mantinha junto ao leme.",
-      "dicaBoaLocal": "O rumo errado só se corrige de onde se vê o horizonte: porão, convés e casa de máquinas ficam abaixo da linha de comando. Sobram o posto do leme e o aposento do capitão — e a bússola decide entre eles.",
-      "dicaBoaAssassino": "O imediato assumiu o comando antes da hora e tinha na gaveta a própria carta de demissão assinada pelo capitão — motivação e oportunidade no mesmo camarote.",
+      "hashArma": "488285770529463",
+      "hashLocal": "2624309119061753",
+      "hashAssassino": "7612278064875714",
+      "opcoesArma": [
+        "Um Sextante de Latão",
+        "Um Cabo de Aço",
+        "Uma Âncora",
+        "Um Facão de Convés",
+        "Um Cronômetro de Bolso"
+      ],
+      "opcoesLocal": [
+        "A Ponte de Comando",
+        "O Porão de Carga",
+        "O Convés Principal",
+        "A Casa de Máquinas",
+        "O Camarote do Capitão"
+      ],
+      "opcoesAssassino": [
+        "O Cozinheiro",
+        "O Imediato",
+        "O Maquinista",
+        "O Prático do Porto",
+        "O Timoneiro"
+      ],
+      "dicaBoaArma": "IQ4BC0wQUVkEFB8OXxBVFxMOHwZJURwXEAQeT0tVQkUWBhYCFxBTVgEOUwtIEFH0xA5fT+6SXlQMExJPSBBWVgCi0AANVllUAgxTCUJCURlDMxYcWVFdFwcOGhwNWV5EFxMGAkheRFgQQRcKDUBCUgAIAKyOXxwXBwRTAkhEUVtDAh8OX18cFxIUFk9CEFNWEwgHrI5fEFoCDwcGQ1hRFwkUHRtCEFFYQw0WAkge",
+      "dicaBoaLocal": "LEEBGkBfEFIRExILQhBD9NBBAAoNU19FEQgUCg1UVRcMDxcKDUNVFxWi2U9CEFhYEQgJAENEVQ1DERwd7pNfG0MCHAFb85lEQwRTDExDURcHBFMC7pFBQgoPEhwNVllUAgxTDk9RWU8MQRcODVxZWQsAUwtIEFNYDgAdC0IeEGQMAwEOQBBfFxMOABtCEFRYQw0WAkgQVRcMQRIfQkNVWRcOUwtCEFNWEwgHrI5fENXj9VMKDVEQVaDbABxCXFEXBwQQBklVEFINFQEKDVVcUhBP",
+      "dicaBoaAssassino": "LEEaAkhUWVYXDlMOXkNFWgoUUwANU19aAg8XAA1RXkMGElMLTBBYWBEAUwoNRFlZCwBTAUwQV1YVBAcODVEQRxGiwB9fWVEXAAABG0wQVFJDBRYCREND9MAOUw5eQ1lZAgUST11VXFhDAhIfRETzlAxBke+5EF1YFwgFDu6X85QMQRZPQkBfRRcUHQZJUVRSQw8cT0BVQ1oMQRAOQFFCWBcEXQ==",
       "dicasFracas": [
         "A tripulação é pequena e trabalha junta desde a rota do Pacífico.",
         "A névoa densa daquela noite impôs velocidade reduzida por quase três horas.",
         "O cozinheiro reclama da despensa apertada em toda travessia.",
         "O prático do porto embarca só nas últimas milhas, como manda o regulamento."
       ],
-      "epilogo": "Arquivo encerrado em 28/09. O imediato foi preso ao assumir o comando antes da hora; a carta de demissão na gaveta selou o motivo, e o sextante de latão era a arma. O Estrela do Norte navega sob novo capitão, e a bússola voltou ao norte."
+      "epilogo": "IhMCGkRGXxcGDxAKX0JRUwxBFgINAggYU1hdT2IQWVoGBRoOWV8QUQwIUx9fVUNYQwAcT0xDQ0IOCAFPQhBTWA4AHQtCEFFZFwQAT0lREF8MExJUDVEQVAITBw4NVFUXBwQeBl5D85QMQR0ODVdRQQYVEk9eVVxYFkEcT0BfRF4VDl9PSBBfFxAECxtMXkRSQwUWT0FRRPTADlMKX1EQVkMAAQJMHhB4QyQAG19VXFZDBRxPY19CQwZBHQ5bVVdWQxIcDQ1eX0EMQRAOXVlE9MAOX09IEFEXAaLJHF5fXFZDFxwDWV9FFwIOUwFCQkRSTQ=="
+    },
+    {
+      "id": "caso-008",
+      "data": "2026-09-29",
+      "titulo": "O Coche do Meia-Noite",
+      "relatorio": "O trem noturno da linha Central parou numa estação de passagem quando o comissário Octávio Braga foi encontrado sem vida entre as mesas postas de um dos vagões. A névoa cobria a composição e ninguém pode ter descido sem registro. A polícia investiga a arma, o local exato e o responsável.",
+      "pistas": [
+        "O golpe desceu de cima, de um metal longo e de cabo revestido — sem lâmina, vidro ou couro.",
+        "A mesa do vagão de refeições estava posta para dois, mas só uma xícara foi usada.",
+        "O caderno de bordo registra a última conferência de passagens às 23h20 — e a assinatura que a segue é de quem conferiu depois do comissário.",
+        "As gotas de névoa no piso encerado param exatamente onde a toalha da mesa segue posta.",
+        "O suporte de ferramentas do trem guarda o contorno de pó de uma peça longa que não repousa mais nele."
+      ],
+      "hashArma": "630853847364809",
+      "hashLocal": "3359121168346756",
+      "hashAssassino": "3515919641533249",
+      "opcoesArma": [
+        "Uma Chave de Rodas",
+        "Um Martelo de Emergência",
+        "Um Cinzel de Gravação",
+        "Uma Garrafa de Champanhe",
+        "Um Cinto de Couro"
+      ],
+      "opcoesLocal": [
+        "O Carro-Restaurante",
+        "O Coche-Dormitório",
+        "O Corredor de Serviço",
+        "O Freio do Último Vagão",
+        "O Vagão de Bagagens"
+      ],
+      "opcoesAssassino": [
+        "O Maquinista",
+        "O Chef do Trem",
+        "O Fiscal de Bilhetes",
+        "A Passageira do Assento 14",
+        "O Bombeiro de Bordo"
+      ],
+      "dicaBoaArma": "LQQeT1tZVEoMTVMBSF0QWwwUAQABEF5dDkEbDl5EVRgAFAEbTBBUXUMXGgtfUVNdChMcT0hIQFQKAhICDV8QXwwNAwoXEFdZERMSCUwcEFsKDwcADVUQVQITBwpBXxBcBkEWAkhCV/vJDxAGTBBWUQAAHk9LX0JZTUEhCl5EUVVDAABPSUVRS0MHFh1fUV1dDRUSHA1UVRgOBAcOQRBcVw0GHE9JXxBMEQQeT8+wpBgGQRxPTl9eTAwTHQANVFUYE6LAT0NfEEsWERwdWVUQXRACHANFVRBdDRUBCg1VXFkQTw==",
+      "dicaBoaLocal": "Jw4BAkRE84sRCBxDDVNfShEEFwBfEFRdQxIWHVtZ858MQRZPTlFZQAJBFwoNVkJdCg5TAe6TXxgXotkCDURfWQ8JEk9dX0NMAlpTHEJSQlkOQRxPQUVXWRFBHAFJVRBZEEEeDkFRQxgEFBIdSVFdGAZBEh5YVVxdQw4dC0gQURgTExIbTBBSSgoNGw4N85AYDgQADg3SsKxDBFMOXhBXVxcAAE9JVRBWoMgFAEwQXldDERocQhBVSwAOHwdIXRBdDRUBCg1fQxgHDhocAw==",
+      "dicaBoaAssassino": "LEEVBl5TUVRDBRZPT1lcUAYVFhwNU19WBQQBBlgQXxgAABcKX15fGAcEUw1CQlRXQ6LTHA0CA1BRUVMKDVNZSgAUHwBYEENXGQgdB0IQVVYXExZPQkMQTgIGsNpIQxBZQw8cBllVEEwMBRJPz7CkGA0IHQhY85lVQwwSBl4QRFENCRJPXVFDSwZBHwZbQlUW",
+      "dicasFracas": [
+        "A névoa da serra acompanhou o trem desde o último túnel.",
+        "A cozinha de bordo encerra às 23h, como manda o regimento da linha.",
+        "A buzina de cruzamento soa três vezes antes de cada ponte.",
+        "O cheiro de café mistura-se ao carvão nos corredores entre vagões."
+      ],
+      "epilogo": "IhMCGkRGXxgGDxAKX0JRXAxBFgINAgkXU1hdT2IQVlEQAhIDDVNfVgUEABxCRRBXQwYcA11VEFsMDFMODVNYWRUEUwtIEEJXBwAAT0lfEEwRBB5DDV5RGA4EAA4NQUVdQwQfCg1dVUsODlMfX1VAWREAAQ4WEF8YAAAXCl9eXxgHBFMNQkJUV0MTFghEQ0RKDBRTAA1YX0qgwAEGQhBUWUMCHAFLWUNLoMIcQQ1/EEwRAB0cXV9CTAZBHQBZRUJWDEEACkpFWU1DFxoOSlVdGBAOEU9CRURKDEEQHUxTWPvCTw=="
+    },
+    {
+      "id": "caso-009",
+      "data": "2026-09-30",
+      "titulo": "O Trampolim Silencioso",
+      "relatorio": "Depois da última sessão do Circo Astreia, o dono Horácio Pepê foi encontrado sem vida sob a lona da arena. As luzes apagaram cedo e a plateia já tinha ido embora. A polícia investiga a arma, o local exato e o responsável.",
+      "pistas": [
+        "O golpe desceu de uma esfera lisa e pesada — sem lâmina, fio ou cabo.",
+        "O peso esférico do ato de força amanheceu fora do pedestal, com um risco escuro no metal.",
+        "A serragem aderiu às solas de um dos presentes; os sapatos de couro fino de outro seguiam limpos.",
+        "Quem ensaiava às escondidas não foi visto no palco oficial naquele intervalo de quinze minutos.",
+        "A cortina do fundo abriu às 22h15, quinze minutos antes de o corpo ser encontrado."
+      ],
+      "hashArma": "8407615842859553",
+      "hashLocal": "711549136237411",
+      "hashAssassino": "2024051561114320",
+      "opcoesArma": [
+        "Uma Bola de Ferro",
+        "Um Chicote de Sela",
+        "Um Punhal de Palco",
+        "Um Sino de Latão",
+        "Uma Corda de Trapézio"
+      ],
+      "opcoesLocal": [
+        "O Picadeiro",
+        "O Camarim Principal",
+        "O Vagão do Financeiro",
+        "A Pista de Treino",
+        "A Tenda de Refeições"
+      ],
+      "opcoesAssassino": [
+        "O Palhaço",
+        "A Equilibrista",
+        "O Domador",
+        "O Mágico",
+        "O Gerente da Temporada"
+      ],
+      "dicaBoaArma": "LEEUAEFAVRkHBAAMSBBUXEMEAAlIQlEZDwgADg1VEEkGEhILTBwQSgYMUwPukl1QDQBfT0tZXxkMFFMMTFJfA0MCGwZOX0RcT0EDGkNYUVVDBFMMQkJUWEMHGgxMXRBfDBMSQQ1iVUoXAB5PQkMQXQwIAE9CUlpcFw4AT19VVFYNBRwcDVRRGQITFgFMENK590EWT0IQQlAQAhxPSENTTBEOUwFCEF1cFwAfT0hDU1YPCRZPSF5ESwZBFgNIQx4=",
+      "dicaBoaLocal": "IAAeDl9ZXRVDFxII7pNfGQZBBwpDVFEZF6LZAg1EVUoXBB4aQ1hRSkMOBk9OWPOaDEEXCg1dUV0GCAEOFhBRSkMSFh1fUVdcDRJTAUxDEEoMDRIcDVFAVg0VEgINQFFLAkEST0xCVVcCQZHvuRBVVxcTFk9CEFP6zhMQGkFfEF0GQRYXRFJZ+sSi0AANVRBWQwQAG19RVFZDBRZPWUJVUA0OAEE=",
+      "dicaBoaAssassino": "LEEerIxXWVoMQQAaQFlFGRMOAU9cRVlXGQRTAkReRU0MElMBQhBdXAoOUwtIEENcFkEdrJddVUsMQZHvuRBfGRcEHh9CEFVBAhUcT0heREsGQRJPTFJVSxcUAQ4NVFEZAA4BG0ReURkHDlMJWF5UVkMEUwANU19LEw5THEhCEFwNAhwBWUJRXQxP",
+      "dicasFracas": [
+        "A plateia saiu cedo; a lona ainda guarda o eco da última apresentação.",
+        "A serragem da arena é trocada a cada dois dias, por costume da trupe.",
+        "O gerador do circo treme a cada meia hora, e as luzes piscam junto.",
+        "O vento de setembro levanta as lonas nos cantos que não são amarrados."
+      ],
+      "epilogo": "IhMCGkRGXxkGDxAKX0JRXQxBFgINAwAWU1hdT2IQXfrCBhoMQhBTVg0HFhxeX0UZDEEUAEFAVRkADh5PTBBSVg8AUwtIEFZcERMcT0lfEFgXDlMLSBBWVhGi1A4BEFVKAA4dC0RUXxkNDlMfX/ODSREIHE9D84pUBhMcT0lVEFgTAAEG7pfzjAYSSE9CEFNQEQIcT15VV0wKFFMbSF1AVhEAFw4NQ1VUQw5TG19FQUwGQRcODVFFSqDLHQxEUR4="
+    },
+    {
+      "id": "caso-010",
+      "data": "2026-10-01",
+      "titulo": "A Mesa Vinte e Um",
+      "relatorio": "No cassino Palácio de Cristal, o gerente Basílio Quadros foi encontrado sem vida após o fechamento, junto às mesas encobertas por panos. As fichas estavam em ordem aparente e três pessoas circulavam no prédio. A polícia investiga a arma, o local e o responsável.",
+      "pistas": [
+        "O golpe na têmpora veio de um objeto curto, liso e maciço, sem borda cortante nem cabo longo.",
+        "A caixa de ferramentas da casa amanheceu com uma peça a menos; o feltro da tampa guarda o desenho do que saiu.",
+        "As fichas da última mesa fechada foram contadas duas vezes; a segunda contagem registrou trezentas a menos.",
+        "O sinal do cofre disparou às 2h10, mas a porta seguiu trancada por dentro.",
+        "Quem circulou após a última rodada usava o crachá verde do caixa — cor que só dois setores do cassino carregam."
+      ],
+      "hashArma": "2543225238836694",
+      "hashLocal": "8339185916537789",
+      "hashAssassino": "2280628126081309",
+      "opcoesArma": [
+        "Um Soco Inglês de Níquel",
+        "Um Cinzel de Cofre",
+        "Um Cetro de Latão",
+        "Uma Corda de Veludo",
+        "Uma Lima de Aço"
+      ],
+      "opcoesLocal": [
+        "A Mesa Vinte e Um",
+        "O Cofre das Fichas",
+        "O Camarim de Artistas",
+        "A Portaria do Cassino",
+        "O Salão de Espera"
+      ],
+      "opcoesAssassino": [
+        "O Dealer Noturno",
+        "A Cantora do Bar",
+        "O Vigia do Pátio",
+        "O Barman",
+        "A Supervisora de Fichas"
+      ],
+      "dicaBoaArma": "LEEUAEFAVBCgyFMMWEJFX09BFwoNQEReCw5TCUhTWVEHDlMKDUNUXUMCHB1ZVQsQAAgdFUhcEVQGQRAAS0JUHEMCHB1JURFUBkEFCkFFVV9DBFMDRF1QEAcEUw7ul14QBQgQDkAQV18RAF1Pf1VCRAIMUwANQURVQxIWT1tVQkQGQR0ODV3ykwxBFk9CEEBFBkEACg1VXEAWDxsODVVcEAsAABtIEFJFERUSQQ==",
+      "dicaBoaLocal": "LEEQAEtCVBAQBBQaREURRBEAHQxMVF4QBkEST11fQ0QCExoODV7ykwxBAQpKWUJEEQ4GT11RQkMCBhYCFhBeEAAAHg5fWVwQBhIHDltREUYCGxoADVURWQ8UHgZDUVVfTUEgAE9CUF1DBQYOXhBCUQ8AAE9JVRFaDAYcT8+wpRAGQRJPTl9fRAIGFgINVERADwBTC0xDEVYKAhsOXhBVVQAIFwoNVV9EEQRTCkFRQh4=",
+      "dicaBoaAssassino": "IkEAGl1VQ0YKEhwdTBBVVUMHGgxFUUIQBQQJT0wQQlUEFB0LTBBSXw0VEghIXRFVQwISHV9VVlFDDlMMX1FSWKDAUxlIQlVVQ4Pz+w1WXllDBB8ODVER89kNBwZAURFRQxIWHQ1GWEMXAFMFWF5FX0Oi009AVUJRQwQdDEJSVEIXAF0=",
+      "dicasFracas": [
+        "O cassino fecha às 2h, como manda a licença da cidade.",
+        "As fichas azuis valem o que a casa decide naquela noite.",
+        "O tapete do salão abafa qualquer passo apressado.",
+        "O ar-condicionado do salão falha nas madrugadas de calor."
+      ],
+      "epilogo": "IhMCGkRGXhAGDxAKX0JQVAxBFgINAAAfUlFdT2wQQkUTBAEZRENeQgJBEABDVlRDEA4GT0IQVl8PERZPTl9cEAxBAABOXxFZDQYfrIdDEVQMQRAHTEZUWREOUwoNXxFUBhIFBkIQVVVDFQEKV1VfRAISUwlEU1lREFpTAA1TXlYRBFMBWF5SUUMHHAYNUVNVERUcQQ1xEV0GEhJPW1lfRAZBFk9YXRFWCgIcGg1WVFMLABcODUBeQkMUHk9A85tDT0EWT0IQYVEPotIMRF8RVAZBMB1EQ0VRD0EHHUJTXkVDAFMcWEBUQhUIAKyOXx8="
+    },
+    {
+      "id": "caso-011",
+      "data": "2026-10-02",
+      "titulo": "O Códice Rasgado",
+      "relatorio": "Na Biblioteca Pública Central, a arquivista Lívia Cantos foi encontrada sem vida atrás da grade de ferro que protege a ala mais valiosa do acervo. O prédio estava trancado desde as 19h. A polícia investiga a arma, o local exato e a responsável.",
+      "pistas": [
+        "A marca no pescoço é um sulco duplo e interrompido, com pequenas marcas quadradas em intervalos regulares.",
+        "O caderno de visitas registra duas entradas na sala trancada depois das 19h — e só uma saída.",
+        "A grade de ferro da ala rara só abre com duas chaves: a do zelador e a da direção.",
+        "O feltro da bancada de restauração guarda o desenho de pó de uma peça que não repousa mais nele.",
+        "O cheiro de cola e couro tomava o corredor dos fundos naquela noite — onde o acervo espera recuperação."
+      ],
+      "hashArma": "5490935168495330",
+      "hashLocal": "6984889589459940",
+      "hashAssassino": "4061044527823804",
+      "opcoesArma": [
+        "Uma Corrente de Arquivo",
+        "Um Castiçal de Leitura",
+        "Um Cinzel de Encadernação",
+        "Um Peso de Papel de Bronze",
+        "Uma Tesoura de Arquivo"
+      ],
+      "opcoesLocal": [
+        "A Sala de Obras Raras",
+        "O Corredor de Periódicos",
+        "O Balcão de Empréstimos",
+        "O Depósito de Acervo",
+        "O Jardim de Leitura"
+      ],
+      "opcoesAssassino": [
+        "O Bibliotecário Noturno",
+        "A Pesquisadora Visitante",
+        "O Zelador",
+        "A Encadernadora",
+        "O Estagiário de Arquivo"
+      ],
+      "dicaBoaArma": "LEEAGkFTXhGgyFMLWEBdXkMEUwZDRFRDEQ4eH0RUXh1DAhwCDV1QQwAAAE9cRVBVEQAXDl4QVFxDCB0bSEJHUA8OAFUNXPKTDggdDgEQQV4NFRJPTkVDRQJBFk9dVUJeQwwSDETzll5DD7DMQhBVVBAEHQdMXRFYEBIcQQ12WFICDFMJQkJQEQAIHRVIXB0REwQAAA1UVBETAAMKQRBUERcEAABYQlARgeHnT19VQkUCDFMAXhBVXgoSUwJIRFBYEEECGkgQQVQNBQYdTF0RVEMRFhxMXR8=",
+      "dicaBoaLocal": "MwQBBu6DVVgADgBPSF1BWA8JEgtCQx0RAAAaF0xDEVUGQRcKXfOCQgoVHE9IEFBDQw0aGV9VEV+gwhxPSEhBXQoCEgINURFWEQAXCg1EQ1ANAhILTAsRQgwDAQ5AEFARAg0ST0BRWEJDAxYCDVdEUBEFEgtMEFQRDEERDkFT8pIMQRcKDUNQ8s4FEhwN0rGlQwRTAA1TUFUGEx0ADVRUERUIAAZZUUIRBwQQBklVHw==",
+      "dicaBoaAssassino": "IkEWAU5RVVQRDxILQkJQEQYTEk9MEPKLDQgQDg1TXlxDCxwdQ1FVUEMEABtIXlVYBwBTAUxBRFQPAFMBQllFVEOD8/sNVRFCBhRTAUJdVB1DExocTlFVXkMAUwPukUFYEE1TDEJeQkUCQR0ADVNQVQYTHQANVFQRFQgABllRQhEHAFMcTFxQERcTEgFOUVVQTQ==",
+      "dicasFracas": [
+        "As lâmpadas da ala rara têm luz âmbar, por proteção dos papéis.",
+        "O cheiro de cola e couro toma o corredor dos fundos nos dias de recuperação.",
+        "O relógio do hall atrasa dois minutos por semana, e ninguém o conserta.",
+        "No verão, o jardim de leitura enche de estudantes até o crepúsculo."
+      ],
+      "epilogo": "IhMCGkRGXhEGDxAKX0JQVQxBFgINAAMeUlFdT2wQVF8AABcKX15QVQwTEk9OX19XBhIAAFgQXhEEDh8fSBBSXg5BEk9OX0NDBg8HCg1UXhECAhYdW18dEQ4OBQZJURFBBg0cT07zglUKAhZPXEVUEQ0UHQxMEFJZBgYcGg3zkUJDEgYOXhBc8sAOAFQNXxFDBgYaHFlCXhEHBFMZRENYRQISUwHuk14RDgQdG0geEXBDEhIDTBBVVEMOER1MQxFDAhMSHA1CVFABExoaDVNeXEMCsM1AVUNQEEEdAFtRQh8="
+    },
+    {
+      "id": "caso-012",
+      "data": "2026-10-03",
+      "titulo": "O Silêncio do Silo",
+      "relatorio": "Na fazenda Boa Vista, o capataz Firmino Dutra foi encontrado sem vida ao amanhecer, no fundo da propriedade. O gado berrava desde as 4h e ninguém da casa grande ouviu nada. A polícia investiga a arma, o local exato e o responsável.",
+      "pistas": [
+        "A pele guarda três perfurações paralelas, igualmente espaçadas — como as pontas de uma mesma ferramenta.",
+        "O gancho do galpão, onde a ferramenta de campo costuma repousar, amanheceu vazio; o pó desenhou seu contorno.",
+        "As solas de quem esteve no fundo da propriedade guardavam milho do tanque; a ordenha foi lavada e o curral, revirado.",
+        "O gado berrava desde as 4h; dois dos presentes só apareceram depois do sol nascente.",
+        "A porta do quarto mais novo do alojamento não saiu do trinco naquela noite — apesar de as botas de seu ocupante amanhecerem molhadas de orvalho."
+      ],
+      "hashArma": "226964733753907",
+      "hashLocal": "8957962219928161",
+      "hashAssassino": "3472385433675912",
+      "opcoesArma": [
+        "Um Garfo de Feno",
+        "Um Machado de Lenha",
+        "Um Cabo de Arado",
+        "Um Chicote de Couro",
+        "Um Martelo de Ferrador"
+      ],
+      "opcoesLocal": [
+        "O Silo de Grãos",
+        "A Sala de Ordenha",
+        "O Curral do Gado",
+        "A Casa do Capataz",
+        "O Galpão de Máquinas"
+      ],
+      "opcoesAssassino": [
+        "O Peão Recém-Chegado",
+        "A Filha do Fazendeiro",
+        "O Veterinário",
+        "A Cozinheira da Fazenda",
+        "O Comprador de Gado"
+      ],
+      "dicaBoaArma": "NxOwxV4QQV0NFRIcDUBQQAINFgNMQxFcoMIcT0NRQlEGDFMLSBBd8cEMGgFMHBFRCwgQAFlVEV0WQR4OX0RUXgxbUwJMU1lTBw5TC0gQXVcNCRJDDVNZWwAOBwoNVFQSAA4GHUIQVBIOAAEbSFxeEgcEUwlIQkNTBw4BT0tZUlMOQRUAX1EfEjEEABtMXRFTEEEXGkxDEVQGEwEOQFVfRgISUwtIEFJTDhEcT0lfEVUCDQOsjl8R0OP1UwoNXxFVAg8QB0IQR1MZCBxPSENSXQ8JFkE=",
+      "dicaBoaLocal": "LBMXCkNYUBIPAAUOSVEdEgAUAR1MXBFABhcaHUxUXhIGQRAOXlERVgxBEA5dUUVTGUEaAVlRUkYCQR2sjl8RVxsRHwZOUVwSDEEeBkFYXhINAABPXl9dUxBaUxxCUkNTQw5TCVheVV1DBRJPXUJeQhEIFgtMVFQSgeHnT0heRUAGQRxPWVFfQxYEUwtIEFZAoMIcHA1VEV1DABEdRFdeEgcAAE9A85BDFggdDl4e",
+      "dicaBoaAssassino": "LEEDCu6TXhIRBBCshF0cUQsEFA5JXxFYFhMcGg1UXkAOCAFPQ19CEgUUHQtCQx0SDgAAT0xDEVAMFRIcDVRUXgZBEgJMXllXAAQBDkAQXF0PCRILTEMRVgZBHB1bUV1aDEGR77kQVBIAAAEdSFdQVgISUwtIEFxbDwkcT0lfEUYCDwIaSB4=",
+      "dicasFracas": [
+        "A seca deste ano queimou o pasto mais cedo que o previsto.",
+        "O café da fazenda é servido antes do sol, com o fogo aceso desde a véspera.",
+        "Os cães do curral latem a cada carro que entra pela estrada de terra.",
+        "O milho da safra anterior ainda guarda cheiro de sol."
+      ],
+      "epilogo": "IhMCGkRGXhIGDxAKX0JQVgxBFgINAAIdUlFdT2IQQVegwhxPX1VS8coMXgxFVVZTBw5TDEJeV1cQEhwaDV8RVQwNAwoNU15fQw5TCExCV11DBRZPS1VfXU9BEgANXFBWDEEXAA1DWF4MWlMOXhBTXRcAAE9AX11aAgUSHA1UVBIMEwUOQVheEgxBFgFZQlRVAhMSAgMQcBIFAAkKQ1RQEhMAABxCRRFTQwcWDEVRQxIMQRIDQlpQXwYPBwANVF5BQwcGAUlfQhKgwVMMRVFHV00="
+    },
+    {
+      "id": "caso-013",
+      "data": "2026-10-04",
+      "titulo": "A Luz que Falhou",
+      "relatorio": "O farol de Pedra Branca viveu sua primeira noite escura em quarenta anos: o faroleiro Artur Sem-Ramalho foi encontrado sem vida no alto da torre, e a luz principal segue apagada. A polícia investiga a arma, o local exato e o responsável.",
+      "pistas": [
+        "O golpe na cabeça veio de um metal claro e liso, sem ferrugem e sem borda cortante.",
+        "O feltro da caixa de ferragens da torre guarda o contorno de uma peça de cabo curto e cabeça cilíndrica que não repousa mais nele.",
+        "O mecanismo que fazia a luz girar amanheceu engraxado, mesmo com a luz falhada.",
+        "As pegadas na escada da torre contam duas subidas naquela noite; só a segunda descida carrega óleo pesado nos degraus.",
+        "O rádio registrou três chamadas à meia-noite, todas respondidas pela mesma voz de bordo."
+      ],
+      "hashArma": "5576412605751417",
+      "hashLocal": "3115747241532373",
+      "hashAssassino": "3676730934219233",
+      "opcoesArma": [
+        "Um Martelo de Latão",
+        "Um Cabo de Ferro",
+        "Um Espelho de Sinalização",
+        "Uma Chave de Válvula",
+        "Uma Lanterna de Bordo"
+      ],
+      "opcoesLocal": [
+        "O Salão da Lente",
+        "A Sala das Baterias",
+        "O Mirante das Guarnições",
+        "A Cozinha da Guarnição",
+        "O Depósito de Óleo"
+      ],
+      "opcoesAssassino": [
+        "O Ajudante de Farol",
+        "O Barqueiro de Suprimentos",
+        "A Esposa do Faroleiro",
+        "O Rádio-Operador",
+        "O Cozinheiro da Guarnição"
+      ],
+      "dicaBoaArma": "LgQHDkEQUl8CExxPSBBdWhAOX09eVVwTAQ4BC0wQUlwRFRIBWVURXQYMUxlEVENcWUEQDk9fEVcGQRUKX0JeH0MEAB9IXFlcQwUWT15ZX1IPCAkO7pfykAxBFk9BUV9HBhMdDg1UVBMBDgELQhBXWgAAHk9LX0NSTUEhCl5EUF5DAABPSUVQQEMHFh1fUVxWDRUSHA1UVBMPAAesjl8RVwJBEA5ESFATBwBTG0JCQ1ZN",
+      "dicaBoaLocal": "LEEFCkNEXhMHDlMCREJQXRcEUwoNXxFXBhGw3F5ZRVxDBRZP7oNdVgxBFQZOUVwTBQ4BDg1UXhMACAEMWFlFXEMIHRtIQl9cWEEAAE9CUF5DBRwGXhBDVgAIHRtCQxFdDEESA1lfEVcCQQcAX0JUE4Hh509CEFVSQxMcG0zzlvDADlMLTBBdRhlBFk9CEFVSEEERDllVQ1oCEl1PbBBWQQIZEk9DX0ITBwQUHUxFQhMHBBAGSVUf",
+      "dicaBoaAssassino": "LEESBVhUUF0XBFMLSBBXUhEOH09IXlZBAhkcGg1fEV4GAhIBRENcXEMFEk9BRUsTDQACGkhcUBMNDhobSBBUEwYSBw5bURFADBsaAUVfEV0MQRIDWV8RVwJBBwBfQlQTEhQSAUlfEVJDDQYVDVZQXwsOBkE=",
+      "dicasFracas": [
+        "A sirene da névoa soou sem parar da meia-noite ao amanhecer.",
+        "A escada da torre tem cento e oitenta degraus, todos gastos no centro.",
+        "O óleo da rotação é trocado a cada lua cheia, como manda o manual.",
+        "A barca de suprimentos só regressa na próxima maré cheia."
+      ],
+      "epilogo": "IhMCGkRGXhMGDxAKX0JQVwxBFgINAAUcUlFdT2IQUFkWBRIBWVURVwZBFQ5fX10TAA4dCUhDQlwWQRxPSl9dQwZBEABAEF4TDgABG0hcXhMHBFMDTETykAxBFk9MEFdSDwkST0tfQ/DEABcODV5QEw8UCVQNYFRXEQBTLV9RX1ACQQUAQUReRkMAUwhEQlBBQw8ST0BRVUEWBhILTBBCVgQUGgFZVR8TIkEHAF9CVBMEAB0HQkURQAYGBgFJXxFDDwAdG+6TXhMGQQMAX0RQQEMCHAINRENaDQIcQQ=="
+    },
+    {
+      "id": "caso-014",
+      "data": "2026-10-05",
+      "titulo": "A Tese Perdida",
+      "relatorio": "No Instituto Vasconcelos de Pesquisas, o professor Donato Vaz foi encontrado sem vida na ala de criação, na madrugada que antecedia a defesa de sua tese final. O prédio estava trancado desde as 22h. A polícia investiga a arma, o local exato e o responsável.",
+      "pistas": [
+        "A ferida é um único ponto profundo, de ponta fina e afilada — nada de lâmina larga, fio ou peso.",
+        "O estojo de desenho amanheceu com uma ponta de metal a menos; o feltro guarda o contorno da peça que saiu.",
+        "O prédio trancou às 22h, mas a catraca do bloco C registrou um cartão de estudante depois disso.",
+        "A tese final do professor tinha um único contestante — e a defesa estava marcada para a manhã seguinte.",
+        "O gesso nas solas de alguém marca o caminho do bloco C até a ala de criação, cujas portas internas amanheceram destrancadas."
+      ],
+      "hashArma": "7432439222506006",
+      "hashLocal": "1966407984088171",
+      "hashAssassino": "1976703667526753",
+      "opcoesArma": [
+        "Um Compasso de Aço",
+        "Um Prelo de Imprensa",
+        "Um Frasco de Reagente",
+        "Uma Régua de Ferro",
+        "Um Xilógrafo de Bancada"
+      ],
+      "opcoesLocal": [
+        "O Ateliê de Esculturas",
+        "O Anfiteatro do Bloco C",
+        "A Sala dos Professores",
+        "O Laboratório de Estudos",
+        "A Biblioteca do Departamento"
+      ],
+      "opcoesAssassino": [
+        "O Aluno-Opositor",
+        "A Secretária do Instituto",
+        "O Zelador do Bloco",
+        "O Colega de Cadeira",
+        "O Reitor"
+      ],
+      "dicaBoaArma": "IkEDAENEUBQFCB0ODVURRBEOFRpDVFAUBwgAH0heQlVDBwEOXlNeGEMRAQpBXxFRQxOwxkpFUBQRDh4NTAoRRgYSBw5AEF5HQwUcBl4QWFoQFQEaQFVfQAwSUwtIEEFbDRUST0lREVYCDxAOSVERUAZBFwpeVV9cDE8=",
+      "dicaBoaLocal": "IkEADkFREVAMElMfX19XURASHB1IQxFABgxTHUhXWEcXExxPSVURUgYCGw5AVV9ADE1TDg1SWFYPCBwbSFNQFA2i0AANQlRTChIHHUJFEVgGCAcaX1ERUUMOUw5DVlhABgAHHUIQUFkCDxsKTlVEFAAOHk9MQxFXAgUWBl9RQhQGDFMAX1RUWVhBAABPQlBZQwBTDkFREVAGQRAdRFHyk6DCHE/PsKUUDEEWHF1R8pMMQRcOXhBeVhEAAE9CRRFbQw0SDUJCUECg0gEGQhBHXRkIHQdCHg==",
+      "dicaBoaAssassino": "LEESA1heXhkMERwcREReRkMVGgFFURFAFgUcT0wQQVERBRYdDV5QFAcEFQpeURFQAkEeDkNY8pdDEhYIWFlfQAZBke+5EFQUEAQGT05RQ0CgwhxPS19YFAxBsNVDWVJbQwBTDk9CWEZDAFMMTERDVQAAUwtIQF5dEEEXAA1EQ1UNAhICSF5FW00=",
+      "dicasFracas": [
+        "O instituto fecha às 22h e reabre às 6h, como manda a portaria.",
+        "O cheiro de gesso e tinta toma o corredor da ala de criação.",
+        "Os avisos da defesa de teses cobrem os murais há uma semana.",
+        "O ar-condicionado do bloco C falha nas noites de calor."
+      ],
+      "epilogo": "IhMCGkRGXhQGDxAKX0JQUAxBFgINAAQbUlFdT2IQUFgWDxxCQkBeRwoVHB0NU15aBQQAHEJFEVtDBhwDXVURVwwMUwANU15ZEwAAHEIQVVFDALDIQhwRXAwTEhwNUV9ABhJTC0wQVVEFBAAODUFEUUMAUxtIQ1QUBw5TH19fV1EQEhwdDVlcRAYFGh1EUQoUDEESG0hcWPfJQRcKDVVCVxYNBxpfUUIUBAAdB0JFEUARCB0MQhBfWxUOXU9sEFNVDQIST19VUlsNEhoLSEJeQUMOUwxMXFRaB6LSHURfEVAGQRcKS1VCVRBP"
     }
   ]
 }

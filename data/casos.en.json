@@ -12,9 +12,9 @@
         "Two residents have no alibi for 11:47 p.m.; one of them had hands stained with something that only exists in one room of the house.",
         "The room where the victim fell has no windows and muffles any sound; the glass of the door fogged up from the inside that night."
       ],
-      "armaCorreta": "The Pocket Watch",
-      "localCorreto": "The Library",
-      "assassinoCorreto": "The Nephew",
+      "hashArma": "8461793769675991",
+      "hashLocal": "6098558121864924",
+      "hashAssassino": "1734326269364387",
       "opcoesArma": [
         "The Pocket Watch",
         "A Kitchen Knife",
@@ -36,16 +36,16 @@
         "The Nephew",
         "The Family Doctor"
       ],
-      "dicaBoaArma": "Nothing that cuts, ties or burns: the knife is still on its stand, the cord on the window hook and the candlestick on the table. The object used is compact, dense and came from the collection — two metal pieces that fit in a palm remain.",
-      "dicaBoaLocal": "The garden's soil never crossed into the house that night, the kitchen closed at 10 p.m. and the hallway was merely crossed. The crime happened in a closed room — and there are two on the upper floor.",
-      "dicaBoaAssassino": "The nephew would inherit the collection if the daughter were disinherited — and the copper dust on his cuffs came from inside the display case, the same one that covered the missing object.",
+      "dicaBoaArma": "LQ4HB0ReVxEXCRIbDVNFRRBNUxtEVUMRDBNTDVhCXkJZQQcHSBBbXwoHFk9EQxBCFwgfAw1fXhEKFQBPXkRRXwdNUxtFVRBSDBMXT0JeEEULBFMYRF5UXhRBGwBCWxBQDQVTG0VVEFICDxcDSENEWAAKUwBDEERZBkEHDk9cVR9DNRsKDV9SWwYCB09YQ1VVQwgAT05fXUECAgdDDVRVXxAEUw5DVBBSAgwWT0tCX1xDFRsKDVNfXQ8EEBtEX14RgeHnT1lHXxEOBAcOQRBAWAYCFhwNRFhQF0EVBlkQWV9DAFMfTFxdEREEHg5EXh4=",
+      "dicaBoaLocal": "NwkWT0pRQlUGD1QcDUNfWA9BHQpbVUIRABMcHF5VVBEKDwcADURYVEMJHBpeVRBFCwAHT0NZV1kXTVMbRVUQWgoVEAdIXhBSDw4ACkkQUUVDUENPXR5dH0MAHQsNRFhUQwkSA0FHUUhDFhIcDV1VQwYNCk9OQl9CEAQXQQ1kWFRDAgEGQFUQWQIRAwpDVVQRCg9TDg1TXF4QBBdPX19fXEOD8/sNUV5VQxUbCl9VEFARBFMbWl8QXg1BBwdIEEVBEwQBT0tcX14RTw==",
+      "dicaBoaAssassino": "NwkWT0NVQFkGFlMYQkVcVUMIHQdIQllFQxUbCg1TX10PBBAbRF9eEQoHUxtFVRBVAhQUB1lVQhEUBAEKDVRZQgoPGwpfWURUB0GR77kQUV8HQQcHSBBTXhMRFh0NVEVCF0EcAQ1YWUJDAgYJS0MQUgIMFk9LQl9cQwgdHERUVREXCRZPSVlDQQ8ACk9OUUNUT0EHB0gQQ1AOBFMAQ1UQRQsAB09OX0ZUEQQXT1lYVREOCAAcRF5XEQwDGQpORB4=",
       "dicasFracas": [
         "Dinner was served at 8 p.m. and the dishes cleared without hurry, as on every night at the mansion.",
         "The founder's portrait, on the living room wall, fogs up with September's humidity.",
         "The housekeeper usually locks the service doors at 10 p.m. and keeps the key on the kitchen hook.",
         "The family doctor is only called to the house in emergencies; it was his second visit that month."
       ],
-      "epilogo": "File closed on 09/22. The nephew confessed to the blow with his uncle's pocket watch, lured by the copper dust of the display case. The daughter inherited the collection, and the library once again displays every clock — except one."
+      "epilogo": "JQgfCg1TXF4QBBdPQl4QAVpOQV0DEGRZBkEdCl1YVUZDAhwBS1VDQgYFUxtCEERZBkERA0JHEEYKFRtPRVlDERYPEANIF0MREw4QBEhEEEYCFRAHARBcRBEEF09PSRBFCwRTDEJAQFQRQRcaXkQQXgVBBwdIEFRYEBEfDlQQU1AQBF1PeVhVEQcABghFRFVDQwgdB0hCWUUGBVMbRVUQUgwNHwpORFleDU1TDkNUEEULBFMDRFJCUBEYUwBDU1URAgYSBkMQVFgQER8OVEMQVBUEARYNU1xeAApTja2kEFQbAhYfWRBfXwZP"
     },
     {
       "id": "caso-002",
@@ -59,9 +59,9 @@
         "The residence's alarm stayed disarmed for exactly as long as it took to serve dessert.",
         "The tip-off reached the newspaper with a postmark from the day before the theft — written by someone who knew of the crime beforehand."
       ],
-      "armaCorreta": "A Crowbar",
-      "localCorreto": "The Oliveira Mansion",
-      "assassinoCorreto": "The Maid",
+      "hashArma": "4367798776762882",
+      "hashLocal": "8287862504056878",
+      "hashAssassino": "256277973791072",
       "opcoesArma": [
         "A Crowbar",
         "A Typewriter",
@@ -83,16 +83,16 @@
         "The Journalist",
         "The Chef"
       ],
-      "dicaBoaArma": "The safe gave way to a lever, not to a blade nor a tabletop weight: writing tools and ornaments are out. Two steel tools from the workshop remain — and the claw's shape on the frame separates one from the other.",
-      "dicaBoaLocal": "The changed ribbon, the disarmed alarm and the served dinner belong to the same address; newsroom, bank and garden do not gather all three. The crime stayed inside the residence, in a room used at night for entertaining.",
-      "dicaBoaAssassino": "The gold button found by the safe belonged to the maid's uniform — and it was the maid herself who \"found\" it, a clue too good to be a coincidence.",
+      "dicaBoaArma": "NwkWT15RVldDBhIZSBBHUxpBBwANURBeBhcWHQEQXl0XQQcADVEQUA8AFwoNXl9AQwBTG0xSXFcXDgNPWlVZVQsVSU9aQllGCg8UT1lfX14QQRIBSRBfQA0AHgpDREMSAhMWT0JFRBxDNQQADUNEVwYNUxtCX1xBQwcBAEAQRFoGQQQAX1tDWgwRUx1IXVFbDUGR77kQUVwHQQcHSBBTXgIWVBwNQ1hTEwRTAEMQRFoGQRUdTF1VEhAEAw5fUURXEEEcAUgQVkAMDFMbRVUQXRcJFh0D",
+      "dicaBoaLocal": "NwkWT05YUVwEBBdPX1lSUAwPX09ZWFUSBwgADl9dVVZDAB8OX10QUw0FUxtFVRBBBhMFCkkQVFsNDxYdDVJVXgwPFE9ZXxBGCwRTHExdVRICBRcdSENDCUMPFhheQl9dDk1TDUxeWxICDxdPSlFCVgYPUwtCEF5dF0EUDllYVUBDAB8DDURYQAYEXU95WFUSABMaAkgQQ0YCGBYLDVleQQoFFk9ZWFUSEQQABklVXlEGTVMGQxBREhEOHAINRUNXB0ESGw1eWVULFVMJQkIQVw0VFh1ZUVlcCg8UQQ==",
+      "dicaBoaAssassino": "NwkWT0pfXFZDAwYbWV9eEgUOBgFJEFJLQxUbCg1DUVQGQREKQV9eVQYFUxtCEERaBkEeDkRUF0FDFB0GS19CX0OD8/sNUV5WQwgHT1pRQxIXCRZPQFFZVkMJFh1eVVxUQxYbAA0SVl0WDxdNDVlEHkMAUwxBRVUSFw4cT0pfX1ZDFRxPT1UQU0MCHAZDU1lWBg8QCgM=",
       "dicasFracas": [
         "The jewel slept in a velvet case, inside a drawer with a false bottom.",
         "The chef served dinner in three courses and left before the coffee, as the house requires.",
         "The chauffeur washes the car every morning; that morning, he also waxed it.",
         "The mansion has received illustrious guests since the days of the Oliverras' grandfather."
       ],
-      "epilogo": "File closed on 09/23. The maid fell when the gold button from her own uniform was identified by forensics; the anonymous letter was hers, written to divert suspicion. The crowbar was recovered in the garden, and the jewel returned to the safe."
+      "epilogo": "JQgfCg1TXF0QBBdPQl4QAlpOQVwDEGRaBkEeDkRUEFQGDR9PWlhVXEMVGwoNV19eB0ERGllEX1xDBwEAQBBYVxFBHBhDEEVcCgccHUAQR1MQQRoLSF5EWwUIFgsNUkkSBQ4BCkNDWVEQWlMbRVUQUw0OHRZAX0VBQw0WG1lVQhIUAABPRVVCQU9BBB1ERERXDUEHAA1UWUQGEwdPXkVDQgoCGgBDHhBmCwRTDF9fR1ACE1MYTEMQQAYCHBlIQlVWQwgdT1lYVRIEAAELSF4cEgIPF09ZWFUSCQQECkEQQlcXFAEBSFQQRgxBBwdIEENTBQRd"
     },
     {
       "id": "caso-003",
@@ -106,9 +106,9 @@
         "The counter cup holds lipstick on one side only — and the lab's routine forbids drinks at the workbench.",
         "The window locked itself from the inside, and the glove marks stayed on the inner frame."
       ],
-      "armaCorreta": "A Flask of Poison",
-      "localCorreto": "The Laboratory",
-      "assassinoCorreto": "The Lab Assistant",
+      "hashArma": "7421477428536868",
+      "hashLocal": "3372657700637302",
+      "hashAssassino": "6171044675221855",
       "opcoesArma": [
         "A Flask of Poison",
         "A Glass Beaker",
@@ -130,16 +130,16 @@
         "The Neighboring Scientist",
         "The Intern"
       ],
-      "dicaBoaArma": "With no cuts, flames or impact, the workbench arsenal loses the scalpel, the burner and the wooden club. The two glass containers that hold contents remain.",
-      "dicaBoaLocal": "Soil, rain and crates do not match the scene; yard, guard post and storage are out. The air is heavy with chemistry and the glass locked from the inside — the scientific area remains, between the main room and the neighboring wing.",
-      "dicaBoaAssassino": "The cup of tea with lipstick on the rim was served by someone with free access to the workbench — and only the assistant wore that shade of lipstick.",
+      "dicaBoaArma": "NAgHBw1eXxMAFAccARBWXwIMFhwNX0ITCgwDDk5EHBMXCRZPWl9CWAEEHQxFEFFBEAQdDkEQXFwQBABPWVhVExACEgNdVVwfQxUbCg1SRUENBAFPTF5UExcJFk9aX19XBg9TDEFFUh1DNRsKDURHXEMGHw5eQxBQDA8HDkReVUEQQQcHTEQQWwwNF09OX15HBg8HHA1CVV4CCB1B",
+      "dicaBoaLocal": "MA4aAwEQQlIKD1MOQ1QQUBEABwpeEFRcQw8cGw1dUUcACVMbRVUQQAAEHQoWEElSEQVfT0pFUUEHQQMAXkQQUg0FUxxZX0JSBARTDl9VEFwWFV1PeVhVEwIIAU9EQxBbBgAFFg1HWUcLQRAHSF1ZQBcTCk9MXlQTFwkWT0pcUUAQQR8ATltVV0MHAQBAEERbBkEaAV5ZVFZDg/P7DURYVkMSEAZIXkRaBQgQT0xCVVJDExYCTFleQE9BEQpZR1VWDUEHB0gQXVIKD1MdQl9dEwIPF09ZWFUTDQQaCEVSX0EKDxRPWlleVE0=",
+      "dicaBoaAssassino": "NwkWT05FQBMMB1MbSFEQRAoVG09BWUBAFwgQBA1fXhMXCRZPX1ldExQAAE9eVUJFBgVTDVQQQ1wOBBwBSBBHWhcJUwlfVVUTAgIQCl5DEEcMQQcHSBBHXBEKEQpDU1gTgeHnT0xeVBMMDx8WDURYVkMAABxEQ0RSDRVTGEJCVRMXCRIbDUNYUgcEUwBLEFxaExIHBk5bHg==",
       "dicasFracas": [
         "The lab runs on project funding and receives imported equipment every quarter.",
         "The research assistant is absent-minded; he has lost three notebooks this semester.",
         "The ether smell in the corridor lingers until late on distillation days.",
         "The guard did his rounds dozing off, according to his own time sheet."
       ],
-      "epilogo": "File closed on 09/24. The assistant confessed to swapping the scientist's tea for the reagent from the open flask, taking advantage of the laboratory gloves. The lipstick on the cup gave her away; she is serving a sentence for premeditated homicide."
+      "epilogo": "JQgfCg1TXFwQBBdPQl4QA1pOQVsDEGRbBkESHF5ZQ0cCDwdPTl9eVQYSAApJEERcQxIEDl1AWV0EQQcHSBBDUAoEHRtEQ0QUEEEHCkwQVlwRQQcHSBBCVgIGFgFZEFZBDAxTG0VVEFwTBB1PS1xRQAhNUxtMW1ldBEESC1tRXkcCBhZPQlYQRwsEUwNMUl9BAhUcHVQQV18MFxYcAxBkWwZBHwZdQ0RaAApTAEMQRFsGQRAaXRBXUhUEUwdIQhBSFAAKVA1DWFZDCABPXlVCRQoPFE9MEENWDRUWAU5VEFUME1MfX1VdVgcIBw5ZVVQTCw4eBk5ZVFZN"
     },
     {
       "id": "caso-004",
@@ -153,9 +153,9 @@
         "The lead soloist announced she would not sing the second act and left her dressing room before the blackout.",
         "The curtain came down five minutes early — just enough time to reach the lowest level and return."
       ],
-      "armaCorreta": "A Violin String",
-      "localCorreto": "The Orchestra Pit",
-      "assassinoCorreto": "The Soprano",
+      "hashArma": "396081097523264",
+      "hashLocal": "5349222566568616",
+      "hashAssassino": "2680712667409034",
       "opcoesArma": [
         "A Violin String",
         "A Conductor's Baton",
@@ -177,16 +177,16 @@
         "The Agent",
         "The Assistant Conductor"
       ],
-      "dicaBoaArma": "The thin, unbroken groove is not born of a blunt blow or a shaft: baton, candelabrum and shears are out. The two stage wires that are tensioned between the hands remain.",
-      "dicaBoaLocal": "Stage, lobby and auditorium were full of eyes that night; what remains is the level below the floor and the closed backstage — and the resinous dust decides between the two.",
-      "dicaBoaAssassino": "The soprano lost the lead role the night before and swore the conductor \"would not reach the third act\"; the score with the torn dedication, found under the front row, was hers.",
+      "dicaBoaArma": "NwkWT1lYWVpPQQYBT0JfXwYPUwhfX19CBkEaHA1eX0BDAxwdQxBfUkMAUw1BRV5AQwMfAFoQX0ZDAFMcRVFWQFlBEQ5ZX14YQwISAUlVXFUBEwYCDVFeUEMSGwpMQkMUAhMWT0JFRBpDNRsKDURHW0MSBw5KVRBDChMWHA1EWFUXQRIdSBBEUQ0SGgBDVVQUAQQHGEhVXhQXCRZPRVFeUBBBAQpAUVlaTQ==",
+      "dicaBoaLocal": "MBUSCEgcEFgMAxEWDVFeUEMABgtERF9GChQeT1pVQlFDBwYDQRBfUkMECgpeEERcAhVTAURXWEBYQQQHTEQQRgYMEgZDQxBdEEEHB0gQXFEVBB9PT1VcWxRBBwdIEFZYDA4BT0xeVBQXCRZPTlxfRwYFUw1MU1tHFwAUCg3SsKBDAB0LDURYUUMTFhxEXl9BEEEXGl5EEFAGAhoLSEMQVgYVBApIXhBACwRTG1pfHg==",
+      "dicaBoaAssassino": "NwkWT15fQEYCDxxPQV9DQEMVGwoNXFVVB0EBAEFVEEALBFMBRFdYQEMDFglCQlUUAg8XT15HX0YGQQcHSBBTWw0FBgxZX0IUQRYcGkFUEFoMFVMdSFFTXEMVGwoNRFhdEQVTDk5EEg9DFRsKDUNTWxEEUxhERFgUFwkWT1lfQlpDBRYLRFNRQAoOHUMNVl9BDQVTGkNUVUZDFRsKDVZCWw0VUx1CRxwUFAAAT0VVQkdN",
       "dicasFracas": [
         "The box office sold out the night before; the corridors got crowded at intermission.",
         "The stagehand checks the curtains three times per performance, always trembling.",
         "The stage curtains are replaced every season, by custom of the house.",
         "The agent demands results at every rehearsal; the conductor answers with silence."
       ],
-      "epilogo": "File closed on 09/25. The soprano was convicted when the snapped violin string was found to carry the conductor's blood; she herself cut the string and went down to the pit, following the rosin dust. The Aurora Theater reopened without her in the cast."
+      "epilogo": "JQgfCg1TXFsQBBdPQl4QBFpOQVoDEGRcBkEAAF1CUVoMQQQOXhBTWw0XGgxZVVQUFAkWAQ1EWFFDEh0OXUBVUEMXGgBBWV4UEBUBBkNXEEMCElMJQkVeUEMVHE9OUUJGGkEHB0gQU1sNBQYMWV9CExBBEQNCX1QPQxIbCg1YVUYQBB8JDVNFQEMVGwoNQ0RGCg8UT0xeVBQUBB0bDVRfQw1BBwANRFhRQxEaGwEQVlsPDRwYRF5XFBcJFk9fX0NdDUEXGl5EHhQ3CRZPbEVCWxEAUztFVVFABhNTHUhfQFENBBdPWllEXAwUB09FVUIUCg9TG0VVEFcCEgdB"
     },
     {
       "id": "caso-005",
@@ -200,9 +200,9 @@
         "The third-floor turnstile logs an exit at 1:05 a.m. and a return at 1:10 a.m., in the booth corridor.",
         "The recording password was used ten minutes after the scream, by an audio-maintenance profile."
       ],
-      "armaCorreta": "A Microphone Cable",
-      "localCorreto": "Studio 3",
-      "assassinoCorreto": "The Sound Technician",
+      "hashArma": "3777761732563958",
+      "hashLocal": "6615111761553646",
+      "hashAssassino": "3645800150423781",
       "opcoesArma": [
         "A Microphone Cable",
         "A Magnetic Tape",
@@ -224,16 +224,16 @@
         "The Night Watchman",
         "The Receptionist"
       ],
-      "dicaBoaArma": "The mark calls for something long, flexible and rough: fragile tape, tabletop weight and drawer metal are out. The two accessories operators sling over their shoulder remain.",
-      "dicaBoaLocal": "Neither break room, nor yard and nor archive have a live signal: the scream was picked up live, with the click of a connector on the console. Two sound rooms remain.",
-      "dicaBoaAssassino": "Whoever erased the last minutes of the tape had access to the mixing console — and the technician was the only one to touch the equipment before the police arrived.",
+      "dicaBoaArma": "NwkWT0BRQl5DAhIDQUMQUwwTUxxCXVVBCwgdCA1cX1sETVMJQVVIXAENFk9MXlQVEQ4GCEUKEFMRABQGQVUQQQIRFkMNRFFXDwQHAF0QR1AKBhsbDVFeUUMFAQ5aVUIVDgQHDkEQUUcGQRwaWR4QYQsEUxtaXxBUAAIWHF5fQlwGElMAXVVCVBcOARwNQ1xcDQZTAFtVQhUXCRYGXxBDXQwUHwtIQhBHBgwSBkMe",
+      "dicaBoaLocal": "LQQaG0VVQhUBExYORhBCWgwMX09DX0IVGgABCw1RXlFDDxwdDVFCVgsIBQoNWFFDBkEST0FZRlBDEhoIQ1FcD0MVGwoNQ1NHBgAeT1pRQxUTCBAESFQQQBNBHwZbVRwVFAgHBw1EWFBDAh8GTlsQWgVBEk9OX15bBgIHAF8QX1tDFRsKDVNfWxAOHwoDEGRCDEEAAFheVBURDhwCXhBCUA4AGgED",
+      "dicaBoaAssassino": "NAkcCltVQhUGExIcSFQQQQsEUwNMQ0QVDggdGllVQxUMB1MbRVUQQQIRFk9FUVQVAgIQCl5DEEEMQQcHSBBdXBsIHQgNU19bEA4fCg3SsKFDAB0LDURYUEMVFgxFXllWCgAdT1pRQxUXCRZPQl5cTEMOHQoNRF8VFw4GDEUQRF0GQRYeWFlAWAYPB09PVVZaEQRTG0VVEEUMDRoMSBBRRxEIBQpJHg==",
       "dicasFracas": [
         "The station has been losing audience to its rival since Carnival.",
         "The announcer liked controversial interviews and never wanted security on air.",
         "The break room serves strong coffee at any hour; the pot rarely goes cold.",
         "The watchman makes his round every two hours and never goes up to the third floor."
       ],
-      "epilogo": "File closed on 09/26. The sound technician confessed to erasing the tape to cover up the crime; the still-damp microphone cable was the weapon. He is serving his sentence, and Studio 3 never again went live at that hour."
+      "epilogo": "JQgfCg1TXFoQBBdPQl4QBVpOQVkDEGRdBkEAAFheVBUXBBAHQ1lTXAIPUwxCXlZQEBIWCw1EXxUGExIcRF5XFRcJFk9ZUUBQQxUcT05fRlARQQYfDURYUEMCAQZAVQsVFwkWT15EWVkPTBcOQEAQWAoCAQBdWF9bBkEQDk9cVRUUAABPWVhVFRQEEh9CXh4VKwRTBl4QQ1ARFxoBShBYXBBBAApDRFVbAARfT0xeVBUwFQYLRF8QBkMPFhlIQhBUBAAaAQ1HVVsXQR8GW1UQVBdBBwdMRBBdDBQBQQ=="
     },
     {
       "id": "caso-006",
@@ -247,9 +247,9 @@
         "The last page of the logbook was torn out; the guard blames the wind.",
         "The victim herself dismissed someone at the end of the day; that person left the works storage minutes later, with a spare key."
       ],
-      "armaCorreta": "A Bronze Torch",
-      "localCorreto": "The Garden of Statues",
-      "assassinoCorreto": "The Restorer",
+      "hashArma": "6208217342240034",
+      "hashLocal": "159260580060764",
+      "hashAssassino": "5596240701860645",
       "opcoesArma": [
         "A Bronze Torch",
         "A Chisel",
@@ -271,16 +271,16 @@
         "The Art Journalist",
         "The Photographer"
       ],
-      "dicaBoaArma": "Long shaft and heavy base, gripped from below: chisel, whole statue and fixed pedestal are out. Two collection pieces that are held by their base remain — one bronze, one stone.",
-      "dicaBoaLocal": "Watched gallery, locked office and staffed entrance do not explain footprints in a flowerbed; the outdoors remains — the space of the displayed works or the annex of the stored pieces.",
-      "dicaBoaAssassino": "The restorer fired that afternoon knew every statue by touch and knew exactly which base would give way under the weight of a fall.",
+      "dicaBoaArma": "Lw4dCA1DWFcFFVMOQ1QQXgYABRYNUlFFBk1TCF9ZQEYGBVMJX19dFgEEHwBaChBVCwgACkEcEEELDh8KDUNEVxcUFk9MXlQWBQgLCkkQQFMHBAAbTFwQVxEEUwBYRB4WNxYcT05fXFoGAgcGQl4QRgoEEApeEEReAhVTDl9VEF4GDRdPT0kQQgsEGh0NUlFFBkEBCkBRWVhDg/P7DV9eU0MDAQBDSlUaQw4dCg1DRFkNBF0=",
+      "dicaBoaLocal": "NAAHDEVVVBYEAB8DSEJJGkMNHAxGVVQWDAcVBk5VEFcNBVMcWVFWUAYFUwpDREJXDQIWT0lfEFgMFVMKVUBcVwoPUwlCX0RGEQgdG14QWVhDAFMJQV9HUxEDFgsWEEReBkEcGllUX1kRElMdSF1RXw0SU42tpBBCCwRTHF1RU1NDDhVPWVhVFgcIAB9BUUlTB0EEAF9bQxYME1MbRVUQVw0PFhcNX1YWFwkWT15EX0QGBVMfRFVTUxBP",
+      "dicaBoaAssassino": "NwkWT19VQ0IMExYdDVZZRAYFUxtFUUQWAgcHCl9eX1kNQRgBSEcQUxUEARYNQ0RXFxQWT09JEEIMFBAHDVFeUkMKHQpaEFVOAgIHA1QQR14KAhtPT1FDU0MWHBpBVBBRChcWT1pRSRYWDxcKXxBEXgZBBApEV1hCQw4VT0wQVlcPDV0=",
       "dicasFracas": [
         "The open-air opening drew more visitors than expected; the garden lights were switched on at dusk.",
         "The sponsor gave a long speech before dinner, as he does at every premiere.",
         "The night guard's flashlight has had weak batteries since the last inspection.",
         "The annex works have been waiting for restoration for two summers."
       ],
-      "epilogo": "File closed on 09/27. The fired restorer confessed to the blow with the bronze torch; she knew every statue in the dark and tore out the logbook page. The garden reopened, and the chipped statue was restored by another hand."
+      "epilogo": "JQgfCg1TXFkQBBdPQl4QBlpOQVgDEGReBkEVBl9VVBYRBAAbQkJVREMCHAFLVUNFBgVTG0IQRF4GQREDQkcQQQoVG09ZWFUWARMcAVdVEEIMExAHFhBDXgZBGAFIRxBTFQQBFg1DRFcXFBZPRF4QQgsEUwtMQlsWAg8XT1lfQlNDDgYbDURYU0MNHAhPX19dQxESCEgeEGILBFMITEJUUw1BAQpCQFVYBgVfT0xeVBYXCRZPTlhZRhMEF09eRFFCFgRTGExDEEQGEgcAX1VUFgEYUw5DX0ReBhNTB0xeVBg="
     },
     {
       "id": "caso-007",
@@ -294,9 +294,9 @@
         "The officer due to take command at three took it at two and ordered the telegraphs silenced.",
         "A letter dated that day, signed by the victim, was found in the drawer of the second in command."
       ],
-      "armaCorreta": "A Brass Sextant",
-      "localCorreto": "The Command Bridge",
-      "assassinoCorreto": "The First Mate",
+      "hashArma": "4378531877814538",
+      "hashLocal": "8278839471416058",
+      "hashAssassino": "8876763739289844",
       "opcoesArma": [
         "A Brass Sextant",
         "A Steel Cable",
@@ -318,16 +318,345 @@
         "The Harbor Pilot",
         "The Helmsman"
       ],
-      "dicaBoaArma": "Angular, polished edge, no rust: steel cable, anchor and machete are out. Two precision instruments of bright metal remain, which the captain kept by the helm.",
-      "dicaBoaLocal": "The wrong heading can only be corrected from where the horizon is visible: hold, deck and engine room lie below the command line. The helm post and the captain's cabin remain — and the compass decides between them.",
-      "dicaBoaAssassino": "The first mate took command ahead of schedule and had the captain's own signed resignation letter in his drawer — motive and opportunity in the same cabin.",
+      "dicaBoaArma": "Ig8UGkFRQhtDERwDRENYUgdBFgtKVRwXDQ5THVhDRA1DEgcKSFwQVAIDHwoBEFFZAAkcHQ1RXlNDDBIMRVVEUkMAAQoNX0VDTUEnGEIQQEUGAhocRF9eFwoPABtfRV1SDRUAT0JWEFURCBQHWRBdUhcAH09fVV1WCg9fT1pYWVQLQQcHSBBTVhMVEgZDEFtSExVTDVQQRF8GQRsKQV0e",
+      "dicaBoaLocal": "NwkWT1pCX1kEQRsKTFRZWQRBEA5DEF9ZDxhTDUgQU1gRExYMWVVUFwUTHAINR1hSEQRTG0VVEF8MExoVQl4QXhBBBQZeWVJbBltTB0JcVBtDBRYMRhBRWQdBFgFKWV5SQxMcAEAQXF4GQREKQV9HFxcJFk9OX11aAg8XT0FZXlJNQScHSBBYUg8MUx9CQ0QXAg8XT1lYVRcAAAMbTFleEBBBEA5PWV4XEQQeDkReENXj9VMOQ1QQQwsEUwxCXUBWEBJTC0hTWVMGElMNSERHUgYPUxtFVV0Z",
+      "dicaBoaAssassino": "NwkWT0tZQkQXQR4OWVUQQwwOGE9OX11aAg8XT0xYVVYHQRwJDUNTXwYFBgNIEFFZB0EbDkkQRF8GQRAOXURRXg1GAE9CR14XEAgUAUhUEEUGEhoIQ1FEXgwPUwNIRERSEUEaAQ1YWURDBQEOWlVCF4Hh509AX0ReFQRTDkNUEFgTERwdWUVeXhcYUwZDEERfBkEADkBVEFQCAxoBAw==",
       "dicasFracas": [
         "The crew is small and has worked together since the Pacific route.",
         "The dense fog that night forced reduced speed for almost three hours.",
         "The cook complains about the cramped pantry on every crossing.",
         "The harbor pilot boards only in the last miles, as regulations require."
       ],
-      "epilogo": "File closed on 09/28. The first mate was arrested for taking command ahead of schedule; the resignation letter in the drawer sealed the motive, and the brass sextant was the weapon. The Estrela do Norte sails under a new captain, and the compass points north again."
+      "epilogo": "JQgfCg1TXFgQBBdPQl4QB1pOQVcDEGRfBkEVBl9DRBcOAAcKDUdRREMAAR1IQ0RSB0EVAF8QRFYICB0IDVNfWg4AHQsNUVhSAgVTAEsQQ1QLBBcaQVULFxcJFk9fVUNeBA8SG0RfXhcPBAcbSEIQXg1BBwdIEFRFAhYWHQ1DVVYPBBdPWVhVFw4OBwZbVRwXAg8XT1lYVRcBExIcXhBDUhsVEgFZEEdWEEEHB0gQR1ICERwBAxBkXwZBNhxZQlVbAkEXAA1+X0UXBFMcTFlcREMUHQtIQhBWQw8WGA1TUUcXABoBARBRWQdBBwdIEFNYDhESHF4QQFgKDwccDV5fRRcJUw5KUVlZTQ=="
+    },
+    {
+      "id": "caso-008",
+      "data": "2026-09-29",
+      "titulo": "The Midnight Carriage",
+      "relatorio": "The night train of the Central line stopped at a small through-station when the train chief Octávio Braga was found lifeless among the laid tables of one of the carriages. Fog covered the train and no one could have disembarked without a record. The police investigate the weapon, the exact location, and the person responsible.",
+      "pistas": [
+        "The blow came down from above, from a long metal with a wrapped handle — no blade, glass or leather.",
+        "The meals carriage's table was set for two, but only one cup was used.",
+        "The on-board log records the last ticket check at 11:20 p.m. — and the signature that follows belongs to whoever checked after the train chief.",
+        "The drops of fog on the waxed floor stop exactly where the tablecloth remains laid.",
+        "The train's tool rack holds the powder outline of a long piece that no longer rests in it."
+      ],
+      "hashArma": "1667863792758048",
+      "hashLocal": "8785146968658434",
+      "hashAssassino": "5264171783354072",
+      "opcoesArma": [
+        "A Wheel Wrench",
+        "An Emergency Hammer",
+        "An Engraving Chisel",
+        "A Champagne Bottle",
+        "A Leather Belt"
+      ],
+      "opcoesLocal": [
+        "The Dining Car",
+        "The Sleeping Car",
+        "The Service Corridor",
+        "The Brake of the Last Carriage",
+        "The Baggage Car"
+      ],
+      "opcoesAssassino": [
+        "The Driver",
+        "The Train Chef",
+        "The Ticket Inspector",
+        "The Passenger in Seat 14",
+        "The On-Board Fireman"
+      ],
+      "dicaBoaArma": "LQQaG0VVQhgEDRIcXhwQVgwTUwNIUURQBhNfT0NfQhgCQQAHQkJEGAQNEhVEVUIfEEEAB0xWRBgGGQMDTFleS0MVGwoNUlxXFFtTDUJERFQGTVMNSFxEGAIPF09IXVVKBAQdDFQQWFkODBYdDVFCXUMOBhsDEGRQBkEHHUxZXh8QQQcYQhBcVw0GUwJIRFFUQxUcAEFDEEoGDBIGQxDSuPdBEgFJEERQBkEDAFpUVUpDDgYbQVleXUMOHU9ZWFUYEQAQBA1TWFcMEhYcDVJVTBQEFgENRFhdDk8=",
+      "dicaBoaLocal": "NwkWT15cVV0TCB0IDVNRSk9BBwdIEENdERcaDEgQU1cRExoLQkIQWQ0FUxtFVRBaEQAYCg1SX0BDCRIZSBBeV0MNEgZJEERZAQ0WVA1EWF1DER8OTlUQTwsEAQoNXEVfBAAUCg1ZQxgIBAMbDVFeXEMVGwoNX15dQxYbCl9VEEsKDQUKXxBDUAoPFhwNUUQYFwkWT1lRUlQGQQEKQFFZVkOD8/sNUV5cQxUbCg1UQlcTElMASxBWVwRBHAENRFhdQwcfAEJCEFsLDhwcSBBSXRcWFgpDEERQBkEHGEIe",
+      "dicaBoaAssassino": "NwkWT1lZU1MGFVMGQ0NAXQAVHB0NU1hdAAoWCw1EWF1DDh1CT19RSgdBHwBKEFFMQ1BCVR8AEEhNDF1PTF5UGA4OBQpJEFFUDA8WT09VRE8GBB1PWVhVGAAAAR1EUVddEEESA0EQXlEECQdPz7CkGA0OUwBDVRBdDxIWT0VRVBgCQRUdSFUQSAISAEE=",
+      "dicasFracas": [
+        "The mountain fog followed the train since the last tunnel.",
+        "The on-board kitchen closes at 11 p.m., as the line's rulebook requires.",
+        "The crossing horn sounds three times before every bridge.",
+        "The smell of coffee blends with coal in the corridors between carriages."
+      ],
+      "epilogo": "JQgfCg1TXFcQBBdPQl4QCFpOQVYDEGRQBkEaAV5AVVsXDgFPTl9eXgYSAApJEERXQxUbCg1SXFcUQQQGWVgQTAsEUxtfUVlWRBJTGEVVVVRDFgEKQ1NYFEMAB09ZWFUYFQQBFg1EUVoPBFMHSBBYWQdBAApZEFhRDhIWA0sLEEwLBFMAQx1SVwITF09BX1cYEQQQAF9UVVxDFRsKDVhfTRFBHAkNWFlLQwIcAUtVQ0sKDh1BDWRYXUMPGghFRBBLBhMFBk5VEE8GDwdPQl4QTQ0FFh0NUV5XFwkWHQ1SUVwEBF0="
+    },
+    {
+      "id": "caso-009",
+      "data": "2026-09-30",
+      "titulo": "The Silent Springboard",
+      "relatorio": "After the last show of the Astreia Circus, the owner Horácio Pepê was found lifeless under the canvas of the arena. The lights went out early and the audience had already left. The police investigate the weapon, the exact location, and the person responsible.",
+      "pistas": [
+        "The blow came down from a smooth, heavy sphere — no blade, wire or handle.",
+        "The spherical weight of the strongman act was found off its pedestal at dawn, with a dark scrape on the metal.",
+        "Sawdust clung to the soles of one of those present; the fine leather shoes of another remained clean.",
+        "Whoever was rehearsing in secret was not seen on the official stage during that fifteen-minute interval.",
+        "The back curtain opened at 10:15 p.m., fifteen minutes before the body was found."
+      ],
+      "hashArma": "943991894437853",
+      "hashLocal": "963747663838488",
+      "hashAssassino": "1111331314053780",
+      "opcoesArma": [
+        "An Iron Ball",
+        "A Saddle Whip",
+        "A Stage Dagger",
+        "A Brass Bell",
+        "A Trapeze Rope"
+      ],
+      "opcoesLocal": [
+        "The Circus Ring",
+        "The Lead Dressing Room",
+        "The Treasurer's Wagon",
+        "The Training Track",
+        "The Mess Tent"
+      ],
+      "opcoesAssassino": [
+        "The Clown",
+        "The Tightrope Walker",
+        "The Animal Tamer",
+        "The Magician",
+        "The Season Manager"
+      ],
+      "dicaBoaArma": "NwkWT09cX05DBRYcTlVeXRBBFR1CXRBYQxIeAEJEWBVDCRYOW0kQShMJFh1IHBBOChUbT0NfEFsPABcKARBHUBEEUwBfEFhYDQUfChcQR1EKEV9PSVFXXgYTUw5DVBBLDBEWT0xCVRkMFAdBDWRYXEMVBAANQl9MDQVTAE9aVVoXElMASxBEUQZBEh1IXlEZEQQeDkReENvj9VMOQ1QQTQsEUwtMQlsZEAIBDl1VEFYNQQcHSBBdXBcAH09OWF9WEAQAT09VRE4GBB1PWVhVVE0=",
+      "dicaBoaLocal": "JxMWHF5ZXl5DExwAQBwQTgIGHAENUV5dQxUWAVkQWFgVBFMYREReXBASFhwNX0IZFA4cC0heEF8PDhwdXgsQTQsEUxxMR1RMEBVTAEMQRFEGQQAAQVVDGRMOGgFZQxBNDEEHB0gQUUsGDxJPz7CkGQEEBxhIVV4ZFwkWT0hIWFABCAcGQl4QWgoTEANIEFFXB0EHB0gQREsCCB0GQ1cQSQ8ABwlCQl0X",
+      "dicaBoaAssassino": "NwkWT0BRV1AACBIBDUZRVwoSGwpJEFZWEUEVBktEVVwNQR4GQ0VEXBBBGgENRFhcQwwaC0lcVRkMB1MHREMQVhQPUw5ORBDb4/VTG0VVEFwbABAbDUNAWA1BEQpZR1VcDUEHB0gQUlgAClMMWEJEWAoPUwBdVV5QDQZTDkNUEE0LBFMNQlRJGQEEGgFKEFZWFg8XQQ==",
+      "dicasFracas": [
+        "The audience left early; the canvas still holds the echo of the last performance.",
+        "The arena's sawdust is changed every two days, by custom of the troupe.",
+        "The circus generator shudders every half hour, and the lights flicker with it.",
+        "The September wind lifts the canvas at the corners that are not tied down."
+      ],
+      "epilogo": "JQgfCg1TXFYQBBdPQl4QCVpOQF8DEGRRBkEeDkpZU1ACD1MMQl5WXBASFgsNRF8ZFwkWT09cX05DFhobRRBEUQZBGh1CXhBbAg0fT0tCX1RDFRsKDUNESwwPFAJMXhBYABVfT0VZVF0GD1MGQ0NZXQZBGwZeEF9ODUESH11RQlAXCBwBDURCUAAKSE9ZWFUZAAgBDFhDEFoCEwEGSFQQVg1BGhteEENcAhIcAQ1HWU0LDgYbDURYXEMXEgFEQ1hQDQZTG19ZU1JN"
+    },
+    {
+      "id": "caso-010",
+      "data": "2026-10-01",
+      "titulo": "Table Twenty-One",
+      "relatorio": "At the Palácio de Cristal casino, the manager Basílio Quadros was found lifeless after closing, beside the tables shrouded in cloth. The chips appeared to be in order and three people were circulating in the building. The police investigate the weapon, the location, and the person responsible.",
+      "pistas": [
+        "The blow to the temple came from a short, smooth, massive object, with no cutting edge and no long handle.",
+        "The house's toolbox was found one piece short at dawn; the felt lining holds the imprint of what left.",
+        "The chips of the last closed table were counted twice; the second count came up three hundred short.",
+        "The vault alarm tripped at 2:10 a.m., but the door stayed locked from the inside.",
+        "Whoever moved after the last round wore the green cashier's badge — a color carried by only two sectors of the casino."
+      ],
+      "hashArma": "5294281985212506",
+      "hashLocal": "8020835739510877",
+      "hashAssassino": "1865723843613571",
+      "opcoesArma": [
+        "A Nickel Knuckle Duster",
+        "A Vault Chisel",
+        "A Brass Scepter",
+        "A Velvet Cord",
+        "A Steel File"
+      ],
+      "opcoesLocal": [
+        "Table Twenty-One",
+        "The Chip Vault",
+        "The Performers' Dressing Room",
+        "The Casino Gatehouse",
+        "The Waiting Room"
+      ],
+      "opcoesAssassino": [
+        "The Night Dealer",
+        "The Bar Singer",
+        "The Yard Watchman",
+        "The Barman",
+        "The Chip Supervisor"
+      ],
+      "dicaBoaArma": "NwkWT09cXkdDCABPXlheQhdNUwlfX1wQAkEQA0JDVFRDBxocWRBQXgdBBAZZWF5FF0EST05FRQpDFxIaQUQRUwsIAApBHBFGBg0FClkQUl8RBVMOQ1QRQxcEFgMNVlhcBkESHUgQXkUXT1M4RVFFEAoSUxhCQl8QDA9TG0VVEVgCDxdPTF5VEBQJEhsNWUIQBBMaH11VVRAMD1MODUNZXxEVUxxFUVdEQxMWAkxZXx4=",
+      "dicaBoaLocal": "NwkWT1tRRFwXQQAbTElUVEMNHAxGVVUQAg8XT1lYVBAEAAcKRV9EQwZBHwBKV1RUQw8cT11RQkMCBhZUDURZVUMFAQpeQ1heBEEBAEJdEUcCElMKQEBFSUMAHQsNXFhETUEnGEIQVlEOCB0IDUJeXw4SUx1IXVBZDUGR77kQUF4HQQcHSBBVXxYDHwoNU15FDRVTAEsQRVgGQRAHREBCEAcEEAZJVUIQAQQHGEhVXxAXCRYCAw==",
+      "dicaBoaAssassino": "NwkWT05YWEBDEgYfSEJHWRAOAU9fUV8QFwkWT15VUl8NBVMMQkVfREMAHQsNR1RRERJTG0VVEVcRBBYBDVJQVAQEU42tpBFDCwRTGExDEUQLBFMDTENFEBcOUw1IEEJVBg9TDVQQRVgGQQAHX19EVAYFUxtMUl1VTQ==",
+      "dicasFracas": [
+        "The casino closes at 2 a.m., as the city's license requires.",
+        "The blue chips are worth whatever the house decides that night.",
+        "The salon carpet muffles any hurried step.",
+        "The salon's air conditioning fails on hot nights."
+      ],
+      "epilogo": "JQgfCg1TXV8QBBdPQl4RAVNOQ14DEGVYBkEAGl1VQ0YKEhwdDVNeXgUEABxIVBFEDEEHB0gQU1wMFlMYRERZEBcJFk9BX1JbEAwaG0UXQhAIDwYMRlxUEAcUABtIQhFRDQVTG0VVEUMICB5PQlYRRAsTFgoNWEReBxMWCw1TWVkTEkhPWVhUEBUABgNZEEZREEEdCltVQxAMERYBSFQfEDcAEQNIEEVHBg8HFgBfX1VDEgcOVFVVEAANHBxIVBFWDBNTDg1dXl4XCV9PTF5VEBcJFk99UV3zwgIaAA1UVBAgExocWVFdEBEEAwNMU1RUQwgHHA1DREAGEwUGXlleXk0="
+    },
+    {
+      "id": "caso-011",
+      "data": "2026-10-02",
+      "titulo": "The Torn Codex",
+      "relatorio": "At the Central Public Library, the archivist Lívia Cantos was found lifeless behind the iron grille that protects the most valuable wing of the collection. The building had been locked since 7 p.m. The police investigate the weapon, the exact location, and the person responsible.",
+      "pistas": [
+        "The mark on the neck is a double, interrupted groove, with small square marks at regular intervals.",
+        "The visitors' log records two entries into the locked room after 7 p.m. — and only one exit.",
+        "The iron grille of the rare wing opens with two keys alone: the janitor's and the director's.",
+        "The felt of the restoration bench holds a powder imprint of a piece that no longer rests upon it.",
+        "The smell of glue and leather filled the back corridor that night — where the collection awaits restoration."
+      ],
+      "hashArma": "5608502896064974",
+      "hashLocal": "6316036225516031",
+      "hashAssassino": "7621561104444065",
+      "opcoesArma": [
+        "An Archive Chain",
+        "A Reading Candlestick",
+        "A Bookbinding Chisel",
+        "A Bronze Paperweight",
+        "An Archive Shears"
+      ],
+      "opcoesLocal": [
+        "The Rare Works Room",
+        "The Periodicals Corridor",
+        "The Loans Desk",
+        "The Collection Depot",
+        "The Reading Garden"
+      ],
+      "opcoesAssassino": [
+        "The Night Librarian",
+        "The Visiting Researcher",
+        "The Janitor",
+        "The Bookbinder",
+        "The Archive Intern"
+      ],
+      "dicaBoaArma": "NwkWT0pCXl4VBFMGXhBVXhYDHwoNUV9VQwgdG0hCQ0QTFRYLARBGWBcJUxxcRVBDBkEeDl9bQhECFVMGQ0RUQxUAHxwXEFARAQ0SC0gcEVBDEhsAX0QRQQwIHRsNUV9VQwBTAkxDQlgVBFMYSFlWWRdBFwANXl5FQwUBDloQRVkCFV1PblhYQgYNX09dUUFUERYWBkpYRRECDxdPXlhUUBESUw5fVRFeFhVTja2kEUULBFMbWl8RXAYVEgNeEEVZAhVTB0xeVhECDxdPWlVYVgtBAQpAUVhfTQ==",
+      "dicaBoaLocal": "MBUSDEZVVRETBAEGQlRYUgINAEMNVFRBDBVTDUJIVEJDAB0LDV9BVA1BEgZfEFVeQw8cGw1VSUEPABoBDURZVEMNHAxGVVURBBMaA0FVChEXCRZPT1VCRU4GBg5fVFRVQxYaAUoQUF8HQQcHSBBUSQoVUwtIQ1oREQQeDkReEdPj9VMOQ1QRRQsEUxlEQ1hFDBMASA1cXlZDBRYMRFRUQk0=",
+      "dicaBoaAssassino": "NwkWT09fXloBCB0LSEIRRgISUxtFVRFeDQ0KT0JeVBEMD1MOQxBUSRcEHQtIVBFCCwgVGw1EWVAXQR0GSlhFEYHh509MXlURCwQBT0NRXFRPQQAbX0VSWkMVGx1CRVZZQwgdT11VX1IKDV9PTEBBVAITAE9EXhFFCwRTGURDWEUMEwBIDVxeVkMOFU9ZWFQRDw4QBEhUEUMMDh5B",
+      "dicasFracas": [
+        "The rare wing's lamps cast amber light, to protect the paper.",
+        "The smell of glue and leather takes over the back corridor on restoration days.",
+        "The hall clock loses two minutes a week, and no one fixes it.",
+        "In summer, the reading garden fills with students until dusk."
+      ],
+      "epilogo": "JQgfCg1TXV4QBBdPQl4RAFNOQ10DEGVZBkERAEJbU1gNBRYdDVNeXwUEABxIVBFFDEEHB0gQU10MFlMYRERZERcJFk9OX11dBgIHBkJeEVILABoBARBVQwoXFgENUkgRFwkWT05fVVQbQQcHTEQRXwYXFh0NQlRQAAkWCw1YVENDCRIBSUMKERcJFk9bWUJYFw4BHAoQXV4EQRcASEMRXwwVUwNEVR8RNwkWT19RQ1RDFhwdRkMRQwwOHk9fVV5BBg8WCw1HWEULQR0KWhBSUA4EAQ5eHg=="
+    },
+    {
+      "id": "caso-012",
+      "data": "2026-10-03",
+      "titulo": "The Silence of the Silo",
+      "relatorio": "At the Boa Vista farm, the foreman Firmino Dutra was found lifeless at dawn, in the far end of the property. The cattle had been bellowing since 4 a.m. and no one from the big house heard anything. The police investigate the weapon, the exact location, and the person responsible.",
+      "pistas": [
+        "The skin bears three parallel punctures, evenly spaced — like the tines of a single tool.",
+        "The barn hook, where the field tool usually rests, was found empty at dawn; dust drew its outline.",
+        "The soles of whoever was at the far end of the property carried corn from the silo; the milking parlor was washed and the corral turned over.",
+        "The cattle bellowed from 4 a.m.; two of those present only appeared after sunrise.",
+        "The door of the newest room in the bunkhouse never left the latch that night — even though its occupant's boots came out dew-soaked."
+      ],
+      "hashArma": "352568488566641",
+      "hashLocal": "2365755996029493",
+      "hashAssassino": "2170018399533294",
+      "opcoesArma": [
+        "A Hay Fork",
+        "A Wood Axe",
+        "A Plow Handle",
+        "A Leather Whip",
+        "A Farrier's Hammer"
+      ],
+      "opcoesLocal": [
+        "The Grain Silo",
+        "The Milking Parlor",
+        "The Cattle Corral",
+        "The Foreman's House",
+        "The Machine Shed"
+      ],
+      "opcoesAssassino": [
+        "The Newly Arrived Ranch Hand",
+        "The Farmer's Daughter",
+        "The Veterinarian",
+        "The Farm Cook",
+        "The Cattle Buyer"
+      ],
+      "dicaBoaArma": "NwkBCkgQQVMRAB8DSFwRRgoPFhwNUUNXQw8cGw1SXkANQRwJDVJdUwcEX09aWFhCQw4BT0VRXF8GE0lPWl9eVkMACwoBEF1XAhUbCl8QRloKEVMOQ1QRVAITAQZIQhZBQwkSAkBVQxICExZPQkVFHEM1GwoNUlBADUYAT1lHXhIFCBYDSRBFXQwNAE9fVVxTCg9Tja2kEVMNBVMbRVURVw4RBxYNWF5dCEEQB0JfQlcQTw==",
+      "dicaBoaLocal": "NAAAB0hUEUICEx8AXxwRRhYTHQpJHV5EBhNTDEJCQ1MPQRIBSRBQXEMIHRtMU0USBQ4BCkBRXxUQQRsAWENUEgcOUwFCRBFXGxEfDkReEUYLBFMMQkJfEgwPUxtFVRFBDA0WHBYQRVoGQRUOXxBUXAdBHAkNRFlXQxEBAF1VQ0YaQQEKQFFYXBBBke+5EFNXFxYWCkMQRVoGQRQdTFlfEhcAHQQNUV9WQxUbCg1dUFELCB0KXhcRQQsEHxtIQh8=",
+      "dicaBoaAssassino": "NwkWT0NVRl4aQRIdX1lHVwdBAQ5DU1kSCwAdCw1DRl0RBFMHSBBCXgYRB09MRBFGCwRTCUxCEVcNBV9PT0VFEgsIAE9PX15GEEEQDkBVEV0WFVMLSEccQQwAGApJENOy90ESAUkQXV0CBRYLDUdYRgtBEABfXhFUEQ4eT1lYVBIQCB8AAw==",
+      "dicasFracas": [
+        "This year's drought burned the pasture earlier than expected.",
+        "The farm's coffee is served before sunrise, with the fire lit since the night before.",
+        "The corral dogs bark at every car that comes down the dirt road.",
+        "Last season's corn still smells of sun."
+      ],
+      "epilogo": "JQgfCg1TXV0QBBdPQl4RA1NOQ1wDEGVaBkEdClpcSBICEwEGW1VVEhEAHQxFEFlTDQVTDEJeV1cQEhYLDUReEhcJFk9PXF5FQxYaG0UQRVoGQRsOVBBXXREKX09PVUJbBwRTG0VVEUEKDRxUDURZV0MFFhgAQ15TCAQXT09fXkYQQRQOW1URWgoMUw5aUUgcQzUbCg1WUEAOQREKSlFfEg8OEAREXlYSFwkWT09RUllDAwYBRlheRxAEXQ=="
+    },
+    {
+      "id": "caso-013",
+      "data": "2026-10-04",
+      "titulo": "The Light That Failed",
+      "relatorio": "The Pedra Branca lighthouse lived its first dark night in forty years: the lighthouse keeper Artur Sem-Ramalho was found lifeless at the top of the tower, and the main light remains off. The police investigate the weapon, the exact location, and the person responsible.",
+      "pistas": [
+        "The blow to the head came from a bright, smooth metal, without rust and without a cutting edge.",
+        "The felt of the tower's toolbox holds the outline of a piece with a short handle and cylindrical head that no longer rests in it.",
+        "The mechanism that turned the light was found freshly greased, even with the light failed.",
+        "The footprints on the tower stairs tell of two climbs that night; only the second descent carries heavy oil on the steps.",
+        "The radio logged three calls at midnight, all answered by the same on-board voice."
+      ],
+      "hashArma": "1377935481650799",
+      "hashLocal": "7456382187295362",
+      "hashAssassino": "4910074084247916",
+      "opcoesArma": [
+        "A Brass Hammer",
+        "An Iron Handle",
+        "A Signaling Mirror",
+        "A Valve Wrench",
+        "An On-Board Lantern"
+      ],
+      "opcoesLocal": [
+        "The Lens Room",
+        "The Battery Room",
+        "The Crew's Lookout",
+        "The Crew's Kitchen",
+        "The Oil Depot"
+      ],
+      "opcoesAssassino": [
+        "The Lighthouse Assistant",
+        "The Supply Boatman",
+        "The Keeper's Wife",
+        "The Radio Operator",
+        "The Crew's Cook"
+      ],
+      "dicaBoaArma": "IRMaCEVEHRMQDBwAWVgRXgYVEgMBEEZaFwlTAUIQUkYXFRoBShBUVwQEUw5DVBFdDEEUA0xDQglDCAEAQxBZUg0FHwoBEEJaBA8SA0ReVhMOCAEdQkIRUg0FUwNMXkVWEQ9TDl9VEVwWFV1PeVhUExcOHANPX0kUEEEHGEIQU0ECEgBPWV9eXxBBAQpAUVhdTQ==",
+      "dicaBoaLocal": "NwkWT0FfXlgMFAdIXhBGWg0FUw5DVBFHCwRTAERcEVcGERwbDVZQXw9BHBpZQ1hXBkEHB0gQWF0XBAEBTFwRUAoTEBpERAoTFxYcT19fXl4QQRIbDURZVkMVHB8NX1cTFwkWT1lfRlYRQQEKQFFYXUOD8/sNRFlWQw4dCg1fVxMXCRZPQVlWWxdGAE9fX0VSFwgcAQ1RX1dDFRsKDV9fVkMOFU9ZWFQTAQAHG0hCWFYQT1M7RVURVBEEEhxIEF5dQxUbCg1DRVYTElMLSFNYVwYSXQ==",
+      "dicaBoaAssassino": "NwkWT0FZVlsXCRwaXlURUhASGhxZUV9HQwYBCkxDVFdDFRsKDVxYVAsVVBwNXVRQCwAdBl5dEUcLAAdPQ1lWWxdBEgFJEEZSEEESA0JeVBMCFVMbRVURRwwRUwBLEEVbBkEHAFpVQxMUCRYBDURZVkMNGghFRBFVAggfCkke",
+      "dicasFracas": [
+        "The foghorn sounded nonstop from midnight to dawn.",
+        "The tower stairs have one hundred and eighty steps, all worn at the center.",
+        "The rotation oil is changed every full moon, as the manual requires.",
+        "The supply boat only returns on the next high tide."
+      ],
+      "epilogo": "JQgfCg1TXVwQBBdPQl4RAlNOQ1sDEGVbBkEfBkpYRVsMFAAKDVFCQAoSBw5DRBFQDA8VCl5DVFdDFRxPWVhUEwENHBgNR1hHC0EHB0gQU0ECEgBPRVFcXgYTUw5DVBFHCwRTCUJCUlYHQRUORFxEQQZBHAkNRFlWQw0aCEVEChMzBBcdTBBzQQIPEA4NRERBDQQXT0xXUFoNQQcHSBBXXA8NHBhEXlYTBwAEAQMQZVsGQQcAWlVDEwQAGgFIVBFSQxIWDEJeVRMUAAcMRRBQXQdBFwBCQkITFAgHBw1cUEcACRYcAw=="
+    },
+    {
+      "id": "caso-014",
+      "data": "2026-10-05",
+      "titulo": "The Lost Thesis",
+      "relatorio": "At the Vasconcelos Research Institute, professor Donato Vaz was found lifeless in the creation wing, in the small hours before the defense of his final thesis. The building had been locked since 10 p.m. The police investigate the weapon, the exact location, and the person responsible.",
+      "pistas": [
+        "The wound is a single deep point, of a fine, tapered tip — nothing of a wide blade, an edge or a weight.",
+        "The drawing case was found one metal tip short at dawn; the felt holds the outline of the piece that left.",
+        "The building locked at 10 p.m., but the Block C turnstile logged a student card after that.",
+        "The professor's final thesis had a single challenger — and the defense was scheduled for the next morning.",
+        "Plaster on someone's soles marks the path from Block C to the creation wing, whose inner doors were found unlocked."
+      ],
+      "hashArma": "7638347048766672",
+      "hashLocal": "711314166000530",
+      "hashAssassino": "6698596566916403",
+      "opcoesArma": [
+        "A Steel Compass",
+        "A Printing Press",
+        "A Reagent Flask",
+        "An Iron Ruler",
+        "A Bench Woodcut Tool"
+      ],
+      "opcoesLocal": [
+        "The Sculpture Studio",
+        "The Block C Amphitheater",
+        "The Professors' Room",
+        "The Study Laboratory",
+        "The Department Library"
+      ],
+      "opcoesAssassino": [
+        "The Thesis Opponent",
+        "The Institute Secretary",
+        "The Block Janitor",
+        "The Classmate",
+        "The Dean"
+      ],
+      "dicaBoaArma": "IkEVBkNVHRQHBBYfDURYREMTBgNIQxFbFhVTCUFRQl9PQQMdSENCFAIPF09PXERaF0EBGkFVQw5DFRsKDURGW0MRHAZDRFRQQwgdHFlCRFkGDwccDV9XFBcJFk9JQlBDCg8UT09VX1cLQQEKQFFYWk0=",
+      "dicaBoaLocal": "NwkWT11CXlIGEgAAX0MWFBEOHAINWFBHQwBTDEFfQl0NBlMdSFNeRgdNUxtFVRFYCgMBDl9JEVgMBhQKSRBfW0MTFg5JWV9TQwAdCw1EWVFDAB4fRVlFXAYABwpfEEZVEEEVAFheVRQUCAcHDVNZVQoTAE9EXhFbEQUWHRYQRVwGQRAdSFFFXQwPUxhEXlYUEQQeDkReQhSB4edPWVhUFBAREgxIEF5SQxUbCg1RQ0AUDgEEXhBeRkMVGwoNXlRdBAkRAF9ZX1NDDRINQkJQQAwTCkE=",
+      "dicaBoaAssassino": "NwkWT1lYVEcKElMAXUBeWgYPB09FUVUUBhcWHVREWV0NBlMbQhBdWxAEUw5ZEEVcBkEdClVEEVkMEx0GQ1cWR0MFFglIXkJRQ4Pz+w1RX1BDCRocDVNQRgdBBA5eEEVcBkEcAUFJEVsNBFMbQhBeRAYPUxtFVRFAFhMdHFlZXVFDABUbSEIRWAwCGAtCR18a",
+      "dicasFracas": [
+        "The institute closes at 10 p.m. and reopens at 6 a.m., as the bylaws require.",
+        "The smell of plaster and ink takes over the creation wing's corridor.",
+        "The thesis-defense notices have covered the notice boards for a week.",
+        "Block C's air conditioning fails on hot nights."
+      ],
+      "epilogo": "JQgfCg1TXVsQBBdPQl4RBVNOQ1oDEGVcBkEHB0hDWEdDDgMfQl5UWhdBEABDVlRHEAQXT1lfEUALBFMNQV9GFBQIBwcNRFlRQxIHCkhcEVcMDAMOXkMdFAsOBh1eEFNRBQ4BCg1EWVFDBRYJSF5CUUMVGwoNQENbBQQAHEJCFkdDFRsKXllCFBQOBgNJEFNYDAIYVA1EWVFDEhAaQUBFQREEUxxZRVVdDEEUDkReVFBDAFMBSEcRWAIVEAcDEGVcBkERAExCVRQRBBAAQ0NYUAYTFgsNRFlRQwUWCUheQlFDAhIDSF5VVRFP"
     }
   ]
 }
